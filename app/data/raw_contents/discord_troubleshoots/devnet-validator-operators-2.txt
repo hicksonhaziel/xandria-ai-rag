@@ -1,0 +1,393 @@
+sources=xandeum discord devnet validators operators channel
+
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:09 PM
+Ok, use cd ~ to get to sol home directory
+johnc — 10/3/25, 4:10 PM
+Image
+I believe I'm in the correct place
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:12 PM
+yes... that is the sol home directory... try the rest of those latest commands above.
+johnc — 10/3/25, 4:12 PM
+run them all again??
+or start from a specific step
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:13 PM
+do the "rustup" set of 4 again...
+johnc — 10/3/25, 4:15 PM
+ok, all 4 steps have been rerun
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:16 PM
+ok... no errors this time?
+johnc — 10/3/25, 4:17 PM
+Image
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:17 PM
+Oh, and have you rebooted?
+johnc — 10/3/25, 4:17 PM
+deos not appear so
+rebooted? don't I need to move on to step 11?
+reboot the server?  or the shell?
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:19 PM
+I noticed other guys rebooted at this step, I may have as well but it wouldn't show that.
+
+Reboot the VPS using " sudo shutdown -r now "
+And then log back in, go to the sol home directory " cd ~ " and then start at #12
+johnc — 10/3/25, 4:21 PM
+well that "f"ed things up
+I used that command and now I cannot log back in
+going to reboot the server now
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:23 PM
+Which command locked you out?
+johnc — 10/3/25, 4:25 PM
+sudo shutdown -r now
+getting nothing from the server
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:25 PM
+Well, that would have rebooted the server...
+Can you ping the VPS?
+johnc — 10/3/25, 4:26 PM
+Don't know how to do that
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:26 PM
+" ping (ip address here) "
+johnc — 10/3/25, 4:26 PM
+according to my router, it is not there
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:27 PM
+Is this a VPS or home setup?  Reboots can take a minute or two...
+johnc — 10/3/25, 4:27 PM
+home
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:28 PM
+Probably still rebooting then
+johnc — 10/3/25, 4:28 PM
+according to the router the connection type is N/A and the Connection Point is N/A offline
+ok, i was able to open a shell.  so, i'm back in
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:30 PM
+So that's how long your machine takes to reboot...  take note 😉
+johnc — 10/3/25, 4:30 PM
+lol, got it
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:30 PM
+A "few" minutes... lol
+johnc — 10/3/25, 4:31 PM
+I think I left off at step 11 from the original instructions
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:31 PM
+Yep, start there again.
+johnc — 10/3/25, 4:33 PM
+I can't remember if I am supposed to change directories or not?  Should I be in sol user or root user
+well hopefully I am supposed to be in Sol user cause it is going now
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:37 PM
+Sol user... sol home directory
+johnc — 10/3/25, 4:38 PM
+I hope I am in the right spot I opened the shell and it goes to Sol@xandev43
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:39 PM
+Looks good....
+johnc — 10/3/25, 4:39 PM
+I put in the command and it started to compile 
+this may take a few mminutes
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 4:40 PM
+Yes, yes it will 🫡
+Mine took a while just like they mentioned above...
+
+Coffee ☕️ time 😉 
+johnc — 10/3/25, 5:35 PM
+first part is done but I got some "warnings"
+Image
+now compiling the second round
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 5:37 PM
+nice... warnings are NOT errors... 🎉
+johnc — 10/3/25, 6:36 PM
+ok, ran into a problem.  On the second batch of compiling files there was a network error and it disconnected.  I do not have a screen shot of the message from Putty as it disappeared as soon as I touched it.  it was on 937/1049.  Now what?
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 6:44 PM
+Hmmm... log back in and see if it is still running?  you can just use " top " to see whats happening like "task manager" in windows
+johnc — 10/3/25, 6:56 PM
+it is still doing something
+Image
+Image
+johnc — 10/3/25, 7:35 PM
+Anything??
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 7:36 PM
+Seems like there is nothing going on there... you should be able to login and check status again.
+johnc — 10/3/25, 7:39 PM
+How would I do that or should I start the build over again from the beginning
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 7:42 PM
+Just login...  go to sol user...
+Check gossip?  I have to find the status command...
+johnc — 10/3/25, 7:42 PM
+yep, I see myself on SG
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 7:44 PM
+Substance put together something nice above:  ⁠devnet-validator-operations⁠ 
+You can look for "39e8" in your validator version as well... 
+johnc — 10/3/25, 7:47 PM
+nothing for 2.2.0 herrenberg
+Image
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 7:50 PM
+I will have to login again...
+I'm thinking it could be because he used github I think 🤔
+johnc — 10/3/25, 7:51 PM
+What might happen if I start the build over again??
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 7:52 PM
+What is the first 5 of you validator?
+johnc — 10/3/25, 7:53 PM
+7BQzy
+it is showing the old versioon
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 7:54 PM
+time for another reboot 😉
+johnc — 10/3/25, 7:54 PM
+ok
+ok, server is back online and I have opened a new session
+still showing the old version
+b5a94688
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 8:01 PM
+bugga... guess restart that last install then 🙁
+johnc — 10/3/25, 8:03 PM
+ok the build has restarted
+more waiting
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 8:04 PM
+more watching 😉  always watching... wasowski
+johnc — 10/3/25, 8:04 PM
+seems to be moving a lot slower this time around
+johnc — 10/3/25, 8:38 PM
+same thing, but I got a screen shot this time
+Image
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 8:39 PM
+strange you are disconnecting from it...
+johnc — 10/3/25, 8:40 PM
+it crashed my router.  everything is offline.
+i need to reboot the server and the router
+be back in a few
+ok, router is back online
+still waiting for the server
+johnc — 10/3/25, 8:51 PM
+server is up
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 8:53 PM
+Hmmm... crashed router?  can't see that being the scripts fault...
+It is still running, and showing the old version... I don't think it succeeded.
+johnc — 10/3/25, 8:54 PM
+no, it did not succeed.  Resrtarting the build
+I guess it is possible that my router had an interruption  and caused the build to fail, because everything in the house went offline.
+try, try again
+johnc — 10/3/25, 10:51 PM
+Ok, made it through the build.  It said build complete and followed instructions to restart the validator but it had an error.  See screenshot
+Image
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 10:52 PM
+that is the RPC url that is incorrect.  Pretty sure you just need to set it again.
+johnc — 10/3/25, 10:55 PM
+don't know how to do that
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 11:07 PM
+I'm trying to find the commands for you 🙂
+solana config set --url https://api.devnet.xandeum.com:8899/
+👆 this whole line is 1 command
+copy and paste, and let's see if that solves it.
+johnc — 10/3/25, 11:23 PM
+looks like it is trying to start
+it is waiting for a leader slot
+NeoBubba
+
+Role icon, Chat Mod — 10/3/25, 11:30 PM
+Almost...
+johnc — 10/4/25, 12:18 AM
+ok, I just checked it and it is not tailing.  Although when I do "sv" it shows that it is in the correct slot.
+and it shows the updated version of 39e8
+looks like it is stuck.  going to reboot the server.
+NeoBubba
+
+Role icon, Chat Mod — 10/4/25, 12:22 AM
+Maybe need to run the catchup script? 
+johnc — 10/4/25, 12:23 AM
+wouldn't it still not tail
+somthing is wrong. it is stuck in the same spot.  what is the catchup command??
+NeoBubba
+
+Role icon, Chat Mod — 10/4/25, 12:28 AM
+It was a script you should have from the original installation... catchup.sh ?
+johnc — 10/4/25, 12:29 AM
+Image
+it just sits there, that is as far as it goes
+it shows me on the correct slot and the correct vote but that's it.
+Image
+NeoBubba
+
+Role icon, Chat Mod — 10/4/25, 12:33 AM
+Well, I would go back to the documents and get the extra scripts built.  If I remember there are 3 or them.
+johnc — 10/4/25, 12:34 AM
+do you possibly have a link to those docs?
+NeoBubba
+
+Role icon, Chat Mod — 10/4/25, 12:34 AM
+⁠🚀official-links   hee hee
+Look for the validator stuff.
+johnc — 10/4/25, 12:35 AM
+ok, think I am done for the night.  I will continue tomorrow.  Thanks for the help and maybe talk to you then.
+NeoBubba
+
+Role icon, Chat Mod — 10/4/25, 12:36 AM
+Have a great nite 😴
+johnc — 10/4/25, 12:47 AM
+one more.   I installed the catchup.sh and it seems to be working.  It says that I am 1 slot ahead.  But still won't tail.  I guess I don't really need that
+weird
+NeoBubba
+
+Role icon, Chat Mod — 10/4/25, 12:49 AM
+hmmm... we can take a look at "logging" tomorrow and see what's up.
+Good news is that it is running 👍
+johnc — 10/4/25, 12:50 AM
+nite, and thanks again
+NeoBubba
+
+Role icon, Chat Mod — 10/4/25, 12:50 AM
+You're welcome 🙂
+johnc — 10/4/25, 3:56 PM
+ok, so it will not tail when I type in the command. any suggestions?
+I know it's not a big deal but it is good to check when restarting
+NeoBubba
+
+Role icon, Chat Mod — 10/4/25, 3:56 PM
+Which command please?
+johnc — 10/4/25, 3:56 PM
+other than that it looks like it is running fine
+tail -f ~/validator.log
+NeoBubba
+
+Role icon, Chat Mod — 10/4/25, 4:13 PM
+I wonder if that file is still the logging file or if it was moved in the upgrade process to a different path...
+johnc — 10/4/25, 4:13 PM
+no clue
+NeoBubba
+
+Role icon, Chat Mod — 10/4/25, 4:15 PM
+Will see what I can find... but will take some time 😉
+johnc — 10/4/25, 4:15 PM
+np
+david983 — 10/4/25, 8:48 PM
+..try open a tmux window to run your commands from CLI so your sessions don't timeout next time.
+John | WAGISDev
+
+ — 10/5/25, 11:13 PM
+I was looking at the DevNet data I had collected to date. Thought it was interesting.
+
+-- Transaction Count: Measurement of network activity. It reflects how many developers are testing applications, running scripts, or participating in hackathons. 
+-- Block Height: This is a measure of network progress. It is a sequential count of blocks that have been added to the chain, starting from the genesis block (block 0). Each new block increases the height by one (Block n+1 ). Block height is a function of the blockchain's protocol itself, which aims to produce blocks at a regular, predictable interval. 
+Image
+johnc — 10/7/25, 11:48 PM
+I just this past weekend updated to the new validator version, shout out to NeoBubba.  It no longer tails, but that's no biggie, however the skip rate seems to be high.  Right now I'm sitting at 4.47%.  Any ideas on how to bring that down??? 
+Substance 2.42Role icon, Chat Mod — 10/8/25, 8:19 AM
+You can check where the log file is really stored by (if you use "sol" user):
+grep log /home/sol/validator-start.sh
+So the "tail" command will most likely be:
+tail -f /home/sol/data/logs/solana-validator.log 
+johnc — 10/8/25, 9:49 AM
+Thank you, that command did indeed work.  Appreciated.
+YAGPDB.xyz
+APP
+ — 10/8/25, 9:49 AM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 108)
+david983 — 10/9/25, 8:59 AM
+...i'd love to know too but no one's skip rate is looking too great at the mo ..maybe something to do with Ingolstadt rollout?
+Substance 2.42Role icon, Chat Mod — 10/9/25, 9:57 AM
+Average skiprate over 19 validators right now is 0.2979%, that looks perfectly normal to me (excluding delinquent ones and one 50%, they cause the avg reported by sv 5.69%). Also remember skiprates spike for a while after new Epoch starts (7 hours ago).
+And how to improve - check CPUs in htop, check free space, check internet connectivity (validator makes approx. 10 Mbps TX and 7 Mbps RX all the time), and of course - reboot from time to time! :-)
+And I'll remind one almost forgotten link: https://explorer.xandeum.com/
+Verena | Xandeum LabsRole icon, XandeumTeam — 10/17/25, 3:38 PM
+Hello @DevNet validator operators, you can find your rewards to claim here 😇 
+
+August vNodes Payouts
+Proposal: https://dao.xandeum.network/dao/XAND/proposal/DiAAtx8nc9asg8mHCq8tLwCkJQMsvHyZMFtnnCsHEe7x
+
+September vNodes Payouts
+Proposal: https://dao.xandeum.network/dao/XAND/proposal/6u1K6iv2nGYcgXKnbNPfN2jmbL5PJRuK73VkuSU8j53x 
+mrhcon
+
+ — 10/17/25, 4:25 PM
+Remember, DAO maxes out at 31 locked deposits...
+Substance 2.42Role icon, Chat Mod — 10/17/25, 5:15 PM
+That's interesting info, I have 27 at the moment (only 1 is my own), but in the worst case, I guess not executed proposals don't "time-out" and disappear...
+mrhcon
+
+ — 10/17/25, 5:26 PM
+I am unsure about that.  All I know is I need to wait for one of my Xanedum Cliff payments for vNode or pNode to end (Jan 31st 2026) so I can unlock it and then convert all my other Constant locks to Cliff to get them out in another 30 days and then I can accept these payments from Xandeum...  And there are 5 more from them today.  There is not even a warning on the DAO about it and the only why you know is to go into the browser console to see that the lock (or attempted unlock from Constant to Cliff) failed.
+Substance 2.42Role icon, Chat Mod — 10/17/25, 5:31 PM
+Since Xandeum is running its own "fork" of Realms, maybe if this "31" is defined as a constant somewhere in code, it would be possible to increase it...? But that would require making 100% sure it won't break something, that means spending precious resources... should we create a ticket for this? :-)
+Update: Actually... no. The software is updated by Xandeum, but the database is the same, so it needs to remain compatible "both ways". Sorry, false alarm. 
+mrhcon
+
+ — 10/17/25, 6:04 PM
+I contemplated forking the DAO myself and I did find the piece of code with the limit.  The issue is that changing that limit has many knock on effects.   I really just wished I had known at #30 that #31 was it and would basically lock me out until End of January.  I would have done things differently.
+For example, I would have registered multiple wallets with different assets (1 wallet per pNode, 1 wallet for vNode) and any locked XAND in the DAO, I would have put into different wallets. 
+I'm just hoping that these DAO proposals that were made available today, will still be there end of February for me to claim.
+mrhcon
+
+ — 1/14/26, 3:06 PM
+@Brad|Xandeum-imposter DM'ing You Not seeing the roles you want us to add.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/14/26, 3:08 PM
+Ok, I'll look and see what I missed. Thanks
+YAGPDB.xyz
+APP
+ — 1/14/26, 3:08 PM
+Gave +1 Rep to @mrhcon (current: #3 - 79)
+mrhcon
+
+ — 1/14/26, 3:12 PM
+In  Channels & Roles?  Is that where you want us to add it?
+Ymetro
+
+Role icon, Chat Mod — 1/14/26, 4:57 PM
+The new roles are present now in the ⁠Channels & Roles section.
+csoaita — 1/16/26, 2:21 PM
+@Brad|Xandeum-imposter DM'ing You Hi Brad. I operate a vNode that got broken. I replaced the broken parts and put it again to work 86.120.180.186  | C4dakAsnEYrFWR1TkMzFb9zPhjJJUXCY2LCQanC4HxSs | 8000   | 8003  | 8009     | 86.120.180.186:8899   | 2.2.0-7c3f39e8|
+I see it in gossip, mon.sh and catcup.sh are ok but I can't find it in the working vNode list. Can you please see what is wrong with staking?

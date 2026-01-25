@@ -1,0 +1,105 @@
+URL: https://devnet.xandeum.network/troubleshooting
+TITLE: Troubleshooting - Xandeum Foundation DevNet
+================================================================================
+
+Xandeum Foundation DevNet
+Ctrl
+K
+Validator Home
+Old Server housekeeping
+Access your server
+Ports Setup
+Setup Your Disks
+Validator Installation
+Setup System Service
+Setup LogRotate
+Starting your validator
+Monitoring your validator
+Onboarding
+Validator Commands
+Learn Tmux
+Validator UPDATE version
+Faucet Repayment
+Troubleshooting
+Docs powered by
+ 
+Archbee
+Troubleshooting
+6 min
+Some things to try
+Balance
+
+Run the catchup.sh script first. If you're caught up but your validator is delinquent, then check your validator-keypair.json balance.
+
+Check the Identity Account balance...you need to pay fees out of this account to vote on transactions.
+CLI
+1
+solana balance validator-keypair.json
+
+﻿
+
+﻿
+
+
+﻿
+
+
+Stake
+
+If you're online but not in the xandeum validators list, Check if there is any tokens staked to your vote account. If not, follow up with Labs to get you staked.
+
+CLI
+1
+solana stakes ~/vote-keypair.json
+
+﻿
+
+If it shows a stake account, but has the phrase Stake account is undelegated then it means you were delinquint at some point and your stake was removed to lower the delinquincy level. See examples below.
+
+Normal Output if staked
+﻿
+Output if stake has been removed
+﻿
+
+﻿
+
+
+Connections
+
+Restart your validator and watch for the TCP connections to suceed:
+
+CLI
+1
+sudo systemctl restart validator.service &&
+
+2
+tail -f ~/validator.log | grep --color=always -B 10 -A 50 "Checking that tcp ports"
+
+﻿
+Correct ports are reachable
+﻿
+
+Look for the ports to be "reachable"
+
+tcp/8899
+tcp/8900
+tcp/8000
+
+This will tell you a lot about your router environment. If it fails the first time, it will try again. UDP is important too, but usually the first indicator of trouble is TCP.
+
+﻿
+
+
+Updated 28 Dec 2024
+PREVIOUS
+Faucet Repayment
+Copy
+TABLE OF CONTENTS
+Some things to try
+Balance
+Stake
+Connections
+Did this page help you?
+Yes
+No
+Back to Top

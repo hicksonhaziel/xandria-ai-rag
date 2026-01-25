@@ -1,0 +1,388 @@
+sources=xandeum discord support channel 
+
+Ymetro
+
+Role icon, Chat Mod — 9/7/25, 4:03 PM
+You can search for "pNode" there and when you click on the results, you should roll open the "Instructions" button and then search for your addres (Ctrl + F is your friend on desktops). Last pNode payout broke up in two parts, so make sure you search in both instruction lists of them. 
+Ymetro
+
+Role icon, Chat Mod — 9/7/25, 4:19 PM
+Well spotted!
+Substance 2.42Role icon, Chat Mod — 9/7/25, 4:35 PM
+I've got good news - I took your "manager" address from the "seenodes" page, and found it in "June 2025 DevNet pNode payments - Part 2" DAO Proposal, waiting to be executed, go for it. :-) I searched also in all May I found but did not find it there yet.
+So, search for your main wallet G11P..., not the pNode address.
+mikev — 9/10/25, 9:27 AM
+Yes you're right I'm pleased to say!! I can see the 10,000 XAND in the DAO locked for 12 months. Many thanks for checking this out for me 🙂
+YAGPDB.xyz
+APP
+ — 9/10/25, 9:27 AM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 99)
+mikev — 9/10/25, 9:39 AM
+Hi David66, it looks like Substance 2.42 has checked this out for you and resolved the issue (see his Good News post above). I've also been having problems claiming my Xand rewards for running my pnode so I thought I'd send a reply anyway. It does seem quite a cumbersome process to claim the rewards as it involves scrolling through lots of wallet addresses for several 'Proposals' as the pnode payouts are often split up into several Proposals and Additional Proposals. But with Substance 2.42's help I think I've got it figured out now. So we have to go to the DAO and find the Proposal or Proposals for payouts for the month we're looking for. Then click on Instructions. I've found it sometimes takes a few moments to load and sometimes I've had to go out and come back in again before the list of wallet addresses has finally shown. hen I've finally found my wallet address, I've scrolled down and clicked on the Execute button. The key thing I've learned from Substance 2.42 is that although we're looking for the wallet address to receive rewards that we gave on our onboarding form, the rewards don't actually go to our wallets, they go to the DAO and we have to view them there under Governance as they are locked for 12 months.
+Ymetro
+
+Role icon, Chat Mod — 9/10/25, 10:12 AM
+Because of al those instructions in that list it takes a while to load it in the browser. 
+Use Ctrl + F to find your address that you have copied from your wallet or use a "search on page" command on mobile devices. 
+In short: 
+copy own wallet address
+go to Xandeum DAO and search for "pNode" proposals
+click the result
+open the instruction list - takes a while to load
+find your address there (Ctrl + F or "search on page" browser menu option and paste copied wallet address)
+find and click "execute" button below your results
+confirm transactions in your wallet
+check by clicking "View" behind "My governance power" to see it allocated and chilling in Locked Deposits.
+ 
+Ymetro
+
+Role icon, Chat Mod — 9/10/25, 10:31 AM
+Well "short"...
+Zedok
+
+ — 9/10/25, 12:19 PM
+“Ctrl + F” is the way to go !! 
+TSBP — 9/11/25, 1:40 AM
+Why the heck does anyone have to go thru the cumbersome process of claiming the pNode Xand rewards thru DAO proposals in the first place?  There is no vote there.  They were promised rewards for purchasing the pNodes.  Why aren't they just at one of the claimable links on the consolidated participation page?
+Ymetro
+
+Role icon, Chat Mod — 9/11/25, 9:44 AM
+You got a great point there. I recon it is possible to make links per wallet and anyone can find their own wallet in a list of those links (for anonymity) - linked to the execution command from the DAO.
+apreston100 — 9/11/25, 8:08 PM
+On a pNode how do you resolve a "no more space to dedicate" issue?
+Image
+Ymetro
+
+Role icon, Chat Mod — 9/11/25, 9:07 PM
+Did you registered your pNode to your wallet first?
+If you did and did not change anything after restarting pod with systemctl restart pod then use the following lines, thanks to Substance 2.42: 
+fallocate -l 10G /xandeum-pages
+systemctl daemon-reload
+systemctl restart pod
+YAGPDB.xyz
+APP
+ — 9/11/25, 9:07 PM
+Gave +1 Rep to @apreston100 (current: #41 - 2)
+Ymetro
+
+Role icon, Chat Mod — 9/11/25, 9:08 PM
+🤣 bot reads "thanks" in my message.
+@apreston100, after that you can dedicate the amount you want on its storage management page. 
+apreston100 — 9/11/25, 10:07 PM
+I did when setup months ago and dedicated about 90% of capacity at the time.  a df -h shows 100% used though . Don't know why it is full or how to free up space?
+Image
+Ymetro
+
+Role icon, Chat Mod — 9/12/25, 5:52 AM
+First thing you might want to do is to look at the xandeum-pages file with a ls -lh /xandeum-pages command, to see how big it is. If it is the same size as the storage management page reflects then it is good. Else you might want to delete it and create a small one again with the commands above (fallocate etc.)
+Restart pod after removing and creating.
+Substance 2.42Role icon, Chat Mod — 9/12/25, 6:19 AM
+It shows 5.3G free - I think it's OK, still lot of free space. Just needs regular cleanup like apt remove, apt cleanup, logrotate, journal vacuuming... no immediate action needed right now.
+And GUI shows "no more space to dedicate" because... wait for it... there is no more space to dedicate. It purposely leaves 10 GB free. 
+apreston100 — 9/12/25, 6:51 PM
+OK thanks for explaining. Another aspect I do not quite get is  when I do ls-h at root level it shows these files  10-disable-password-auth.conf  install.sh  nopwlogin.sh  nopwlogin.sh.1  snap  xandminer  xandminerd    on another pNode same ls -h command shows only xandminer  xandminerd    - don't knwo why or if it matters?
+Ymetro
+
+Role icon, Chat Mod — 9/12/25, 8:45 PM
+On the first node you have probably followed the pNode guide to the letter and created those files for SSH hardening and disabling password login. On the second you did not, and those options are already integrated in the Xandminer setup menu, so there is no need to do it manually. 
+Another thing about Linux: if you say "at root level" you would actually be meaning to say the "/" level (the root) folder, that is the highest level under which other folders gather. You did mean the folder /root/ that is the user-folder for the root admin.
+apreston100 — 9/12/25, 9:08 PM
+Yes that is correct. Thanks for the reply. So it seems nothing is wrong and I just leave things as they are.
+YAGPDB.xyz
+APP
+ — 9/12/25, 9:08 PM
+Gave +1 Rep to @Ymetro (current: #11 - 16)
+Pheelix | Xandeum Champion
+
+ — 10/27/25, 9:17 PM
+Hi @Substance 2.42 I see you successfully helped @David66. I’ve managed to claim the first months PNode Xand but can’t dovifcdver since. Can you help me please?
+Thanks in anticipation 🐬
+YAGPDB.xyz
+APP
+ — 10/27/25, 9:17 PM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 109)
+Gave +1 Rep to @David66 (current: #58 - 1)
+NeoBubba
+
+Role icon, Chat Mod — 10/27/25, 11:40 PM
+@Pheelix | Xandeum Champion let me know how I can help out 🫡
+minhas01 — 11/10/25, 2:27 PM
+Hi, Can you please guide me how to transfer XANDC to XAND
+mrhcon
+
+ — 11/10/25, 3:52 PM
+Right now, you cannot, the window has closed.  Need to wait for next window.
+kryptobiten — 11/20/25, 5:59 PM
+Änyone who got the link to onboard a Pnode I got one last not yet onboarded.
+mrhcon
+
+ — 11/20/25, 6:48 PM
+https://pnode-onboarding.paperform.co/
+As per the docs:  https://www.xandeum.network/docs?_gl=1*1fqzssn*_gcl_au*NzcyNjEzMDQyLjE3NjM2NjA4NjU.
+kryptobiten — 11/20/25, 8:35 PM
+Thankyou.
+kryptobiten — 11/21/25, 12:55 PM
+It looks like the size of a drive in a Pnode are limited to 17.6TB, I have a another 9.8TB to dedicide if I'm allowed.
+Ymetro
+
+Role icon, Chat Mod — 11/21/25, 1:14 PM
+Hi. Interesting. What made the pNode limit?
+kryptobiten — 11/21/25, 1:21 PM
+When I reach that point I'm told Failed to dedicate more space. And it's not one one. The same limit on all 5 nodes. I got a array with 150TB I want to dedicate. It's no problem of running it that way because next thing you will tell me they can't run on the same machine with same IP. Yes I can run it like that. They run as separate VMs with there own IP.
+The other thing I did notice each time I dedicate more space I'm told it will dedicate say 10TB but it actually only dedicate about 400MB så to reach that limit I need to dedicate many times.
+kryptobiten — 11/21/25, 1:29 PM
+Xandeum now my mail if they want to send mail to me because in registration I told  I will dedicate over 10TB and I suppose I'm alone about that just know. In total on those nodes is there about 87TB dedicated just know. 
+Ymetro
+
+Role icon, Chat Mod — 11/21/25, 2:01 PM
+Yikes! That keeps you busy!
+Ymetro
+
+Role icon, Chat Mod — 11/21/25, 2:02 PM
+Nice! You know your stuff. Are the 150TB array spinning ones with a SSD cache or all SSDs? 
+kryptobiten — 11/21/25, 2:10 PM
+No it's spinning with 12 18TB disks with raid 6 or ZFS to make it resonable secure for data. I make backup of file array of the structure of data every ten minutes so If I get currupted data should it be possible to restore and not loose more than nessecary. To make a full backup on those sizes of data start to become diffecult so I have choosen other solution to make it as safe as possible without price going to scyrock. I plan to increase security more but is not there yet. 
+Ymetro
+
+Role icon, Chat Mod — 11/21/25, 2:27 PM
+Impressive! The disks are fast enough for low seek times?
+kryptobiten — 11/21/25, 3:08 PM
+Yes and they hang on a USB port with 10Gb But I think it is using something around 5.7Gb it should be enough.
+You can lock up data on it yourself it's a QNAP TL-R1200C-RP (USB) 12-BAY 2U Rackmounted with USB 3 
+kryptobiten — 11/24/25, 5:32 PM
+I are running multiple dedicated pnodes on Ubuntu 24 VMs with a separate 25TB data disk mounted at:
+
+/srv/qnap/pnodeX (from /dev/vdb via UUID)
+
+Our issue is that this directory grows uncontrollably (currently 16TB used) even when we lower the “dedicated storage” size in the XandMiner UI.
+We suspect that old storage data is never cleaned up or rebalanced between restarts and version changes.
+
+Questions:
+
+Does XandMiner / xandminerd ever clean or shrink storage automatically?
+
+Is there an official procedure to reset or clean the storage without breaking the node identity?
+
+Relevant mount:
+/dev/vdb (25TB) → /srv/qnap/pnode1 (ext4)
+Controlled by fstab using UUID.
+
+We also use a loop device:
+/var/lib/xandeum/xandeum-pages.img → /xandeum-pages (20GB).
+taiwokassim — 12/5/25, 6:52 PM
+Hey Xandeum team 👋, I’m working on a small game and want to save players’ names, countries, and scores on the pNodes so the leaderboard can persist. Can you help me with:
+
+How to send data to a pNode and read it back?
+
+Which API calls or JSON-RPC methods I should use?
+
+Any authentication or wallet stuff I need to include?
+
+
+Basically, I just want to know the easiest way to store and fetch leaderboard entries. Thanks a lot! 🙏
+Substance 2.42Role icon, Chat Mod — 12/5/25, 7:24 PM
+I'm not an expert on this, but I would start with looking at Xandeum GitHub repository "xandeum-web3.js".
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/5/25, 9:59 PM
+Welcome, great idea! We're still in devnet, but working to have a mainnet product launched in January and would love to help you start developing!
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/5/25, 10:30 PM
+As mentioned , here are the docs we have published so far...
+we're working on them so things might change a bit but have a lot of things we're working on TBH...so let us know about anything you find that needs help.
+https://docs.xandeum.network/api
+@xandeum/web3.js - API
+API
+taiwokassim — 12/6/25, 5:28 AM
+Thank you very much @Brad|Xandeum-imposter DM'ing You 
+Since Xandeum is currently in Devnet, I just want to confirm something, if I’m only interacting with the pNodes on Devnet for testing, will I still be required to pay any fees or validate my wallet with some SOL? I want to know if everything on Devnet is free before moving to mainnet later.
+YAGPDB.xyz
+APP
+ — 12/6/25, 5:28 AM
+Gave +1 Rep to @Brad|Xandeum-imposter DM'ing You (current: #1 - 138)
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/6/25, 5:31 AM
+Correct, No mainnet SOL is required until mainnet for data transactions.
+There will be a few things that require some small amount of SOL for gas fees...registering a wallet as a manager wallet or a rewards wallet for example.
+taiwokassim — 12/6/25, 5:34 AM
+Thanks a lot for the guidance, I really appreciate it. Everything is much clearer now. Sending some 💕 from here in Utrecht, Netherlands!
+Pratik — 12/6/25, 9:53 AM
+@Brad|Xandeum-imposter DM'ing You  i am running the pnode on vm how to get the info ? 
+what api to hit ?
+and i will be able to get only my nodes info so i need to show on dashboard only my stats ? or something else is required
+Ymetro
+
+Role icon, Chat Mod — 12/6/25, 9:58 AM
+⁠devnet-pnode-operations⁠ will get you somewhere further. 
+Passthrough some ports and learn the pRPC's. It should be all in the docs.
+Pratik — 12/6/25, 9:59 AM
+thanks ser 🙌
+YAGPDB.xyz
+APP
+ — 12/6/25, 9:59 AM
+Gave +1 Rep to @Ymetro (current: #10 - 20)
+codeM — 12/6/25, 10:48 AM
+hey anyone's up for help ?
+I'm building the pNode analytics dashboard for the Superteam Earn bounty.
+What is the correct public pRPC endpoint for calling getGossipNodes?
+Need the URL + port. Thanks!
+Pratik — 12/6/25, 12:15 PM
+there is no public, you have to run your pNode on vm and then go like that
+SrMessi.sol — 12/7/25, 12:22 AM
+Hi! Here to help with the dashboard
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/7/25, 12:59 AM
+Welcome New Devs! Please post questions and readup in the channel:
+⁠💡apps-developers
+
+And follow along in the channel:
+⁠devnet-pnode-operations
+
+We're actively working on getting more detailed API calls that was an oversight since we decided we couldn't open our critical infrastructure up to public use...we had been using that internally all along and when gathering all the docs together realized we had an issue...it put us a little behind were we needed to be right now! We apologize for that!!
+Brown — 12/10/25, 7:55 AM
+So what about this "get-pods-with-stats" method, I saw that this returned a paginated list of data structured as 
+
+{
+        "address": "109.199.96.218:9001",
+        "is_public": true,
+        "last_seen_timestamp": 1765204349,
+        "pubkey": "2asTHq4vVGazKrmEa3YTXKuYiNZBdv1cQoLc1Tr2kvaw",
+        "rpc_port": 6000,
+        "storage_committed": 104857600,
+        "storage_usage_percent": 0.02486133575439453,
+        "storage_used": 26069,
+        "uptime": 3271,
+        "version": "0.7.0"
+},
+
+
+Or is this not a pRPC endpoint? 
+Brown — 12/10/25, 7:58 AM
+Oh I just saw this response was from before the v7 update 😄
+
+I might still need some clarification on "pnodes" and "pods" tho
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/10/25, 1:33 PM
+The pNode is the Storage Provider Node/Server. Pod is a software that runs on the pNode.
+Brown — 12/10/25, 1:50 PM
+Okay, I was able to retrive the IPS of like 100 pnodes, most of them were private, about 16-17 public, and those are the only ones I could call the "get-stats" method on
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/10/25, 2:01 PM
+Yes, the public ones have the pRPC port exposed to the Internet. None of them come with any guarantee of uptime or version. So it might make sense to program a function that uses multiple endpoints and run a version where the syntax matches your expectation. 
+Brown — 12/10/25, 2:07 PM
+Is it okay if I just tag some as "public" or "private" to the user?
+redcali
+
+ — 12/10/25, 7:56 PM
+Can you please update the official links channel with the right link to pnode documentation? https://pnodes.xandeum.network/ No longer resolves. The documentation can be found in https://www.xandeum.network/docs correct?
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/10/25, 11:08 PM
+https://docs.xandeum.network/xandeum-pnode-setup-guide
+Xandeum pNode Setup Guide - Docs (getting-started)
+Docs (getting-started)
+Bobby1337
+
+ — 12/16/25, 8:07 AM
+I am getting the endpoint error if you guys can assist me in this let me know. ThankYou!!!
+Image
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/16/25, 12:48 PM
+Can you show me where you got that endpoint?
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/16/25, 12:49 PM
+⁠devnet-developer-support⁠
+Ndii_Ekanem — 12/16/25, 2:26 PM
+Hello, GM
+i am new here, please who has access to the pRPC??
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/16/25, 5:07 PM
+Start here:
+⁠devnet-developer-support⁠
+
+Welcome!
+alvin_ichi
+
+ — 12/16/25, 7:05 PM
+i have error when deploy app to vercel, it have cloud fare error with api rpc1.pchednode.com, etc...
+YAGPDB.xyz
+APP
+ — 12/16/25, 7:06 PM
+Gave +1 Rep to @alvin_ichi (current: #59 - 1)
+Ndii_Ekanem — 12/16/25, 8:10 PM
+It’s saying no access
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/16/25, 9:20 PM
+Go to channels and roles in the top of the channel list and grab roles
+Kristof-Maria — 12/27/25, 7:01 PM
+Hello, can anybody from the support answered my ticket. Ticket is open since 28.11. Ticket number is 53063. Thanks to all and have a nice weekend.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/27/25, 11:41 PM
+🎯 Transition to Official Xandeum Help Desk
+
+We're excited to announce our new streamlined support system! 
+Get faster, more organized help from our team.
+
+📋 Multiple Ways to Get Support:
+
+🌐 Web Portal: Visit https://help.xandeum.network/
+Create an account and open a ticket for tracked support
+
+📧 Direct Email Support:
+• General Xandeum Questions: ask@help.xandeum.network
+• Rewards & Airdrops: rewards@help.xandeum.network
+• pNode & Validator Setup: pnodes@help.xandeum.network
+• sedApp Development: dev@help.xandeum.network
+
+💡 Community First: We still encourage community members and moderators to help each other! 
+The Help Desk is for questions that need official team review.
+
+---
+Xandeum Support • Better tracking, faster responses ⚡
+___
+
+
+This is posted in the ⁠🎫open-a-ticket channel 
+Kristof-Maria — 12/29/25, 2:34 PM
+Thank you Brad, I already opened this a ticket in this new Web Portal. Or should I write an email to Rewards & Airdrops?
+Image
+YAGPDB.xyz
+APP
+ — 12/29/25, 2:35 PM
+Gave +1 Rep to @Brad|Xandeum-imposter DM'ing You (current: #1 - 162)
+Mani — 12/30/25, 12:25 AM
+Why I can not unstake my Xand from Dao?
+It is not moving forward after appearing of confirm dialougue box
+NeoBubba
+
+Role icon, Chat Mod — 12/30/25, 12:26 AM
+🔨
+NeoBubba
+
+Role icon, Chat Mod — 12/30/25, 12:27 AM
+Can you post a screenshot of what it shows and any errors that come up?
+Digital Energy — 1/3/26, 8:20 PM
+I see that staking rewards are ready to be claimed.  However, I keep getting a claim failed message.  see screenshot.  Thanks in advance.  Frank
+Image
+csoaita — 1/4/26, 2:13 PM
+Maybe you have to choose Fast or Turbo when approving the tranzaction in your wallet. By me it failed with "Auto" but gone thru with "Fast"
+Digital Energy — 1/8/26, 7:59 PM
+Thanks for the tip.  I tried with fast, turbo, and ultra to no avail.  I'm using solana squads wallet if that helps.  Thx, Frank
+YAGPDB.xyz
+APP
+ — 1/8/26, 7:59 PM
+Gave +1 Rep to @csoaita (current: #29 - 4)
+Zedok
+
+ — 1/12/26, 3:08 PM
+Would you  believe that after all this time, I still don't know what to do with my xandsol.... The tokens are just sitting there in my wallet. The FAQ section on https://xandsol.xandeum.network/ still does not help me. Anyone could write a few lines for me titled:  XANDSOL FOR DUMMIES ? Cheers.
+TSBP — 1/12/26, 9:51 PM
+I'll take the face shot with you because I am in the same boat.  Got xandSOL for staking SOL, and it is just sitting in my wallet because I don't know what else to do with it.  Thanks for sticking your neck out.
+YAGPDB.xyz
+APP
+ — 1/12/26, 9:51 PM
+Gave +1 Rep to @Zedok (current: #8 - 30)
+Ymetro
+
+Role icon, Chat Mod — 1/12/26, 9:54 PM
+Well it provides liquidity and it gives rewards for it in form of XAND and SOL... and you can "unstake" that liquidity by selling it to SOL again or something else.
+Zedok
+
+ — 1/12/26, 10:16 PM
+Tks. So not much really. So I get less in XANDSOL than the SOL i bought it with.   I can see on the xandsol page how much xandsol I have but is there a way to see how much SOL this corresponds to?  Also, if I sell, will I get back the portion of SOL I lost initially??
+Ymetro
+
+Role icon, Chat Mod — 1/12/26, 10:17 PM
+I thought there was going to be some more application for those coins, or was it the Xandeum token, that was mentioned in the Foundation brainstorm session a while ago on X?
+I would take another look into that.
+Zedok
+
+ — 1/12/26, 10:31 PM
+Here is another daft thing, I can see my XAND rewards, but where do I find my SOL rewards? I got my answer here: Growing Value: Those rewards are then cleverly woven into the price of xandSOL itself. This means the value of your xandSOL steadily increases over time, reflecting your accumulated rewards.
+Unstake with a Boost: When you finally decide to unstake your xandSOL and head back to planet SOL, you'll receive an amount of SOL that reflects the increased value of xandSOL, essentially giving you your rewards all at once! 

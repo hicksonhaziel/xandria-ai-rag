@@ -1,0 +1,50 @@
+URL: https://www.xandeum.network/blog
+TITLE: Blog | Xandeum.network
+================================================================================
+
+Learn
+💡 Docs
+Earn
+Blog
+Subscribe
+All Posts
+News
+Blog
+Xandeum Alpha Release: What to Expect
+Xandeum is building a scalable storage layer for the Solana blockchain. This layer allows smart contracts to store large amounts of data in a decentralized way. The upcoming alpha release is an important step toward launching this on Solana mainnet. Timeline for Alpha Release The Xandeum team is working hard to launch the alpha release before the end of 2025. The team is in daily development calls and releasing updates frequently. There is a good chance it will go live on mai
+Verena
+Dec 14, 2025
+3 min read
+ 
+ 
+ 
+Xandeum Update: Superteam Bounty, Mainnet Plans, and Airdrop 2
+We want to give you a clear and complete update so that even if you could not join the recent live session, you have all the important information. 1. Partnership with Superteam We have partnered with Superteam ( earn.superteam.fun ) to bring more developers to Xandeum and to grow the project faster. Superteam is a well-known platform on Solana that helps projects find talented builders through bounties. We posted a $5,000 USDC bounty: “Develop an analytics platform for Xande
+Verena
+Dec 9, 2025
+2 min read
+ 
+ 
+ 
+Xandeum Airdrop 2 Update – What’s Happening Right Now (November 2025)
+Hello Xandeum community! Blockchain Bernie just went live from Germany with a big update on Airdrop 2, the points system, and everything that’s coming next. Here is a clear, easy-to-read summary of the most important news. 1. Airdrop 2 Snapshot is DONE Snapshot taken on November 19, 2025 Total points collected: approximately 226 million The team is now reviewing for cheating (empty wallets, fake referrals, etc.) Suspicious allocations will be temporarily held (same process as
+Verena
+Nov 24, 2025
+2 min read
+ 
+ 
+ 
+Xandeum Rewards Now 100% Controlled by $XAND Holders
+After 12 successful months and 4 reward seasons, the Xandeum Foundation  has officially transferred all reward decisions  to the Xandeum DAO . From Season 5  (starting this month), YOU  – the $XAND token holders – will vote on: How many rewards to give Who gets rewards When rewards are paid How to use treasury for grants and app builders This is true decentralization . What is Xandeum? Xandeum = Unlimited storage layer for Solana Fully on-chain (smart contract native) Exabyte
+Verena
+Nov 11, 2025
+2 min read
+ 
+ 
+ 
+Privacy Policy
+Terms Of Service
+
+© 2025 Xandeum Foundation
+
+All rights reserved

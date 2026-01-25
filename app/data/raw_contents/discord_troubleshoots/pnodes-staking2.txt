@@ -1,0 +1,535 @@
+sources=xandeum discord pnodes staking channel
+
+Chill Marketing guy
+
+ — 9/5/25, 3:50 PM
+Hi everyone, we have heard the frustration of some of you who are having issues setting up your PNodes.
+We chatted with Bernie and have come up with an idea, from Xandeum supporters for Xandeum supporters.
+Introducing ChillXand. We are the “set it and forget it” solution for managing pNodes. Our name says it all: you chill out, we handle the stress.
+
+We position ourselves as the trusted partner that removes technical headaches, maximizes uptime, and ensures pNode owners earn without worry.
+Chill Marketing guy
+
+ — 9/5/25, 4:00 PM
+Project link coming soon.
+Substance 2.42Role icon, Chat Mod — 9/5/25, 4:00 PM
+@NeoBubba Can you confirm the post above is legit? Or someone else?
+Thanks, all good! :-) Thank you, welcome. 
+NeoBubba
+
+Role icon, Chat Mod — 9/5/25, 4:00 PM
+Legit!
+Chill Marketing guy
+
+ — 9/5/25, 4:00 PM
+Hope you all have a Chill Day!
+Image
+mrhcon
+
+ — 9/5/25, 4:42 PM
+Here is their website:  https://control.chillxand.com/
+Chill Marketing guy
+
+ — 9/5/25, 4:45 PM
+Thanks for that. For Xandeum members looking for PNode assistance, remember we’re here to help!
+⚡ Stop troubleshooting. Start chilling.
+ChillXand is the easiest way to keep your pNode running smoothly—always on, always supported.
+John | WAGISDev
+
+ — 9/5/25, 10:35 PM
+Pretty good group of folks supporting that one. While I am more OCD and want to manage my own stuff, they definetly have made it easy to consider.
+And they are very active on here.
+True members of the community.
+kezla
+
+ — 9/6/25, 1:42 AM
+Much needed service for sure...this will provide peace of mind that pNodes are always "active" and "running", minimising any downtime. Thanks @Chill Marketing guy  for the community initiative and sharing this with our Xandeum community 🔥 💪  as the more active participation, the better for Xandeum as an entire project. As Bernie says: the pNode holders, we "are" Xandeum.  So we need to all be working together, decentralised and getting the word out.  No limitations to low/non-techies or time poor investors, if the tech hurdles are well taken care of by ChillXand team 🎯
+S. Kuhlmann — 9/7/25, 5:52 PM
+so whats the pnode controller ?
+NeoBubba
+
+Role icon, Chat Mod — 9/7/25, 5:59 PM
+That's part of ChillXand, head to their site to find out more.
+Ymetro
+
+Role icon, Chat Mod — 9/7/25, 7:15 PM
+You could say: "One that rules them all" 😁
+But in a good way...
+Ymetro
+
+Role icon, Chat Mod — 9/7/25, 7:24 PM
+My dog seams likes the pNode Store music. I can see him listening to it, while laying there with his eyes closed, trying to sleep next to the TV, that the PC is connected to.
+I hope to grab a rabbit NFT for him...
+Chill Marketing guy
+
+ — 9/7/25, 9:05 PM
+Hey! The controller is a dashboard that gives you a quick heads up status check of your PNodes when they’re being managed by ChillXand.
+We’re really excited to be offering assistance, given we’ve heard a lot of people voicing concern about the technical nature of setting up and running these Nodes.
+We want this initiative to succeed and we’re happy to help if we can.
+mrhcon
+
+ — 9/7/25, 9:07 PM
+https://control.chillxand.com/
+Chill Marketing guy
+
+ — 9/7/25, 11:07 PM
+The music is really Chill.
+Chill Marketing guy
+
+ — 9/9/25, 9:16 PM
+Herrenberg drops today? No worries. Keep Chilling. We’ve got this.  And if you’re still wrestling with your PNode, check us out.
+S. Kuhlmann — 9/9/25, 11:04 PM
+so after installing my new pnode ... i realized the website form to onboard the pnode is not working 😭
+Image
+S. Kuhlmann — 9/10/25, 8:48 PM
+seems like the onboarding step is not needed fpr the Dutch Auction nodes
+Good Afternoon - just updated my pnodes - are these the latest version for the 3 Components?
+Image
+Ymetro
+
+Role icon, Chat Mod — 9/10/25, 8:50 PM
+Got the same numbers over here.
+Ymetro
+
+Role icon, Chat Mod — 9/10/25, 8:53 PM
+Is this an official answer of the Xandeum Team?
+S. Kuhlmann — 9/10/25, 8:54 PM
+No I opened a ticket yesterday and as usual no timely repsonse ... but i checked this morning https://seenodes.xandeum.network/ and when i searched for my wallet address, both Nodes showed up
+Ymetro
+
+Role icon, Chat Mod — 9/10/25, 8:59 PM
+Okay, but registering is something else then onboarding. Registering is nothing more then connecting the generated wallet address of your pNodes to the manager wallet and that is shown on the seenodes-pages. In order to get rewards in the form of XAND every month from the Xandeum Foundation, the onboarding is necessary at Xandeum.
+rn 262 are registered. My new one still is not bc Netcup trips over my identification info... quite frustrating. 
+Substance 2.42Role icon, Chat Mod — 9/10/25, 9:22 PM
+Onboarding is 100% needed, there must be some KYC to get rewards. I have fresh pNodes that are not even registered, waiting for mainnet, and they show up on the seenodes atlas page just fine, why wouldn't they.
+And yes, the numbers 0.3.1/0.3.1/0.4.0 are perfect. 
+Ymetro
+
+Role icon, Chat Mod — 9/10/25, 9:24 PM
+So technically, they are "registered", but not "onboarded"?
+Substance 2.42Role icon, Chat Mod — 9/10/25, 9:28 PM
+What? :-) My "waiting" pNodes are NOT registered (I don't need new pkeys), and of course also not onboarded. I just wanted to set them up already because it's fun. :-) You know, need twice as much pNodes as public keys for testnet/mainnet.
+Bottom line: I believe onboarding of new devnet pNodes is needed (when available). But rewards are for whole month anyway, so no rush, 20 days left. :-)
+Hey Grok, can you rephrase my response because I am unable to write like sane person? 
+Substance 2.42Role icon, Chat Mod — 9/10/25, 9:56 PM
+Oh, I wrote "I have fresh pNodes that are not even registered, waiting for mainnet, and they show up on the seenodes page just fine" - no, I mean they show up in "atlas", not seenodes - sorry!
+S. Kuhlmann — 9/10/25, 9:57 PM
+Is it possible to switch a pnode from devnet to mainnet at a later stage?
+mrhcon
+
+ — 9/10/25, 10:01 PM
+Why would you do that?  The you'd get no foundation stake.
+Substance 2.42Role icon, Chat Mod — 9/10/25, 10:08 PM
+I definitely hope so! :-) But no information about that yet.
+And why I want that - because of one nice devnet pNode running here at home, and one devnet VPS that is too good for testnet. Are the IPs used in onboarding important? We don't know.
+S. Kuhlmann — 9/10/25, 10:10 PM
+Mining Deep South Era nodes would make sense to promote at later time to increase your STOINC payouts - same applies for the ones with NFT….
+Ymetro
+
+Role icon, Chat Mod — 9/10/25, 10:30 PM
+No worries, I use DeepL to test my English against my Dutch and the Write function in there as well to rephrase it appropriately as well. 
+S. Kuhlmann — 9/11/25, 12:05 AM
+your english is perfect mate
+Ymetro
+
+Role icon, Chat Mod — 9/11/25, 9:39 AM
+Thanks, but I still need these tools 'cus I'm a bit finnicky and my brains don't always produce what I intent to convey. 🤓
+Ah, wait
+-giverep @S. Kuhlmann
+YAGPDB.xyz
+APP
+ — 9/11/25, 9:39 AM
+Gave 1 Rep to ziggys1976 (current: #28 - 3)
+Ymetro
+
+Role icon, Chat Mod — 9/11/25, 9:39 AM
+better!
+Chill Marketing guy
+
+ — 9/11/25, 7:30 PM
+Sup guys? 32 pNodes all upgraded to Herrenberg while their owners just sat and Chilled.
+Check out all the green Nodes!
+mrhcon
+
+ — 9/11/25, 7:35 PM
+https://control.chillxand.com/pnode-farm/public_device_map.php
+Chill Marketing guy
+
+ — 9/11/25, 7:36 PM
+That’s the one!
+S. Kuhlmann — 9/11/25, 8:13 PM
+so who bought a Titan NFT last week ?
+John | WAGISDev
+
+ — 9/13/25, 6:13 PM
+SHHHHHH! Secret.
+OliverB — 9/14/25, 5:52 PM
+Question:
+How can the new pNodes be onboarded – do they even need to be onboarded now – submissions are closed - https://pnode-onboarding.paperform.co/
+Thanks !
+Chill Marketing guy
+
+ — 9/16/25, 6:54 PM
+Hey! How you guys doing? We’re still Chilling over here at Chill Xand. In fact, 33 of the 41 PNodes that have been migrated to 0.4.1 are operators who are Chillin too.
+We had mentioned in the other channel, we couldn’t help notice that only 100 Nodes have been upgraded to 0.4.0.
+If you’re having issues managing your node. Give us a shout. Happy to “Chill” with you too.
+mrhcon
+
+ — 9/16/25, 7:18 PM
+https://control.chillxand.com/
+kezla
+
+ — 9/17/25, 12:14 AM
+Look what I can see 👀 from ChillXand !!
+Image
+kezla
+
+ — 9/17/25, 12:30 AM
+Quick shoutout & thank you to the techie pros in the ChillXand team…my 6 pNodes are being managed & monitored 24/7 and I can look after my elderly father in hospital. After 15 hr days bedside, my 3 latest pNodes were set up whilst I was sleeping…that’s pretty “chill” if you ask me! 😎 Don’t hesitate to check them out and save hours of frustration, potential downtime and get those pnodes “active”….its where we (as Xandeum) need them…working as part of the infrastructure and devnet to progress 💪🏽💪🏽💪🏽
+Chill Marketing guy
+
+ — 9/17/25, 4:18 PM
+Image
+mrhcon
+
+ — 9/17/25, 5:01 PM
+https://control.chillxand.com/
+Qi — 9/17/25, 5:43 PM
+How can I open it?
+Image
+Ymetro
+
+Role icon, Chat Mod — 9/18/25, 10:04 AM
+Are you trying to dedicate more space? There is none left. And some is needed for the OS to run and logs to fill with data. 
+If you want to remove the dedicated space, you need to remove the /xandeum-pages file with rm /xandeum-pages and re-dedicate space to it over the localhost page.
+mrhcon
+
+ — 9/18/25, 9:53 PM
+I want to be transparent that I don't currently own any of the Dutch Auction pNodes, though I would love to if they were within my budget. I have some concerns about selling NFT boosts separately, as I worry this might undervalue the original investment that Dutch Auction participants made.
+It seems somewhat comparable to offering North pNode holders the ability to upgrade to Deep South functionality later - while potentially beneficial for some, it could diminish the value proposition that early supporters paid a premium for.
+It's also worth noting that those Deep South pNode holders have been running their nodes for many, many months, actively contributing to the team's development and testing efforts. Their ongoing commitment and contribution to the network's growth adds another layer to the value they've provided beyond just their initial investment.
+I'd be interested in hearing how the team plans to balance expanding access with preserving the value of these early investments and contributions. 
+foxdiddy — 9/19/25, 1:41 PM
+I agree with mrhcon. Not only have the operators of the Deep South nodes been the bedrock of Xandeum (we’ve footed the investment to rollout 250 PNodes) and we’ve done that based on our faith in the project and promises made by Xandeum about the incentives being an early operator would provide. Now, you are moving the goal posts. Even worse, you are now almost 3 months in arrears on making your PNode disbursements (so, you’re literally begging for cash, while neglecting to pay your bills). This is a terrible look.
+TSBP — 9/19/25, 3:30 PM
+Here is what I commented after video #402....Mixed opinion about the NFTs.  Ideally, the team never should have offered those in the Dutch Auction.  The original 16x Deep South Era boost and requirement to be on DEVNET to get Foundation staking should have been enough incentive to sell the 49 pNodes to serious people in the community.  The team shouldn't keep coming out with better deals later at the expense of those that take the early risks and do what the team asks up front when they need our support.  I think it would be a nice gesture for the team to gift something to those original 300 old guard Pnodes (provided they get onboarded).  Maybe a compromise would be for the team to gift the lowest boost NFT auctioned off (Rabbit?) to all the original 300 pNodes that get onboarded so they get some extra earnings too for their early commitment, and also offer them an opportunity to purchase a higher boost NFT if they want...costs not to exceed those at auction (USDC price alone as they already paid Xand for their pNode).  Just an idea.
+On another note, it woud be great if the team can work the pNode rewards claim into a simple claimable link on the participation page (https://www.xandeum.network/participate) without requiring the complicated DAO proposal activity.  Why is the DAO involved?  No vote is necessary on these.  They are promised rewards just like airdrops.  Just add a new 4th claim button on the participation page at #7 (Run a Xandeum pNode)....1-Why, 2-Setup, 3-Onboard, 4-CLAIM.  Too easy!
+Zedok
+
+ — 9/19/25, 6:31 PM
+The xandeum team are experts at “moving the goal posts” as you say. I’m thinking about  all us original Bitoku nodes owners that have been left to dry without compensation. Water under the bridge? I don’t think so.
+kryptobiten — 9/20/25, 5:53 PM
+Are you wallet connected? And have you got the latest pod installed 0.4.2?
+Olaf V. — 9/22/25, 9:08 AM
+I am trying to do the onboarding of my p-nodes, but the website states: "Submissions are closed". Are there any ideas on that? I opened a ticket already but no reaction since one week... 😞 
+csoaita — 9/22/25, 9:48 AM
+We have to wait for the onboarding to re-open. Bernie said in one video, “it will be soon”
+Olaf V. — 9/22/25, 9:04 PM
+Ah, I see. Thx for the reply
+YAGPDB.xyz
+APP
+ — 9/23/25, 8:39 AM
+Gave 1 Rep to csoaita (current: #41 - 2)
+Ymetro
+
+Role icon, Chat Mod — 9/23/25, 8:40 AM
+✌️
+Qi — 9/27/25, 10:56 AM
+Image
+Unable to update
+Ymetro
+
+Role icon, Chat Mod — 9/27/25, 12:36 PM
+I see an upgrade to Ubuntu 24 LTS suggestion as well in the screenshots. Are running 22 LTS? Because pod needs the libraries from 24.
+May I suggest that either you take the release upgrade route 
+OR
+make a backup of the keypair file and re-image the VPS with Ubuntu 24 LTS at Contabo's modern control panel and restore the private keys after installation. 
+The latter has my recommendation. 
+Ymetro
+
+Role icon, Chat Mod — 9/27/25, 1:54 PM
+@Qi  For further community support I suggest you pick the DevNet operator (and Node Owner I guess) role(s) in ⁠Channels & Roles and go to the ⁠devnet-pnode-operations channel.
+Ton's of information and help there.
+Chill Marketing guy
+
+ — 9/27/25, 4:38 PM
+And remember, if you really want to Chill, let ChillXand manage your Pnodes for you. 
+Pheelix | Xandeum Champion
+
+ — 9/28/25, 9:26 PM
+Great suggestion Sir! 🐬
+Andr3y11 — 10/16/25, 12:07 AM
+Hi All, have I missed something or for pNodes we have not received any payouts since June ?
+Zedok
+
+ — 10/16/25, 6:49 AM
+You are correct.  But fear not. Xandeum keep telling us that we are the best community!! 😞
+Deleted User — 10/16/25, 8:00 AM
+Yo, anybody here know why my Solana wallet not letting me unstake Xandeum? Transaction go through but then revert, say gas too high or smth. English not good, sry. Can someone check my wallet address if I share? DM me fast, I need fix asap before price drop. Thanks alot!
+NeoBubba
+
+Role icon, Chat Mod — 10/16/25, 8:03 AM
+Hey, wrong channel as this has nothing to do with pNode staking.
+No, we don't know why that would happen to you.  That's a blockchain issue with your wallet I would guess.
+Chill Marketing guy
+
+ — 11/4/25, 1:29 PM
+Good morning peeps ... just woke up. Going fishin. But, before I do just wanted to point out that of the 351 PNode licences out there, only about 1/2 are online. We know there is some technical intricacies involved. That's where we come in. Let's get those Nodes running! Feel free to reach out, then you can just Chill ... and collect STOINC!
+Image
+thanos — 11/4/25, 3:25 PM
+Hopefully once STOINC starts coming in , the dormant nodes will become active.
+NeoBubba
+
+Role icon, Chat Mod — 11/4/25, 5:31 PM
+Makes it kind or hard to run a complete a proper DevNet in order to produce a working network, when the pNodes required/requested are dormant though.
+
+Xandeum has even given a second chance with the Dutch Auction to allow folks to get involved in order to get up to the 300 pNodes wanted for DevNet, and still there are dormant ones.
+
+Does everyone know that without your DevNet pNode up and running properly, your STOINC will suffer?
+
+Bernie mentioned there are metrics involved, so being unprepared when the time comes isn't going to go very well IMHO.  And then there is the 'pNode performance factor' which will be non-existent if you haven't got your DevNet pNodes running already, and proven on the DevNet.
+
+Folks, if you have a pNode license, the time has come to ensure that you get everything squared away and start earning DevNet rewards BEFORE the time crunch comes.
+mrhcon
+
+ — 11/4/25, 5:35 PM
+Exactly!
+Ymetro
+
+Role icon, Chat Mod — 11/4/25, 6:03 PM
+You’re posting this on X as well, right? Also in Xandeum’s feed?
+Chill Marketing guy
+
+ — 11/4/25, 6:04 PM
+Chill out and follow us. https://x.com/chillxand/status/1985679655198663049?s=46&t=uU5oMU2Z1-eT8ka-lCK84A
+mrhcon
+
+ — 11/4/25, 6:11 PM
+If it helps to get more people bringing their pNodes online, who cares where he posts!
+Substance 2.42Role icon, Chat Mod — 11/4/25, 6:27 PM
+Saw some "movement" on Pod GitHub today... (just for Xandeum internal "trynet", nothing major yet) I am anxiously awaiting next release, because I dream about adding e.g. "staked" column to my pchednode site (that's why I post in this channel). I have plenty of ideas (they include solana-cli etc.), don't know if it will be possibile, I hope so.
+Ymetro
+
+Role icon, Chat Mod — 11/4/25, 9:03 PM
+Just wanted to make sure that he attracts a broader audience than just here. Could piggy-bag with the Xandeum's X feeds, so even the less techie folk can be reassured when they are interested in the project. With an eye for future pNode sales.
+Substance 2.42Role icon, Chat Mod — 11/8/25, 2:09 PM
+Number of additional Titan NFTs sold so far: 4.
+Source: solscan.
+mrhcon
+
+ — 11/8/25, 4:39 PM
+So far?  It ended on Nov 5th didn't it?
+Substance 2.42Role icon, Chat Mod — 11/8/25, 4:47 PM
+You're right, there was a deadline.
+So, the final 4th one was sold 8 minutes before that.
+mrhcon
+
+ — 11/8/25, 5:08 PM
+Honestly, not that the deadline meant anything...
+mrhcon
+
+ — 11/8/25, 6:02 PM
+So 355 in total and we have what 185 running...  Sad really.
+Ymetro
+
+Role icon, Chat Mod — 11/8/25, 7:52 PM
+So about 52 - 54% is running. Why is the rest not using XillChand? They bought and forgot?
+Woops: ChillXand. Intel inside - it errors out sometimes. 🤪
+mrhcon
+
+ — 11/8/25, 10:39 PM
+I think you mean ChillXand -> https://control.chillxand.com/.  Ya, no effort required and they will qualify for Foundation Stake in MainNet.  No brainer really!
+Ymetro
+
+Role icon, Chat Mod — 11/8/25, 10:39 PM
+Indeed.
+Chill Marketing guy
+
+ — 11/8/25, 11:09 PM
+HEEEEEY! Did someone mention us?
+Sorry was napping. Nothing left for us to do.
+But, we agree bro. There's way too many Node licences not being put to use. We're happy to help with that.
+Just give us a buzz, or email, or text .. or whatever ... we're around, chillin.
+Image
+Chill Marketing guy
+
+ — 11/9/25, 3:45 PM
+AND GUYS!!! Just pointing this out in the most chill of fashions .... but, we just noticed that of the 190 PNodes that are online (yes there are like 1/2 that haven't been activated) 7 are running ridiculously outdated versions of the software. If you want your "STOINC" all nodes gotta be buzzin ... you know what we mean?
+Those updates are gonna keep coming. ... well, not for people running their nodes with us. They're Chillin ... 
+Substance 2.42Role icon, Chat Mod — 11/13/25, 3:32 PM
+Another bit of useless detective work :-), is the address 9KrwsL5...U4LeQQ5 that IMHO caused a bit of XAND price crash 9 days ago present in:
+"seenodes": no,
+first 1000 addresses in Airdrop leaderboard: no,
+DAO rewards: no.
+TSBP — 11/13/25, 4:55 PM
+Super Sleuth!  😋
+Ymetro
+
+Role icon, Chat Mod — 11/13/25, 8:29 PM
+Some whale playing around?
+Chill Marketing guy
+
+ — 11/30/25, 8:32 PM
+Hey bros. Chill Sunday. All our Nodes are updated. Just checking to make sure you're all good...? If not give us a holler.
+G — 12/7/25, 2:22 PM
+Hey everyone! 👋
+
+I'm working on building an analytics dashboard for pNodes and ran into an issue getting pod to start. 
+When I try to run pod --rpc-ip 127.0.0.1 --keypair ~/.xandeum/keypairs/pnode-keypair.json, everything seems fine at first - the keypair validates successfully and it connects to the network, but then it crashes with:
+
+Error: Symlinked File not Found : /run/xandeum-pod
+
+I've tried creating the file manually (both as a file and directory) but that didn't work. Also tried running with sudo, same issue. The keypair itself is working fine, so I think it's something with the storage file setup.
+Anyone know what I'm missing here? Is there a specific way I need to set up /run/xandeum-pod or maybe a different path I should be using? 
+
+Running pod 0.6.0 on Ubuntu, installed via the apt repo. Any help would be appreciated!
+Substance 2.42Role icon, Chat Mod — 12/7/25, 2:48 PM
+When you dedicate space in GUI (where you created keypair), it will create /etc/tmpfiles.d/xandeum-pod.conf, and that will create /run/xandeum-pod link that points to created Xandeum "pagefile". So ls -l /run/xandeum-pod must show existing file. 
+redcali
+
+ — 12/10/25, 7:22 PM
+In case anybody else has this issue, I ran into a problem upgrading the xandminer software npm error ENOTEMPTY: directory not empty, rename '/root/xandminer/node_modules/eslint-config-next' -> '/root/xandminer/node_modules/.eslint-config-next-2uijUkP8' SOLUTION: ran cd /root/xandminer
+rm -rf node_modules to drop the folder and reran the installer with option 2. 
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/10/25, 11:09 PM
+⁠devnet-announcements⁠
+mark — 12/12/25, 6:41 PM
+Hi team, I am trying to programmatically access pNode information from Python.
+
+I know that XandMiner UI talks to the local pNode daemon to get:
+
+node status
+segment data
+bucket/FS info
+storage metrics
+heartbeat / uptime
+
+But there is no public documentation showing the daemon’s REST API.
+
+Could you please share:
+
+The official local daemon API endpoints
+The correct port it runs on
+Whether a public/remote registry API exists for querying all pNodes
+Any JSON schema or examples for interacting with the pNode backend
+
+I want to build a Python client for monitoring pNodes.
+Any help or pointers to internal docs would be great!
+
+
+Thanks
+Ymetro
+
+Role icon, Chat Mod — 12/12/25, 7:21 PM
+Please continue or move your conversation in(to) ⁠devnet-developer-support.
+Manxlanni — 12/13/25, 9:32 AM
+Hi, does anyone know the formula of ROI for running more than 3 pnodes?
+
+In the example given on the Xandeum website there is only up to 3 pnodes in the formula, and I have not been able to find any information about the numbers in running more than 3.
+Ymetro
+
+Role icon, Chat Mod — 12/13/25, 4:07 PM
+What ROI formula? Do you mean the boostedCredits' one? -
+
+As far as I can tell it something like this: 
+
+Example
+For a wallet with 3 pNodes and 100,000 storageCredits:
+pNode 1: Boost factor = 1.5 (50% boost)
+pNode 2: Boost factor = 1 (no boost)
+pNode 3: Boost factor = 2 (100% boost)
+
+boostedCredits = 100,000 × (1.5 × 1 × 2)^(1/3) ≈ 100,000 × 1.44225 = 144,225
+
++ pNode 4: Boost factor = 1 (no boost)
+Would give: boostedCredits = 100,000 × (1.5 × 1 × 2 × 1)^(1/4) ≈ 100,000 × 1.31607 = 131,607
+
+if 
++ pNode 4: Boost factor = 1.5 (50% boost)
+Would give: boostedCredits = 100,000 × (1.5 × 1 × 2 × 1.5)^(1/4) ≈ 100,000 × 1.45648= 145,648
+
+etcetera.
+Substance 2.42Role icon, Chat Mod — 12/13/25, 4:12 PM
+I asked PCHED AI:
+What is the formula of storagecredits for running more than 3 pnodes?
+Response:
+boostedCredits = (pNode1.boostFactor * pNode2.boostFactor * pNode3.boostFactor * ... * pNodeN.boostFactor)^(1/N)
+Where N is the number of pNodes you own.
+Ymetro
+
+Role icon, Chat Mod — 12/13/25, 4:13 PM
+Then STOINC will be total fees: 
+
+All storage fees (in SOL) collected from sedApps in the epoch × pNode share: The share of fees for pNodes (e.g., 0.94 for 94%) × your boostedCredits calculated above
+divided by
+total boostedCredits: The sum of boostedCredits across all pNode-owning wallets.
+
+So example 1000 SOL × 0.94 × 145,648 
+divided by example 36.412.000 boostedCredits of all wallets will result in 3,76 SOL per epoch.
+Substance 2.42Role icon, Chat Mod — 12/13/25, 4:14 PM
+Also, there was very nice calculator by... hmm... let me find it...
+Author: @Bikramjit Chowdhury 
+Original msg with link: ⁠website-feedback⁠
+I can't confirm it's correct, especially since we just don't have some of the input data required to make any competent answer. 
+Ymetro
+
+Role icon, Chat Mod — 12/13/25, 4:16 PM
+Bikramjit's?
+Manxlanni — 12/13/25, 5:34 PM
+Thanks for answering. 
+But in your answer there are two options for the 4th pnode - either it gives a boost or doesn’t, if I understand your message correct?
+
+And I am curious to know if more than 3 pnodes adds more boost or if 3 pnodes give the max boost.
+YAGPDB.xyz
+APP
+ — 12/13/25, 5:34 PM
+Gave +1 Rep to @Ymetro (current: #10 - 23)
+Manxlanni — 12/13/25, 7:35 PM
+Thank you for this link to the generator. But it seems like the generator lacks the measures of total amount of pnodes and total amount of storage.
+YAGPDB.xyz
+APP
+ — 12/13/25, 7:35 PM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 116)
+Ymetro
+
+Role icon, Chat Mod — 12/13/25, 8:16 PM
+Not options per se, but examples. I highlighted in bold numbers what can be changed in order to get a correct calculation. One is for boostfactor and one for the amount of nodes. 
+Ymetro
+
+Role icon, Chat Mod — 12/13/25, 8:26 PM
+What I don't understand is that the boost factor is determined by the Era it was bought in and what NFTs are bound to that node. Deep South gives a 16x (1500%) boost and a Titan NFT gives a 11x (1000%) boost. So 16 x 11 => 176x! BUT the examples calculations only shows NFT boosts... 
+Manxlanni — 12/13/25, 8:33 PM
+Yeah, sorry. English isn’t my native language
+Ymetro
+
+Role icon, Chat Mod — 12/13/25, 8:34 PM
+O, no worries. Mine neither.
+Manxlanni — 12/13/25, 8:35 PM
+But definitely better than mine 💪🏽
+Ymetro
+
+Role icon, Chat Mod — 12/13/25, 8:37 PM
+Well, I use translation apps to check if my message comes through the way I want it. Double checking stuff. Takes a bit more effort and time. Darn that perfectionism!
+Ymetro
+
+Role icon, Chat Mod — 12/15/25, 10:34 AM
+Image
+Substance 2.42Role icon, Chat Mod — 12/16/25, 11:12 AM
+Just FYI, tried your query again with the latest PCHED AI.
+Image
+Ymetro
+
+Role icon, Chat Mod — 12/16/25, 12:45 PM
+Very nice!
+Zedok
+
+ — 1/1/26, 10:50 PM
+Looking forward to get more information about "bonding".
+Substance 2.42Role icon, Chat Mod — 1/2/26, 9:34 AM
+I added latest video Ep 417 to my simple AI and asked "What is pNode bonding?" - answer was not completely bad... sorry for spam. :-) As always with AI, asking "good" questions gives better results, and also some things just nobody knows yet.
+Zedok
+
+ — 1/2/26, 9:38 AM
+Let's see if the total amount required for bond is into the millions or tens of millions. Although i doubt it would be in xandeum's interest to make it that high. 
+Qi — 1/15/26, 3:45 PM
+Image
+@Brad|Xandeum-imposter DM'ing You My wallet has 3 pNodes that are not registered

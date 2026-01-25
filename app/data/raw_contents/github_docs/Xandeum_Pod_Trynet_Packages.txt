@@ -1,0 +1,20 @@
+source=https://github.com/Xandeum/trynet-packages
+
+Xandeum Pod - Trynet Packages
+This repository contains trynet/testing versions of the Xandeum Pod.
+
+⚠️ WARNING
+These are unstable testing versions intended for internal testing only.
+
+Do NOT use in production environments
+Packages may be unstable or broken
+Versions are automatically built from the trynet branch
+No support or guarantees provided
+For Testers
+If you have been given access to test trynet versions, follow the internal documentation for installation instructions.
+
+Repository Structure:
+
+pool/main/ - Contains the .deb packages
+dists/stable/main/binary-amd64/ - Contains APT metadata
+This repository is automatically updated by GitHub Actions when changes are pushed to the trynet branch of the main pod repository.

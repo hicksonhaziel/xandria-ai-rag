@@ -1,0 +1,480 @@
+URL: https://www.xandeum.network/termsofservice
+TITLE: Terms Of Service | Xandeum.network
+================================================================================
+
+Learn
+💡 Docs
+Earn
+Blog
+Subscribe
+
+Xandeum Terms of Service
+
+ 
+
+Last updated: October 26, 2024
+
+ 
+
+These Terms of Service (“Terms” or “Agreement”) is a binding contract between you (“you” or “your”) and Xandeum Foundation, a Panamanian foundation company (“Xandeum,” “we,” “our,” or “us”). These Terms govern your access and use of our website located at xandeum.network (“Site” including its subdomains), the Platform (defined below), the tools, applications, features, and software we offer, and such other services that we may offer from time to time (collectively, the “Services”).
+
+ 
+
+By clicking on an “I Agree” button or checkbox presented with this Agreement, or, if earlier, by accessing or using our Services, you agree that you read, understand, and accept all of the terms and provisions contained in this Agreement and any materials expressly incorporated herein. 
+
+ 
+
+Dispute Resolution: PLEASE BE AWARE THAT SECTION 18 OF THIS AGREEMENT CONTAINS TERMS AND PROVISIONS GOVERNING HOW TO RESOLVE DISPUTES BETWEEN YOU AND XANDEUM. AMONG OTHER THINGS, SECTION 18 INCLUDES A WAIVER OF ANY RIGHT TO PARTICIPATE IN A CLASS ACTION AND A MANDATORY ARBITRATION CLAUSE THAT GOVERNS RESOLUTION OF CERTAIN DISPUTES AND WAIVES YOUR RIGHT TO SUE IN COURT OR HAVE A TRIAL BY JURY OR ANY OTHER COURT PROCEEDINGS. PLEASE READ SECTION 18 CAREFULLY.
+
+ 
+
+Important Definitions: As used throughout this Agreement, the following terms have the following meanings: 
+
+ 
+
+“Digital Asset” means any digital asset, based on, or built on top of, a cryptographic protocol of a computer network.
+
+ 
+
+“Platform” means any application, interface, or software we provide in connection with the Services.
+
+ 
+
+1. CHANGES TO THESE TERMS
+
+We may make changes to this Agreement at any time by posting it to our Site and/or providing a copy to you (“Revised Agreement”). The Revised Agreement shall be effective and binding upon you and your use of the Services as of the time it is posted but will not retroactively apply. To the extent required or applicable, we may provide you with a prior notice of any such changes by, for instance, sending you an email, through the Services, or updating the “Last updated” date on the Revised Agreement. If you do not agree with the Revised Agreement, your sole and exclusive remedy is to terminate your use of the Services.
+
+ 
+
+2. ELIGIBILITY 
+
+ 2.1 Who May Use The Services
+
+You may use the Services if you are at least 18 years old, capable of forming a binding contract with Xandeum in your respective jurisdiction, and not a Restricted Party as defined in Subsection 2.2 below. If you are accessing or using the Services on behalf of a legal entity or other organization, you agree to these Terms for that entity or organization and represent to Xandeum that you have the power and authority to bind your legal entity or organization to these Terms. 
+
+​
+
+2.2 Restricted Parties
+
+You may not use the Services if: (a) you are barred from using the Services under the laws of any applicable jurisdiction; (b) you, any wallet software (“Wallet”) address you use in connection with the Services, or any person or entity controlling your organization is located in, or a citizen of, any state, country, territory or region that we do not offer the Services, including but not limited to Burma (Myanmar), Cuba, Iran, Sudan, Syria, the Western Balkans, Belarus, Côte d’Ivoire, Democratic Republic of the Congo, Iraq, Lebanon, Liberia, Libya, North Korea, certain sanctioned areas of Russia and Ukraine (including without limitation, the regions of Crimea, Donetsk, and Luhansk), Somalia, Venezuela, Yemen, Zimbabwe or where your use of the Services would be illegal or otherwise violate any applicable laws; or (c) you, any Wallet you use in connection with the Services, or any person or entity controlling your organization is listed on economic sanctions or trade embargoes lists including but not limited to the sanctions lists maintained or issued by the U.S. Office of Foreign Assets Control, the U.S. Department of Commerce, the United Nations Security Council, the European Union, and His Majesty’s Treasury (each a “Restricted Party”).
+
+ 
+
+3. INTELLECTUAL PROPERTY RIGHTS
+
+ 
+
+3.1 Xandeum Materials
+
+The Services and its entire contents, features, and functionality including but not limited to all information, software, text, displays, images, video, and audio, the design, selection, and arrangement thereof, and the “look and feel” of the Services, except any open source software, are owned by Xandeum (“Xandeum Materials”), its licensors, or other providers of such material and are protected by applicable and/or international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws. 
+
+​
+
+3.2  Limitations on Use
+
+In connection with your use of the Services, you may use the Xandeum Materials solely as authorized by us for as long as we permit you to continue accessing the Services. Without limiting the foregoing, you agree not to: (a) resell, lease, lend, share, distribute, or otherwise permit any third party to use the Site, Services, or Xandeum Materials, or use the Site, Services, or Xandeum Materials in any service bureau environment; (b) modify or create derivative works of the Site, Services, or Xandeum Materials, or any portion thereof, or any data or information received by you in connection therewith; (c) frame, display, or incorporate the Site, Services, or Xandeum Materials in any website or any other work of authorship; (d) decompile, disassemble, reverse engineer, or attempt to discover the source code of the Site, Services, or Xandeum Materials; (e) use the Site, Services, or Xandeum Materials to design, develop, or create any competing product or service; or (f) otherwise use the Site, Services, or Xandeum Materials for any commercial or noncommercial purpose other than their intended purposes determined at Xandeum’s discretion.
+
+​
+
+3.3 Rights We Grant You
+
+We hereby permit you to use and access the Services, provided that you comply with these Terms. If any software, content, or other materials owned or controlled by us are distributed to you as part of your use of the Services, we hereby grant you a non-sublicensable, non-transferable, and non-exclusive right and license to execute, access, and display such software, content, and materials provided to you as part of the Services, in each case for the sole purpose of enabling you to use the Services as permitted by these Terms. 
+
+​
+
+ 3.4 Reservation of Rights
+
+If your use or access to the Services is in breach of these Terms, your right to access the Services will stop immediately and you must, at our sole option, return or destroy any copies of the materials that you made directly or indirectly from the Services. No right, title, or interest in or to the Services is transferred to you, and all rights not expressly granted are reserved by Xandeum. You may freely use any open-sourced materials up to the limits provided, but in accordance with any requirements placed, by those materials’ open-source licenses. Any use of the Services not expressly permitted by these Terms is a breach of these Terms and may violate copyright, trademark, and other applicable laws.
+
+​
+
+3.5 Trademarks
+
+Xandeum name, the terms “Xandeum” and all related names, logos, product and service names, designs, and slogans are trademarks of Xandeum or its affiliates or licensors. You must not use such marks without the prior written permission of Xandeum.
+
+ 
+
+4. THIRD PARTY SERVICES
+
+4.1 Accessing Third Party Services
+
+The Services may provide access to services, sites, technology, applications, and resources that are provided or otherwise made available by third parties, including (without limitation) materials provided by other users, bloggers, and third-party licensors, syndicators, blockchain users, decentralized applications, aggregators, and/or reporting services (collectively, “Third Party Services”). Your access and use of Third Party Services may also be subject to additional terms and conditions, privacy policies, or other agreements with such third parties. Xandeum has no control over and is not responsible for such Third Party Services including for the accuracy, availability, reliability, or completeness of information or content shared by or available through Third Party Services, or on the privacy practices of Third Party Services. You, and not Xandeum, will be responsible for any and all costs and charges associated with your use of any Third Party Services. The integration or inclusion of Third Party Services does not imply endorsement or recommendation. Any dealings you have with third parties while using the Services—including if a Third Party Service may have infringed your intellectual property rights, are between you and such third party. Xandeum will not be responsible or liable, directly or indirectly, for any damage or loss cause or alleged to be caused by or in connection with use of or reliance on any Third Party Services.
+
+​
+
+4.2 Third Party Applications 
+
+If, to the extent permitted by Xandeum, you grant express permission to a Third Party Service to access or connect to our Services, either through the Third Party Service or the Services, you acknowledge that granting permission to a third party to take specific actions on your behalf does not relieve you of any of your responsibilities under these Terms. You will be fully responsible for all acts or omissions of any third party. Further, you acknowledge and agree that you will not hold Xandeum responsible for, and will indemnify Xandeum from, any liability arising out of or related to any act or omission of any third party with access to the products or services you use to access the Services including your Wallet. 
+
+ 
+
+5. SITE CONTENT
+
+We do not warrant the accuracy, completeness, or usefulness of any materials or information that we or a third party present on or through the Services and such information is made available solely for general information and education purposes. Any information posted to the Services should not be construed as an intention to form a contract, and in no case should any information be construed as Xandeum’s offer to buy, sell, exchange, or otherwise transact Digital Assets. We disclaim all liability and responsibility arising from any reliance placed on such information or materials by you, any other user or person who may be informed of any of the Services contents, or by the actions or omissions of others interacting with the Services.
+
+ 
+
+6. CHANGES; SUSPENSION; TERMINATION
+
+Xandeum may, at its discretion and without liability to you, with or without prior notice and at any time, modify, discontinue, temporarily, or permanently, all or any portion of the Services. If we suspend, close, or terminate your access and/or use of the Services, for any reason, we may provide you with notice of our actions unless a court order or other legal directive prohibits us from providing you with such notice. You acknowledge that our decision to take certain actions, including limiting access to, suspending, or closing any account with us that you may have, may be based on our confidential criteria that are essential to our risk management and security protocols. You agree that we are under no obligation to disclose the details of our risk management and security procedures to you. Xandeum will not be liable for any losses suffered by you resulting from any modification of any Services or from any suspension or termination of your access to all or a portion of any Services (whether pursuant to this Section 7 or for any other reason. You acknowledge that Digital Asset values may fluctuate during any period during which the Services have been suspended and Xandeum will have no liability for any such fluctuations. 
+
+ 
+
+Without limiting the foregoing, we have the right to cooperate fully with any law enforcement authorities or court order requesting or directing us to disclose the identity or other information of anyone posting any materials on or through the Services. You waive and hold harmless Xandeum and its affiliates, licensees, and service providers from any claims resulting from any action taken by Xandeum and/or any of the foregoing parties during, or taken as a consequence of, investigations by either such parties or law enforcement authorities.
+
+ 
+
+7. PROHIBITED USES
+
+You may not use the Services to engage in the following categories of activity (“Prohibited Uses”). The specific types of activities listed below are representative, but not exhaustive. 
+
+ 
+
+Unlawful Activity. Activity which, in any way, would violate, or assist in violation of, any law, statue, ordinance, or regulation, sanctions programs administered in the countries where Xandeum offers the Services, or which would involve proceeds of any unlawful activity; publish, distribute, or disseminate any unlawful material or information.
+
+ 
+
+Abusive of Others.  Interfere with another individual’s access to or use of the Services including but not limited to exploiting, harming, or attempting to exploit or harm minors in any way by exposing them to inappropriate content; defame, abuse, extort, harass, stalk, threaten, or otherwise violate or infringe the legal rights of others; ask for personally identifiable information, or otherwise; transmit, or procure the sending of, any advertising or promotional material, including any “junk mail,” “chain letter,” “spam,” or any other similar solicitation; to impersonate or attempt to impersonate Xandeum, an employee, another user, or any other person or entity (including, without limitation, by using email addresses, screen names, similarly named or commonly misspelled URLs, or associated blockchain identities); engage in any other conduct that restricts or inhibits anyone's use or enjoyment of the Services; incite, threaten, encourage, or promote hate, racial intolerance, or violent acts against others. 
+
+ 
+
+Fraud. Activity which operates to deceive or defraud, or attempt to deceive or defraud, Xandeum, any users or any other person, including without limitation providing any false, inaccurate, or misleading information whether directly through the Services or through an external means that affects the Services with the intent to unlawfully obtain the property of another or to provide knowingly or recklessly false information, including in any way that causes inaccuracy among the content on the Services.
+
+ 
+
+Gambling. Lotteries; bidding fee auctions; sports forecasting or odds making; fantasy sports leagues with cash prizes; internet gaming; contests; sweepstakes; games of chance.
+
+ 
+
+Abusive Activity. To cause the Services, the Services underlying blockchain networks or technologies, or any other functionality with which the Services interact, to work other than as intended; damage the reputation of Xandeum or impair any of our legal rights or interests; engage in any activity or behavior that violates any applicable laws concerning, or otherwise damages, the integrity of the Services, or any other service or software which relies on the Services; use the Services in any manner that could disable, overburden, damage, impair, or interfere with the Services, including the ability to engage in real time activities through the Services; use any robot, spider, or other automatic device, process, or means to access the Services for any purpose, including monitoring or copying any of the material on the Services; attempt to gain unauthorized access to, interfere with, damage, or disrupt any parts of the Services, the server on which the Services or information in connection with the Services is stored, or any server, computer, or database connected to the Services, including any underlying blockchain
+
+ 
+
+Intellectual Property Infringement. Violate the legal rights (including the rights of publicity and privacy) of others or contain any material that could give rise to any civil or criminal liability under applicable law or regulation or that otherwise may be in conflict with these Terms; engage in transactions involving items that infringe or violate any copyright, trademark, right of publicity or privacy, or any other proprietary right under the law, including but not limited to sales, distribution, or access to counterfeit music, software, or other licensed materials without the appropriate authorization from the rights holder; use of Xandeum intellectual property, name, or logo, including use of Xandeum trade or service marks, without express consent of Xandeum or in a manner that otherwise harms Xandeum or the Xandeum brand; any action that implies an untrue endorsement by or affiliation with Xandeum.
+
+ 
+
+In connection with your use of the Services, you agree and represent that you will not engage in any Prohibited Use. You also represent and warrant that you: (a) will abide by any and all applicable laws of the jurisdiction where you are located; all local, national, and international practices regarding internet use; and all network agreements, rules, and procedures related to or in connection with the Services; (b) your use of the Services including Digital Asset transactions complies with applicable law and regulation in your jurisdiction; (c) you have obtained sufficient information about the Platform, Digital Assets, and other services or products in connection with the Services to make an informed decisions in regard to your use of the Services; (d) you shall bear the full responsibility for any and all activities that occurs in connection with your use or access to the Services including without limitation transactions of Digital Assets, interacting with the Services, disclosing, or publishing information, clicking to agree with various agreements, and uploading and submitting various documents or information; and (e) you are the legal and rightful owner of all Digital Assets in the wallet address(es) and Digital Assets you use in connection with the Services. 
+
+ 
+
+8. RISK DISCLOSURES
+
+The Services may now or in the future allow you to send, receive, purchase, and sell supported Digital Assets. These activities, the Platform, and other Services provided by Xandeum involves significant risks, and the potential for financial losses, including without limitation the following:
+
+ 
+
+Digital Assets, the features, functions, characteristics, operations, use, and any other properties of a Digital Asset and the software, networks, protocols, systems, or other technology may be complex, and terms, features, or risks may not be readily or fully understood due to the complex structure, novelty, and reliance on technological features.
+
+ 
+
+Any Digital Asset may be lost if sent to the wrong address, for instance, but without limitation, if the address is improperly formatted, contains an error, or is for a different type of Digital Asset. 
+
+ 
+
+Digital Assets may be subject to forks or attacks on the security, integrity, and/or operation of the networks, including any network events. These events may affect features, functionality, operations, use, or properties of any Digital Asset or network and/or the value of any Digital Asset
+
+ 
+
+Any Digital Asset or the Services may be targeted by malicious persons or individuals who may attempt to disrupt the Services or steal Digital Assets. This includes but is not limited to malware, hacking, phishing, double spending, smurfing, spoofing, sybil attacks, social engineering, majority mining, mining attacks, distributed denial of service, and blockchain fork.
+
+ 
+
+The public nature of the Internet means that parts or the entire Internet may be unreliable or unavailable at any given time. Interruption, delay, corruption or loss of data, the loss of confidentiality or privacy through the course of data transmission, or malware transmission may occur when transmitting data via the Internet and/or other technology. This may result in your transactions not being executed according to your instructions at the requested time, or not executed at all. There is no technology that is completely secure or safe.
+
+ 
+
+Any Digital Asset may decrease in value or lose all value in a short period of time or permanently due to various factors, including but not limited to, government or regulatory activity, the discovery of wrongful or illegal conduct, market manipulation, price distortion, insider dealing, market distortion, malicious wrongdoing or behaviors, changes to the Digital Asset’s nature or characteristics, suspension, or cessation of support for a Digital Asset by exchanges or service providers, public opinion, or other factors outside of our control, technical advancements, and macroeconomic and political factors.
+
+ 
+
+Digital Assets held by a decentralized application or a wallet software provider may not be protected deposits and/or may not be protected by any deposit protection scheme in any relevant jurisdiction. Thus, Digital Assets may have a reduced level and type of protection compared to fiat currencies and other asset classes or types.
+
+ 
+
+Digital Assets are generally considered a high-risk asset class and may not be considered securities under certain jurisdictions. You must exercise prudent judgment when transacting Digital Assets.
+
+ 
+
+The Platform may undergo significant changes over time. Moreover, we may limit control over how other participants use the Platform and what services may be offered through the Platform. This could create the risk that the Platform may not meet your expectations, for any number of reasons including mistaken assumptions or analysis, a change in the design and implementation plans, and execution of the Platform. 
+
+ 
+
+We currently rely on third-party service providers for certain aspects of our operations, including cloud computing services and data centers that provide facilities, infrastructure, website functionality and access, components, and services; databases and data center facilities and cloud computing; as well as third parties that provide certain outsourced services and functions, all of which are critical to our operations. Because we rely on third parties to provide these services and to facilitate certain of our business activities, we face increased operational risks. Any interruptions in services provided by these third parties may impair our ability to support our customers and offer (or maintain) the Services.
+
+ 
+
+We do not directly manage the operation of any of the third-party service providers we use, including their data center facilities. These third parties may be subject to financial, legal, regulatory, and labor issues, cybersecurity incidents, break-ins, computer viruses, denial-of-service attacks, sabotage, acts of vandalism, privacy breaches, service terminations, disruptions, interruptions, and other misconduct. They are also vulnerable to damage or interruption from human error, power loss, telecommunications failures, fires, floods, earthquakes, hurricanes, tornadoes, pandemics (including the COVID-19 pandemic) and similar events. In addition, these third parties may breach their agreements with us, disagree with our interpretation of contract terms or applicable laws and regulations, refuse to continue or renew these agreements on commercially reasonable terms or at all, fail or refuse to process transactions or provide other services adequately, take actions that degrade the functionality of our services, impose additional costs or requirements on us or our customers, or give preferential treatment to competitors.
+
+ 
+
+There can be no assurance that third parties that provide services to us or to our customers on our behalf will continue to do so on acceptable terms, or at all. If any third parties do not adequately or appropriately provide their services or perform their responsibilities to us or our customers on our behalf, such as if third-party service providers to close their data center facilities without adequate notice, are unable to restore operations and data, fail to perform as expected, or experience other unanticipated problems, we may be unable to procure alternatives in a timely and efficient manner and on acceptable terms, or at all, and our ability to offer (or maintain) the Services may be adversely affected.
+
+ 
+
+You acknowledge that you and your Digital Assets may be subject to scams and other types of fraud perpetrated by third parties outside of our control. It is your responsibility to beware and protect yourself against such fraud. There is a risk of loss of your Digital Assets and other assets in the event you are subject to such fraud.
+
+ 
+
+All blockchain transactions include data, and in some circumstances, may include personal data about you. Many blockchain technologies store transaction data publicly and permanently. When you use such technology, you are intentionally making that transaction data public and acknowledge that the data cannot be deleted, removed, or reversed due to the nature of blockchain technology.
+
+ 
+
+We are subject to an extensive and highly-evolving regulatory landscape, and any changes to any laws and regulations could adversely impact our ability to offer, and your use of and access to, the Services in your jurisdiction. Further, such changes could also impact your legal obligations with respect to your use of the Services.
+
+ 
+
+ 
+
+The risks described in this Section 9 may result in loss of Digital Assets, decrease in or loss of all value for Digital Assets, inability to access or transfer Digital Assets, inability to use Digital Assets, and other financial losses to you. You understand and acknowledge that the risk disclosure statement herein is not and cannot be comprehensive or exhaustive. 
+
+ 
+
+You hereby assume and agree that Xandeum will have no responsibility or liability for such risks and irrevocably waive, release, and discharge any and all claims, whether known or unknown to you, against Xandeum, its affiliates, and their respective shareholders, members, directors, employees, agents, and representatives related to any of the risks set forth herein. You waive application of Section 1542 of the Civil Code of the State of California, or any similar stature or law of any other jurisdiction. Section 1542 reads as follows: “A GENERAL RELEASE DOES NOT EXTEND TO CLAIMS WHICH THE CREDITOR DOES NOT KNOW OR SUSPECT TO EXIST IN HIS OR HER FAVOR AT THE TIME OF EXECUTING THE RELEASE, WHICH IF KNOWN BY HIM OR HER MUST HAVE MATERIALLY AFFECTED HIS OR HER SETTLEMENT WITH THE DEBTOR.”
+
+ 
+
+You must seek professional advice regarding your particular financial, legal, technical, and other conditions prior to commencing your use of the Services. You represent and warrant that you fully understand all risks associated with using the Services and you have the necessary experience, understanding, and risk tolerance for using the Services, including the necessary experience and knowledge to enter into any relevant transaction through the Services. You will carefully consider and use clear judgment to evaluate your financial situation and risks before making any decisions to use the Services. You accept the risk of using the Services and are responsible for conducting your own independent analysis of the risks specific to your use of the Services. 
+
+ 
+
+9. General User Acknowledgements and Covenants
+
+By accessing or using the Services, you acknowledge, represent, and warrant, in each case as applicable, each of the items contained in this Section 10 and all of its subsections.
+
+​
+
+9.1 Acknowledgement and Assumption of Risks
+
+You represent and warrant that you have received a copy of, have carefully read, understand, accept, and agree to assume all of the various risks involved in using, holding, trading, delivering, transacting, and transferring Digital Assets and the use of the Services, including but not limited to the risks specifically set forth in Section 9. You agree that Xandeum shall not be liable to you for any loss, damage, expense, or liability that may relate to any of the risks specifically set forth in Section 9.  Further, you represent that you are able to bear any financial or other loss associated with or that may otherwise relate to your use of the Services. 
+
+​
+
+9.2 Non-Reliance
+
+You represent that you are not relying on (and will not at any time rely on) any communication (written or oral) of Xandeum as advice or as a recommendation to engage in any transaction involving Digital Assets. Further, you confirm that Xandeum has not (a) given any guarantee or representation as to the potential success, return, effect, or benefit (either legal, regulatory, tax, financial, accounting, or otherwise) of transacting in Digital Assets or (b) made any representation to you regarding the legality of transacting in Digital Assets under any applicable law. In deciding to use the Services to transact in Digital Assets, you are not relying on the advice or recommendations of Xandeum, and you have made your own independent decision that using the Services and transacting in Digital Assets are suitable and appropriate for you. 
+
+ 
+
+We do not provide investment advice, and any content on the Site or other communication channels should not be considered as a substitute for tailored investment advice. 
+
+ 
+
+You must seek professional advice regarding your particular financial, legal, technical, and other conditions prior to commencing your use of the Services. You represent and warrant that you fully understand all risks associated with using the Services and you have the necessary experience, understanding, and risk tolerance for using the Services, including the necessary experience and knowledge to enter into any relevant transaction through the Services. You will carefully consider and use clear judgment to evaluate your financial situation and risks before making any decisions to use the Services. You accept the risk of using the Services and are responsible for conducting your own independent analysis of the risks specific to your use of the Services. 
+
+ 
+
+10. INTERACTIONS WITH OTHERS
+
+You are responsible for your interactions with other users on or through the Services. While we reserve the right to monitor interactions between users, we are not obligated to do so, and we cannot be held liable for your interactions with other users, or for any user’s actions or inactions. If you have a dispute with one or more users, you release us (and our affiliates and subsidiaries, and our and their respective officers, directors, employees, and agents) from claims, demands, and damages (actual and consequential) of every kind and nature, known and unknown, arising out of or in any way connected with such disputes. In entering this release, you expressly waive any protections (whether statutory or otherwise) that would otherwise limit the coverage of this release to include only those claims which you may know or suspect to exist in your favor at the time of agreeing to this release. 
+
+ 
+
+11. PROMOTIONS
+
+Xandeum may make available special offers or conduct promotions for qualifying users. Subject to applicable laws, Xandeum, or the issuer of a Digital Asset subject to an offer or promotion, may establish qualifying criteria to participate in any special promotions at its sole discretion. Xandeum may revoke any special offer at any time and for any reason without advance notice to you. Xandeum is under no obligation to make available special offers to all Xandeum users. Xandeum makes no recommendation and does not provide any advice about the value or utility of a Digital Asset that is part of a promotion. 
+
+ 
+
+12. FEEDBACK
+
+Any questions, suggestions, ideas, feedback, reviews, or other information or materials regarding the Services provided by you to Xandeum (collectively, “Feedback”), are non-confidential. Xandeum will be entitled to the unrestricted use and dissemination of Feedback for any purpose, commercial or otherwise without acknowledgment, attribution, or compensation to you. You hereby assign to Xandeum all right, title, and interest to Feedback together with all associated intellectual property rights and waive any claim for, acknowledgement or compensation based on any Feedback or any modifications made based on any Feedback. 
+
+ 
+
+13. RELATIONSHIP OF THE PARTIES
+
+Xandeum is not your broker, intermediary, agent, or advisor and has no fiduciary relationship or obligation to you in your use of the Services. Xandeum does not provide investment, tax, or legal advice, and you are solely responsible for any transaction, investment, strategy, decision, or other act that you make when using the Services. Xandeum may provide educational material or information related to the Services on our Site, social media account, or other channel of communication. No communication or information provided to you by Xandeum is intended as, or shall be considered or construed as, advice.  To the fullest extent permissible by law, you agree that neither your use of the Services or the Platform causes Xandeum or any user to owe fiduciary duties or liabilities to you or any third party. Further, you acknowledge and agree to the fullest extent such duties or liabilities are afforded by law or by equity, those duties and liabilities are hereby irrevocably disclaimed, waived, and eliminated, and that Xandeum shall be held completely harmless in relation thereof. 
+
+ 
+
+14. GENERAL SERVICE TERMS
+
+ 
+
+14.1 Wallet Software
+
+To access the Services, you must connect a compatible Wallet. Your relationship with any given Wallet provider is governed by the applicable terms and provisions of the Wallet provider, not these Terms. You are responsible for maintaining the confidentiality of any private key controlled by your Wallet and are fully responsible for any and all messages or conduct signed with your private key. We accept no responsibility or liability to you in connection with your use of a Wallet and make no representations and/or warranties regarding how the Services will operate or be compatible with any specific Wallet. You will bear any and all consequences and liabilities as a result, and Xandeum reserves the right to hold you fully accountable. We reserve the right, in our sole discretion, to prohibit certain Wallet addresses from being able to use or engage in transactions via the Services or from using other aspects of the Services.  As between you and Xandeum, you retain ownership and all intellectual property rights to the content and materials you submit to the Services. Notwithstanding, you grant us a limited, non-exclusive, worldwide, royalty free license to use your content solely for the purpose of operating the Services for so long as we operate the Services. 
+
+​
+
+14.2 Verification and Screenings
+
+In connection with using our Services, you may be required to provide us directly, or through a third party, with certain information and documentation. You represent and warrant that any information and documentation that you provide to us, whether as part of the Services or otherwise, is complete and accurate. We may employ various measures to comply with our anti-money laundering obligations and otherwise prevent the misuse of the Services. These verification and screening procedures may include, without limitation, checking the information you provide against sanctions lists issued by any governmental authority prohibiting or limiting business activities or transactions with any persons. You hereby authorize us, directly or through a third party, to make inquires that we consider necessary to verify your identity and/or protect against the misuse of the Services. We shall have no liability or responsibility for any permanent or temporary inability to access or use the Services as a result of any identity verification or other screening procedures. 
+
+​
+
+14.3 Smart Contract Transactions
+
+In connection with the Services, transactions rely on smart contracts stored on various blockchains, cryptographic tokens generated by smart contracts, and other nascent software, applications and systems that interact with blockchain-based networks. These technologies are experimental, speculative, inherently risky, and subject to change.  A defining feature of blockchain technology is that its entries are immutable, which means, as a technical matter, they generally cannot be deleted or modified by anyone. This includes smart contracts and Digital Assets generated and programmed by smart contracts. You expressly acknowledge that the Services are provided on the blockchain, and as such are to be carried out immediately. You also acknowledge and agree that all transactions accessed through the Services will be automatically processed using one or more blockchain-based smart contracts. By engaging in transactions using the Services, you acknowledge and consent to the automatic processing of all transactions in connection with using the Services. You further acknowledge and agree that the applicable smart contract will dictate how the funds of a transaction and ownership of Digital Assets are distributed. 
+
+​
+
+14.4 Operation of Digital Asset Protocols
+
+We do not own or control the underlying software protocols which govern the operation of Digital Assets we support. In general, the underlying protocols are open source; and anyone can use, copy, modify, and distribute them. By using the Services, you acknowledge and agree that we are not responsible for operation of the underlying protocols and that we make no guarantee of their functionality, security, or availability; and the underlying protocols are subject to sudden changes in operating rules (a/k/a “forks”), and that such forks may materially affect the value, function, and/or even the name of the Digital Assets supported by the Services. In the event of a fork, you agree that we may temporarily suspend our operations (with or without advance notice to you) and that we may, in our sole discretion, decide whether to support (or cease supporting) any branch of a forked protocol entirely. You acknowledge and agree that we do not assume any responsibility whatsoever regarding an unsupported branch of a forked protocol.
+
+​
+
+14.5  Taxes 
+
+It is your sole responsibility to determine whether, and to what extent, any taxes apply to any activity you conduct through the Services, and to withhold, collect, report, and remit the correct amounts of taxes to the appropriate tax authorities. No communication or information provided to you by Xandeum is intended as, or shall be considered or construed as, legal or tax advice.
+
+ 
+
+15. WARRANTY DISCLAIMER
+
+Xandeum has no oversight on or control over any particular Digital Asset or blockchain network. You are responsible for your use of the Services, the functionalities that you enable, transactions engaged through the Services, and access or use of the information derived thereof. You are solely responsible for complying with all applicable laws related to its transactions and activities that directly or indirectly incorporate our provision of the Services. You acknowledge and understand that Xandeum is not registered nor licensed with, nor have the Services or the software contained therein been reviewed by any securities, commodities, or other financial or banking regulator. You further understand that we cannot and do not guarantee or warrant that files available for download from the Services will be free of viruses or other destructive code. You are responsible for implementing sufficient procedures and checkpoints to satisfy your particular requirements for: (a) an appropriate blockchain based utility; (b) anti-virus protection and accuracy of data input and output; (c) your participation in and use of the Services’ underlying blockchain and related technologies; and (d) maintaining a means external to our site to reconstruct any lost data.  
+
+ 
+
+TO THE FULLEST EXTENT PROVIDED BY LAW, XANDEUM WILL NOT BE LIABLE FOR ANY LOSS OR DAMAGE CAUSED BY A DISTRIBUTED DENIAL-OF-SERVICE ATTACK, MAN-IN-THE-MIDDLE ATTACK, VIRUSES, OR OTHER TECHNOLOGICALLY HARMFUL MATERIAL THAT MAY INFECT YOUR COMPUTER EQUIPMENT, COMPUTER PROGRAMS, DATA, OR OTHER PROPRIETARY MATERIAL DUE TO YOUR USE OF THE SITE, THE SERVICES, THE XANDEUM MATERIALS, AND ANY PRODUCT, SERVICE OR OTHER ITEM PROVIDED BY OR ON BEHALF OF XANDEUM THROUGH THE SERVICES OR YOUR DOWNLOADING OF ANY MATERIAL POSTED ON IT, OR ON ANY THIRD PARTY WEBSITE LINKED TO IT.
+
+ 
+
+YOUR USE OF THE SERVICES AND ANY SERVICES CONTENT IS AT YOUR SOLE RISK. THE SITE, SERVICES, XANDEUM MATERIALS, AND ANY PRODUCT, SERVICE OR OTHER ITEM PROVIDED BY OR ON BEHALF OF XANDEUM ARE PROVIDED ON AN “AS IS’’ AND “AS AVAILABLE” BASIS. TO THE FULLEST EXTENT LEGALLY PERMISSIBLE, WE, NOR ANY PERSON ASSOCIATED WITH XANDEUM, MAKE, AND WE EXPLICITLY DISCLAIM, ANY AND ALL REPRESENTATIONS OR WARRANTIES OF ANY KIND RELATED THE SITE, SERVICES, XANDEUM MATERIALS, AND ANY PRODUCT, SERVICE OR OTHER ITEM PROVIDED BY OR ON BEHALF OF XANDEUM WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING (WITHOUT LIMITATION) THE WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT, AND FITNESS FOR A PARTICULAR PURPOSE. NEITHER XANDEUM NOR ANY PERSON ASSOCIATED WITH XANDEUM MAKES ANY WARRANTY OR REPRESENTATION WITH RESPECT TO THE COMPLETENESS, SECURITY, RELIABILITY, QUALITY, ACCURACY, OR AVAILABILITY OF THE  SITE, SERVICES, XANDEUM MATERIALS, AND/OR ANY PRODUCT, SERVICE OR OTHER ITEM PROVIDED BY OR ON BEHALF OF XANDEUM. 
+
+ 
+
+XANDEUM AND ANY PERSON ASSOCIATED WITH XANDEUM DO NOT REPRESENT OR WARRANT THAT: (A) ACCESS TO THE SITE, SERVICES, XANDEUM MATERIALS, AND ANY PRODUCT, SERVICE OR OTHER ITEM PROVIDED BY OR ON BEHALF OF XANDEUM WILL BE CONTINUOUS, UNINTERRUPTED, TIMELY, WITHOUT DELAY, ERROR-FREE, SECURE, OR FREE FROM DEFECTS; (B) THAT THE INFORMATION CONTAINED OR PRESENTED ON THE SITE OR SERVICES IS ACCURATE, RELIABLE, COMPLETE, CONCISE, CURRENT, OR RELEVANT; (C) THE SITE, SERVICES, XANDEUM MATERIALS, AND ANY PRODUCT, SERVICE OR OTHER ITEM PROVIDED BY OR ON BEHALF OF XANDEUM OR ANY SOFTWARE CONTAINED THEREIN WILL BE FREE FROM DEFECTS, MALICIOUS SOFTWARE, ERRORS, OR ANY OTHER HARMFUL ELEMENTS, OR THAT ANY OF SUCH WILL BE CORRECTED; OR (D) THE SITE, SERVICES, XANDEUM MATERIALS, AND ANY PRODUCT, SERVICE OR OTHER ITEM PROVIDED BY OR ON BEHALF OF XANDEUM WILL MEET ANY USER’S EXPECTATIONS. NO INFORMATION OR STATEMENT THAT WE MAKE, INCLUDING DOCUMENTATION OR OUR PRIVATE COMMUNICATIONS, SHOULD BE TREATED AS OFFERING ANY WARRANTY CONCERNING THE SITE, SERVICES, XANDEUM MATERIALS, AND ANY PRODUCT, SERVICE OR OTHER ITEM PROVIDED BY OR ON BEHALF OF XANDEUM. WE DO NOT ENDORSE, GUARANTEE, OR ASSUME ANY LIABILITY OR RESPONSIBILITY FOR ANY CONTENT, ADVERTISEMENTS, OFFERS, STATEMENTS, OR ACTIONS BY ANY THIRD PARTY EITHER REGARDING THE SITE, SERVICES, THE XANDEUM MATERIALS, AND ANY PRODUCT, SERVICE OR OTHER ITEM PROVIDED BY OR ON BEHALF OF XANDEUM. THE FOREGOING DOES NOT AFFECT ANY WARRANTIES THAT CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.
+
+ 
+
+16. INDEMNIFICATION
+
+You agrees to defend, indemnify, and hold harmless Xandeum, its affiliates, licensors, and service providers, and its and their respective officers, directors, employees, contractors, agents, licensors, suppliers, successors, and assigns from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to: (a) your violation of these Terms; (b) your use of Services, including, but not limited to, your interactions with the Site, Platform, or other features which are accessible on or through the Services; (c) use of or reliance on the Site’s content, services, and products other than as expressly authorized in these Terms; (d) your use or reliance on of any information obtained from the Services; or (e) any other party’s access and use of the Services with your assistance or without your assistance by using any device or account that you own or control.
+
+ 
+
+17. LIMITATION OF LIABILITY; DISCLAIMER OF DAMAGES
+
+TO THE FULLEST EXTENT PROVIDED BY LAW, IN NO EVENT WILL XANDEUM, ITS AFFILIATES, OR THEIR LICENSORS, SERVICE PROVIDERS, EMPLOYEES, AGENTS, OFFICERS, OR DIRECTORS BE LIABLE FOR DAMAGES OF ANY KIND, UNDER ANY LEGAL THEORY, ARISING OUT OF OR IN CONNECTION WITH YOUR USE, OR INABILITY TO USE THE SITE, SERVICES, XANDEUM MATERIALS, AND/OR ANY PRODUCT, SERVICE OR OTHER ITEM PROVIDED BY OR ON BEHALF OF XANDEUM, INCLUDING ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES INCLUDING BUT NOT LIMITED TO, PERSONAL INJURY, PAIN AND SUFFERING, EMOTIONAL DISTRESS, LOSS OF REVENUE, LOSS OF PROFITS, LOSS OF BUSINESS OR ANTICIPATED SAVINGS, LOSS OF USE, LOSS OF GOODWILL, LOSS OF DATA, AND WHETHER CAUSED BY TORT (INCLUDING NEGLIGENCE), BREACH OF CONTRACT,  OR OTHERWISE, EVEN IF FORESEEABLE. THIS DISCLAIMER OF LIABILITY EXTENDS TO ANY AND ALL DAMAGES CAUSED BY ANY THIRD PARTY (INCLUDING, WITHOUT LIMITATION, THOSE CAUSED BY FRAUD, DECEIT, OR MANIPULATION), WHETHER OR NOT A USER, OR ANY FAILURE, EXPLOIT, OR  VULNERABILITY OF THE SITE, SERVICES, XANDEUM MATERIALS, AND ANY PRODUCT, SERVICE OR OTHER ITEM PROVIDED BY OR ON BEHALF OF XANDEUM.
+
+ 
+
+TO THE FULLEST EXTENT PROVIDED BY LAW, IN NO EVENT WILL THE COLLECTIVE LIABILITY OF XANDEUM, AND/OR ITS SUBSIDIARIES, AFFILIATES, LICENSORS, SERVICE PROVIDERS, EMPLOYEES, AGENTS, OFFICERS, AND DIRECTORS, TO ANY PARTY (REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT, TORT, OR OTHERWISE) EXCEED THE GREATER OF $100 OR THE AMOUNT YOU HAVE PAID DIRECTLY TO XANDEUM FOR THE APPLICABLE SERVICES IN THE LAST SIX MONTHS OUT OF WHICH LIABILITY AROSE. THE FOREGOING DOES NOT AFFECT ANY LIABILITY THAT CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.
+
+ 
+
+18. DISPUTE RESOLUTION; WAIVER OF CLASS ACTION; MANDATORY ARBITRATION
+
+Please read this section carefully because it waives any right to participate in any class action or other representative action or proceeding. Unless you opt-out of the arbitration by completing the steps below, this section requires you to arbitrate certain disputes and limits the ways in which you can seek relief, including by precluding you from suing in court or having a jury trial. 
+
+​
+
+18.1 Waiver of Class Actions and Right to Jury Trial
+
+TO THE EXTENT PERMISSIBLE BY LAW, ANY CLAIMS, CONTROVERSY OR DISPUTE ARISING OUT OF OR RELATED TO THIS AGREEMENT, OR ANY PRODUCTS OR SERVICES PROVIDED IN CONNECTION WITH THE SERVICES (“DISPUTE”) MUST BE BROUGHT IN YOUR INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PUTATIVE CLASS, COLLECTIVE ACTION, OR REPRESENTATIVE PROCEEDING (COLLECTIVELY “CLASS ACTION WAIVER”). THE ARBITRATOR MAY NOT CONSOLIDATE MORE THAN ONE PERSON’S CLAIMS OR ENGAGE IN ANY ARBITRATION ON BEHALF OF A CLASS. YOU AGREE THAT, BY ENTERING INTO THIS AGREEMENT, YOU ARE WAIVING THE RIGHT TO A TRIAL BY JURY AND THE RIGHT TO PARTICIPATE IN A CLASS ACTION.
+
+​
+
+18.2 Informal Resolution 
+
+Before filing a claim against Xandeum, you agree to try to resolve the Dispute by first emailing arbopt@xandeum.network with a description of your claim and proof of your relationship with Xandeum. If we can’t resolve the Dispute within sixty days of our receipt of your first email, you or Xandeum may then submit the Dispute to binding arbitration as provided herein. 
+
+​
+
+18.3 Arbitration Agreement 
+
+With only limited exceptions as described in 18.7 and 18.8 below, all Disputes between you and Xandeum must be resolved by final and binding arbitration. By agreeing to binding arbitration, you and Xandeum expressly waive the right to formal court proceedings including without limitation trial by jury and class action. This Agreement affects interstate commerce, and the enforceability of this Section 18.3 will be substantively and procedurally governed by the Federal Arbitration Act 9 U.S.C. § 1, et. Seq. (“FAA”).
+
+​
+
+18.4 Conducting Arbitration
+
+The arbitration shall be conducted by the International Chamber of Commerce (“ICC”) under its Commercial Arbitration Rules (“ICC Rules”) then in effect. If you are a consumer, the most recent version of the ICC Rules can be accessed here. These Terms shall govern any conflict between the ICC Rules and these Terms. The location and type of hearing shall be determined in accordance with the ICC Rules. Further, a party’s right to request a hearing shall also be determined in accordance with the ICC Rules. Unless otherwise ordered by an arbitrator or pursuant to the ICC Rules, any in-person arbitration shall be in English and held remotely to the maximum extent, and administered in the Republic of Panama, or another mutually agreeable location. 
+
+​
+
+18.5 Confidentiality
+
+Xandeum, the arbitrator, and you, will each maintain the confidentiality of any arbitration proceedings, judgments, and awards including information shared and produced during the arbitration.
+
+​
+
+18.6 Arbitration Time for Filing
+
+Any arbitration must be commenced by filing a demand for arbitration within one year after the date the party asserting the claim first knows or reasonably should know of the act, omission or default giving rise to the claim. If applicable law prohibits a one year limitation period for asserting claims, any claim must be asserted within the shortest time period permitted by applicable law. If a claim is not filed within such period, the Dispute is permanently barred.
+
+18.7 
+
+18.7 Arbitration Opt-Out
+
+You can decline this agreement to arbitrate by emailing us at arbopt@xandeum.network within thirty  days of the date that you first agree to this Agreement (“Opt-Out Period”). To be effective, your email must include your full name, residential address, and a clear statement that you want to opt out of arbitration. If you opt out of arbitration pursuant to this Section 18.7, then Sections 18.5 and 18.6 of these Terms do not apply to you.
+
+​
+
+18.8 Excepted Claims
+
+Notwithstanding this Section 18, there is no requirement to arbitrate, and you and Xandeum may bring an individual small claims action in the small claims court in your and Xandeum respective county of residence as provided under the ICC Rules, or seek only a temporary restraining order or injunction for alleged breach of confidentiality obligations or alleged infringement or misappropriation of intellectual property in any court having jurisdiction provided that, in each case, the action is brought as an individual action and not on a class or representative basis.
+
+​
+
+18.9 Severability
+
+If any portion of this Section 18 is found to be unenforceable or unlawful for any reason, the unenforceable or unlawful provision shall be severed from these Terms and such severance of the provision(s) shall have no impact whatsoever on the remainder of this Section 18. Further, to the extent that any claims must therefore proceed on a class, collective, consolidated, or representative basis, such claims must be litigated in a civil court of competent jurisdiction and not in arbitration, and the parties agree that litigation of those claims shall be stayed pending the outcome of any individual claims in arbitration. Lastly, if any provision in this Section 18 is found to prohibit an individual claim seeking public injunctive relief, such provision shall have no effect to the extent relief is allowed to be sought outside of arbitration. The remainder of this Section 18 shall remain in full force and effect.
+
+​
+
+18.10 Modification
+
+Notwithstanding any provision in this Agreement to the contrary, you and Xandeum agree that if Xandeum makes any future material change to this Section 18, Xandeum will notify you. Your continued use of the Site and/or Services, including the acceptance of products and services offered on the Site following the posting of changes to this 814 constitutes your acceptance of any such changes.
+
+ 
+
+19. GOVERNING LAW
+
+This Agreement shall be governed by, and construed and enforced in accordance with, the laws of the Republic of Panama. Without regard to conflict of law rules or principles that would cause the application of the laws of any other jurisdiction. You agree that Xandeum may initiate a proceeding relating to the enforceability or validity of Xandeum intellectual property rights in any court of competent jurisdiction. With respect to any other proceeding not subject to arbitration under this Agreement, the federal and state courts located in the Republic of Panama will have exclusive jurisdiction. You waive any objection to venue in any such courts. 
+
+ 
+
+20. MISCELLANEOUS TERMS
+
+ 
+
+20.1 Assignment
+
+These Terms, and any other document, material, or information referenced herein is particular to you and any attempt that you make to assign, novate, or transfer your rights, interests, liabilities, and/or obligations is null and void, unless you have received Xandeum prior written consent. Xandeum reserves the right to assign our rights without restriction, including without limitation to any of Xandeum affiliates or subsidiaries, or to any successor in interest of any business associated with the Services. Subject to the foregoing, these Terms will bind and inure to the benefit of the parties and their successors and permitted assigns.
+
+​
+
+20.2 Term; Survival
+
+This Agreement will remain in effect until terminated by either you or Xandeum. We reserve the right to change, suspend or discontinue, or terminate, restrict, or disable your use of or access to, parts or all of the Services or their functionality at any time at our sole discretion and without notice. All sections of this Agreement that by their nature should survive termination shall survive termination.
+
+​
+
+20.3 Nonwaiver of Rights
+
+Xandeum’s failure or delay in exercising any right, power, or privilege under these Terms shall not operate as a waiver thereof.
+
+​
+
+20.4 Severability 
+
+If any provision of this Agreement shall be determined to be invalid or unenforceable under any rule, law, or regulation, or any governmental agency whether local, state, or federal, such provision shall be interpreted to accomplish the objectives of the provision to the greatest extent possible under any applicable law, and the validity or enforceability of any other provision of the Terms shall not be affected.
+
+​
+
+20.5 Force Majeure
+
+You acknowledge and consent that the Services are provided by us according to our current technological capability and other business conditions. While we have made every effort to ensure continuity and security of the Services, we are unable to completely foresee and hedge against all legal, technological, and other risks. Xandeum shall not be held liable for delays, failure in performance, or interruption of Services that result directly or indirectly from any cause or condition beyond our reasonable control, including but not limited to: (a) acts of God such as earth earthquakes, fires, cyclones, explosions, typhoons, monsoons, landslides, lightning, storms, tempests, pandemics, droughts or meteors; (b) acts of war, whether declared or undeclared, including invasion, act of a foreign enemy, hostilities between nations, civil insurrection, or militarily usurped power; and acts of terrorism; (c) civil disorder, such as acts of a public enemy, malicious damage, terrorism, sabotage, or civil unrest; (d) embargoes or sanctions (such as confiscation, nationalization, requisition, expropriation, prohibition, restraint or damage to property by or under the order of any government or governmental authority; (e) unnatural disasters, such as ionizing radiation or contamination by radioactivity from any nuclear waste or from combustion of nuclear fuel; (f) labor disputes, including strikes, blockades, lock-outs, or other industrial disputes; (g) failure of telecommunication outlets, including the internet, communications networks and facilities, or other infrastructure, systems, operations or of equipment relevant to the provision or use of the Platform, Site, and/or Services; (h) data breaches or data-processing failure or incomplete processing; and/or (i) changes in laws or regulations that may materially affect the Digital Assets and/or blockchain industries.
+
+​
+
+20.6 Notice
+
+Any notices or other communications provided by us under these Terms including those regarding modifications to these Terms will be posted online, in the Services, or through other electronic communication. You agree and consent to receive electronically all communications, agreements, documents, notices, and disclosures that we provide in connection with your use of the Services.
+
+​
+
+20.7 Entire Agreement 
+
+These Terms and every other term or condition applicable to you including any document incorporated by reference herein constitute the entire agreement and understanding between you and Xandeum as to the subject matter hereof, and supersede any and all prior discussions, agreements, and understandings of any kind (including any prior versions of these Terms). Unless otherwise this Agreement or other agreement between you and Xandeum specifically states otherwise, these Terms govern and control any conflict between these Terms and any other agreement you may have with Xandeum.  
+
+Privacy Policy
+Terms Of Service
+
+© 2025 Xandeum Foundation
+
+All rights reserved

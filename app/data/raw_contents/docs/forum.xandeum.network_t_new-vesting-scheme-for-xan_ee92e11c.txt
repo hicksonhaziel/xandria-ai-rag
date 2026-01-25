@@ -1,0 +1,161 @@
+URL: https://forum.xandeum.network/t/new-vesting-scheme-for-xandc-holders/97
+TITLE: New vesting scheme for XANDC holders - Token Launch - Xandeum Network
+================================================================================
+
+Skip to last reply
+Skip to top
+Skip to main content
+Sign Up
+Log In
+​
+Topics
+More
+CATEGORIES
+General
+Site Feedback
+All categories
+​
+New vesting scheme for XANDC holders
+Token Launch
+535
+views
+30
+likes
+9
+users
+ 
+ 
+ 
+ 
+ 
+Sep 2024
+1 / 16
+Sep 2024
+Feb 2025
+post by forummaster on Sep 24, 2024
+forummaster 
+1
+Sep 2024
+
+Xandonians,
+
+The vesting schedule for XAND converted from XANDC has been an object of discussion for some time.
+
+We have been looking into our initial circulating supply, and the growth of circulating supply in the first 12 months. If we keep XANDC holders at 0% initially, we will release 400M XAND into circulating supply in the first 12 months, leading to increased pressure on the token price.
+
+Our new proposal is to have the XANDC vesting schedule idential to the airdrop, i.e. 50% vesting immediately and the other 50% vesting linearly over 12 months.
+
+Staking XAND is still an option that can be discussed at a future DAO proposal, as it needs some time to implement.
+
+Please let us know what you think about this change.
+
+
+
+4
+​
+​
+​
+535
+views
+30
+likes
+9
+users
+ 
+ 
+ 
+ 
+ 
+Made this topic public on Sep 24, 2024
+
+Made this topic public on Sep 24, 2024
+
+post by WAGISDev on Sep 24, 2024
+WAGISDev
+Sep 2024
+
+Its a good compromise. Staking XAND is a great way to support the ecosystem too especially if you are not flush with funds enough to partake in a liquidity pool.
+
+
+
+3
+​
+​
+​
+post by WAGISDev on Sep 24, 2024
+WAGISDev
+Sep 2024
+
+A LP would be another option too which would help stabilize pricing too.
+
+
+
+2
+​
+​
+​
+post by lauvw on Sep 24, 2024
+lauvw
+Sep 2024
+
+We don’t want the price to plummet right after the introduction, so 
+
+
+
+1 Reply
+2
+​
+​
+​
+post by csoaita on Sep 24, 2024
+csoaita
+Sep 2024
+
+My opinion is that it would be good that now, at TGE, as few tokens as possible enter circulation. XANDC holders are people who entered the project from the idea phase and most likely some will go ahead with the project and others will want to leave. If the tokens are released gradually, other opportunities will most likely appear (staking, providing liquidity, participating in DAO…) to be used and maybe they will be less tempted to sell and leave the project. So vesting is good!
+
+
+
+1 Reply
+5
+​
+​
+​
+post by agregersen on Sep 24, 2024
+post by NeoBubba on Sep 24, 2024
+post by nzvillan on Sep 25, 2024
+post by forummaster on Sep 25, 2024
+post by WAGISDev on Sep 29, 2024
+post by WAGISDev on Sep 29, 2024
+3 months later
+post by WAGISDev on Dec 20, 2024
+post by WAGISDev on Dec 20, 2024
+9 days later
+post by bogalo on Dec 30, 2024
+1 month later
+post by KDragon on Feb 5, 2025
+Reply
+
+
+Related topics
+Topic list, column headers with buttons are sortable.
+Topic	Replies	Views	Activity
+
+Tokenomics Community Feedback
+Token Launch
+	33	634	Dec 2024
+
+XIP-0003 - Moratorium on Airdrops 3+
+XIPs
+	4	86	21d
+
+XIP-0002 - Community Moderator Compensation Proposal
+XIPs
+	25	401	Feb 2025
+
+XIP-0001: Devnet Phase 1, vNodes
+XIPs
+	21	408	Dec 2024
+
+Welcome to Xandeum Network! 
+General
+	1	220	Sep 2024

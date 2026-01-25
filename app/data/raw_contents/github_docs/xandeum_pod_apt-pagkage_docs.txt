@@ -1,0 +1,220 @@
+source=https://github.com/Xandeum/pod-apt-package
+path_from=/docs
+
+!!! info "Version"
+    This documentation is for **Xandeum Pod v1.2.0**
+    Released: December 31, 2025
+
+Welcome to the documentation for Xandeum pNode - a high-performance blockchain node implementation.
+
+## Quick Start
+
+### Installation
+
+!!! info "Prerequisites"
+    - A Linux server or VPS running Ubuntu/Debian
+    - SSH access to your server
+    - Basic command line knowledge
+    - A Solana-format keypair file (or generate one)
+
+**Step 1: Access Your Server**
+
+If you're using a VPS (Virtual Private Server), connect via SSH:
+```bash
+ssh username@your-server-ip
+```
+
+Once connected to your server, open a terminal window.
+
+**Step 2: Add the Xandeum Repository**
+
+First, install the required packages and add the Xandeum repository:
+```bash
+# Install repository prerequisites
+sudo apt-get install -y apt-transport-https ca-certificates
+
+# Add the Xandeum repository
+echo "deb [trusted=yes] https://xandeum.github.io/pod-apt-package/ stable main" | sudo tee /etc/apt/sources.list.d/xandeum-pod.list
+
+# Update package list
+sudo apt-get update
+```
+
+**Step 3: Install the pNode**
+```bash
+# Install the pod package
+sudo apt-get install pod
+```
+
+!!! tip "Verify Installation"
+    After installation completes, you can verify it was successful by checking the version:
+    ```bash
+    pod --version
+    ```
+
+**Step 4: Prepare a Keypair**
+
+The pod requires a Solana-format keypair file to identify your node on the network:
+
+```bash
+# Option 1: If you have Solana CLI installed
+solana-keygen new -o ~/pod-keypair.json
+
+# Option 2: Use an existing Solana keypair
+cp ~/.config/solana/id.json ~/pod-keypair.json
+
+# Option 3: For Trynet, keypair auto-generation is available (see below)
+```
+
+!!! warning "Keypair Security"
+    Keep your keypair file secure. It uniquely identifies your node on the network.
+    Never share your keypair file with others.
+
+### Basic Usage
+
+#### Devnet (Default Network)
+```bash
+# Start with default settings (private pRPC)
+pod --keypair ~/pod-keypair.json
+
+# Start with public pRPC access
+pod --keypair ~/pod-keypair.json --rpc-ip 0.0.0.0
+
+# Check network peers without running a node
+pod --gossip
+```
+
+#### Trynet (Test Network)
+```bash
+# Start on Trynet with auto-generated keypair
+pod --trynet
+
+# Start on Trynet with specific keypair
+pod --trynet --keypair ~/trynet-keypair.json
+
+# Check Trynet network peers
+pod --trynet --gossip
+```
+
+#### General Commands
+```bash
+# Check version
+pod --version
+
+# Get help
+pod --help
+```
+
+### Test Your Setup
+
+Verify your pNode is running correctly:
+
+```bash
+curl -X POST http://127.0.0.1:6000/rpc \
+  -H "Content-Type: application/json" \
+  -d '{
+    "jsonrpc": "2.0",
+    "method": "get-version",
+    "id": 1
+  }'
+```
+
+!!! success "Expected Response"
+    If everything is working, you should see a JSON response with the version number:
+    ```json
+    {
+      "jsonrpc": "2.0",
+      "result": {
+        "version": "0.4.2"
+      },
+      "id": 1
+    }
+    ```
+
+## Network Environments
+
+The pod supports two network environments:
+
+### 🌐 Devnet (Default)
+Production-ready network for development:
+- Requires valid keypair file
+- Atlas: `95.217.229.171:5000`
+- Bootstrap: `173.212.207.32:9001`
+
+### 🧪 Trynet
+Experimental test network with simplified setup:
+- Auto-generates keypair if not provided
+- Atlas: `65.108.233.175:5000`
+- Bootstrap: `149.102.137.195:9001`
+- Perfect for quick testing and experimentation
+
+!!! tip "Quick Start on Trynet"
+    Want to test quickly? Just run `pod --trynet` and a keypair will be auto-generated for you!
+
+## What's Included
+
+### 🔌 pRPC API
+Complete JSON-RPC 2.0 API for interacting with your pnode:
+- **get-version**: Get pnode software version
+- **get-stats**: Retrieve comprehensive pnode statistics
+- **get-pods**: List known peer pnodes in the network
+
+[View pRPC API Documentation](rpc-api.md){ .md-button .md-button--primary }
+
+### ⚙️ pNode CLI Usage
+Comprehensive command-line reference:
+- **--keypair**: Path to Solana keypair file (optional for Trynet)
+- **--trynet**: Use Trynet environment with auto-generated keypair
+- **--rpc-ip**: Configure pRPC server IP binding
+- **--entrypoint**: Set bootstrap node for peer discovery
+- **--atlas-ip**: Configure Atlas server connection
+- **--gossip**: Display network peers and exit
+- **--log**: Write logs to a file
+- And more...
+
+[View CLI Documentation](cli.md){ .md-button .md-button--primary }
+
+## Architecture Overview
+
+The Xandeum pNode consists of several key components:
+
+- **Keypair Identity**: Cryptographic identity for node authentication
+- **pRPC Server**: JSON-RPC API on port 6000 (configurable IP)
+- **Stats Dashboard**: Web interface on port 80 (localhost only)
+- **Gossip Protocol**: Peer-to-peer communication on port 9001
+- **Atlas Client**: Data streaming connection on port 5000 with 60-second idle timeout
+
+### Keypair Management
+
+The pod uses Solana-format keypairs for:
+- Node identity on the network
+- Signing heartbeat messages
+- Authenticating with peers
+- Future transaction signing capabilities
+- Maintaining identity across reconnections
+
+The keypair is validated on startup to ensure it can properly sign and verify messages.
+
+!!! note "Auto-generated Keypairs"
+    When using `--trynet` without specifying a keypair, the pod will automatically generate a new keypair and save it as `trynet-keypair.json` in the current directory.
+
+### Connection Management
+
+The pod maintains persistent connections to the Atlas server using the QUIC protocol:
+- **Idle Timeout**: 60 seconds - connections are closed after 60 seconds of inactivity
+- **Auto-Reconnect**: The pod automatically reconnects when needed
+- **Identity Preservation**: Your node's keypair identity is preserved across all reconnections
+
+## Default Configuration
+
+| Service | Port | Access | Configurable |
+|---------|------|--------|-------------|
+| pRPC API | 6000 | Private (127.0.0.1) | IP only |
+| Stats Dashboard | 80 | Private (127.0.0.1) | No |
+| Gossip Protocol | 9001 | All interfaces | No |
+| Atlas Connection | 5000 | Fixed endpoint | No |
+
+!!! tip "Security by Default"
+    The pnode is configured to be secure by default:
+    - pRPC API is private (localhost only) unless explicitly configured otherwise
+    - Keypair validation ensures node identity integrity

@@ -1,0 +1,244 @@
+URL: https://devnet.xandeum.network/validator-update-version
+TITLE: Validator UPDATE version - Xandeum Foundation DevNet
+================================================================================
+
+Xandeum Foundation DevNet
+Ctrl
+K
+Validator Home
+Old Server housekeeping
+Access your server
+Ports Setup
+Setup Your Disks
+Validator Installation
+Setup System Service
+Setup LogRotate
+Starting your validator
+Monitoring your validator
+Onboarding
+Validator Commands
+Learn Tmux
+Validator UPDATE version
+Faucet Repayment
+Troubleshooting
+Docs powered by
+ 
+Archbee
+Validator UPDATE version
+11 min
+
+Run as sol user
+Sudo password may be required
+
+﻿
+
+
+Update your system installation
+
+CLI
+1
+sudo apt-get update -y && 
+
+2
+sudo apt-get upgrade -y
+
+﻿
+
+ Reboot if you need to load a newer kernel.
+
+Choose which release you want to install
+
+Go to the Xandeum Binaries repo and download the tar.bz2 file to your server.
+This guide is using version v2.2.0-xandeum_ca4fded3  
+You can right-click on the file name to copy the download link and do the upgrade manually if you want.
+
+﻿https://github.com/Xandeum/binaries/releases/latest﻿
+
+Otherwise, set some variables and upgrade using our process below.
+
+﻿
+
+
+﻿
+
+﻿
+
+
+
+Set the version and filename variables, some versions are listed here:
+
+CLI
+1
+#latest release 06-18-2025
+
+2
+ver="v2.2.0-xandeum_b5a94688"
+
+3
+file="v2.2.0-xandeum_b5a94688.tar.gz"
+
+4
+echo -e "\n"
+
+5
+echo version=$ver;
+
+6
+echo filename=$file
+
+7
+echo -e "\n"
+
+﻿
+
+﻿
+
+
+CLI
+1
+cd ~
+
+2
+wget https://github.com/Xandeum/binaries/releases/download/$ver/$file
+
+﻿
+
+Create the needed bin folder
+
+CLI
+1
+mkdir ~/.local/share/xandeum/install/releases/$ver -p
+
+﻿
+
+Extract the file into the new bin dir
+
+CLI
+1
+cd ~
+
+2
+tar -xf $file --directory ~/.local/share/xandeum/install/releases/$ver
+
+﻿
+
+Add a directory for connection info, and empty it if there is old files.
+
+CLI
+1
+sudo mkdir -p /var/run/xandeum && sudo chown sol:sol /var/run/xandeum && sudo chmod 755 /var/run/xandeum
+
+2
+sudo rm /var/run/xandeum/*
+
+﻿
+
+Test a binary by running it in the local folder
+
+CLI
+1
+cd ~/.local/share/xandeum/install/releases/$ver/bin
+
+﻿
+
+Test a binary by running it in the local folder
+
+CLI
+1
+./agave-validator -V
+
+﻿
+
+Check the version and src match your chosen version from above:
+
+﻿
+
+Remove downloaded file if binaries are working
+
+CLI
+1
+rm ~/$file
+
+﻿
+Set our symlink to the new version
+
+Set a symlink from our new release to the active_release folder we will use in our $PATH later. (This command removes an old symlink to active_release if it exists)
+
+CLI
+1
+rm /home/sol/.local/share/xandeum/install/releases/active_release
+
+2
+ln -sf /home/sol/.local/share/xandeum/install/releases/$ver/bin /home/sol/.local/share/xandeum/install/releases/active_release
+
+﻿
+
+﻿
+
+
+Check your Install of the software from the home dirctory to prove the symlink worked:
+
+As sol user, time to test if everything worked.
+
+Check Xandeum Software Version:
+Results should appear simlar to the following (check for correct version and src)
+CLI
+1
+cd ~
+
+2
+agave-validator -V
+
+﻿
+
+﻿
+
+
+﻿
+Restart your validator
+
+If everyting looks good, restart your validator while delinquincy is below 10% and monitor until it is caught back up to the chain.
+
+If you have the system service set to restart=always , then you can use the validator exit command. The validator will restart as soon as it creates a snapshot and stops.
+
+Bash
+1
+agave-validator --ledger ~/ledger exit --max-delinquent-stake 10 --min-idle-time 0 --monitor
+
+﻿
+
+
+
+
+
+﻿
+
+If you have issues, try looking here:
+
+﻿Monitoring your validator
+﻿
+ 
+
+﻿Validator Commands
+﻿
+ 
+
+﻿Troubleshooting
+﻿
+ 
+
+Updated 18 Jun 2025
+PREVIOUS
+Learn Tmux
+NEXT
+Faucet Repayment
+Copy
+TABLE OF CONTENTS
+Choose which release you want to install
+Set our symlink to the new version
+Check your Install of the software from the home dirctory to prove the symlink worked:
+Restart your validator
+Did this page help you?
+Yes
+No
+Back to Top

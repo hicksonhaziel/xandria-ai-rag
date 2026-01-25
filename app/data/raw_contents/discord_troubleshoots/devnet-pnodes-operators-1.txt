@@ -1,0 +1,362 @@
+sources=xandeum discord devnet pnodes Operator channel
+
+Ymetro
+
+Role icon, Chat Mod — 1/12/26, 5:49 PM
+Reasons how it keeps the gossip traffic flowing: 
+Outbound‑only communication
+Peer‑to‑peer NAT traversal (hole‑punching)
+Fallback to alternative ports / protocols   - unlikely
+Bootstrap via public relays
+Local‑network broadcasting
+Stateless nature of gossip
+according to Lumo. 
+Bhondu — 1/12/26, 5:49 PM
+How the ping inside gossip works
+I tried to get ping data but every time it gets timedout
+Anyone?? Have any idea about it 🤔
+S. Kuhlmann — 1/12/26, 5:58 PM
+mhmm ss -tlnp | grep 9001 returns nothing on my pnode
+btw - love my uptime Kuma
+Image
+Ymetro
+
+Role icon, Chat Mod — 1/12/26, 6:02 PM
+Nice, ain't it? You just inspired me to segregate my nodes into devnet and mainnet folders in Kuma. Thanks!
+YAGPDB.xyz
+APP
+ — 1/12/26, 6:02 PM
+Gave +1 Rep to @S. Kuhlmann (current: #19 - 7)
+Ymetro
+
+Role icon, Chat Mod — 1/12/26, 6:07 PM
+And add those tags to the nodes.
+Might also wanna add "Licensed" to the tags.
+Ymetro
+
+Role icon, Chat Mod — 1/12/26, 6:20 PM
+And a NFT tag to show that a NFT is coupled to it. Like a "Titan NFT" nametag or "Rabbit NFT" or "XENO NFT".
+Maybe I'm going overboard with this...
+Image
+Dim Coded
+
+ — 1/12/26, 6:34 PM
+Hello
+S. Kuhlmann — 1/12/26, 6:39 PM
+the Tags are just annother way to filter .... one challenge i see with Uptime Kuma it is not able to integrate other sources... so i might go back to build a Grafana dashboard 😉
+S. Kuhlmann — 1/12/26, 7:08 PM
+@Substance 2.42 Morning Brother... .whats going on here ?
+Image
+mrhcon
+
+ — 1/12/26, 7:21 PM
+Love it.
+His site (as the OG) is considered the place to grab data and they are hammering his app. 
+I don't blame him at all.
+NeoBubba
+
+Role icon, Chat Mod — 1/12/26, 7:22 PM
+Probably tooooo much... imho
+S. Kuhlmann — 1/12/26, 8:21 PM
+there should be a section how to "harden" the pNode in the docs
+Bhondu — 1/12/26, 11:28 PM
+Well well well🙂‍↕️ 
+
+You can do a simple GitHub search and find out
+Image
+riot'
+
+ — 1/13/26, 5:13 AM
+which platform is this
+S. Kuhlmann — 1/13/26, 5:22 AM
+Uptime Kama
+riot'
+
+ — 1/13/26, 5:26 AM
+pched went down, the amount of nodes went down.. not surprising
+
+but fr most endpoints are public, zero reasons to scrape his data
+Image
+Image
+Bhondu — 1/13/26, 5:57 AM
+And he forgot his helius api key in code 
+
+It's hardcoded in the code, bro needs to remove that before it gets exploited
+riot'
+
+ — 1/13/26, 6:05 AM
+it never belonged to him tbh.. it belongs to Xandeum, I found it when I searched for it
+
+but I don't know why they'll leave their api in the code like that
+Bhondu — 1/13/26, 6:16 AM
+It's free. Maybe that's why they don't care if it's hardcoded 
+
+But it's not a good practice
+Realms also logs their api keys in console For Xandeum dao website I guess it's one of those keys 
+Rob — 1/13/26, 1:57 PM
+3 more weeks is not a "bit more time".
+Bhondu — 1/13/26, 2:19 PM
+Instead of complaining you can try making your dashboard better
+Rob — 1/13/26, 2:30 PM
+I'm not complaining, I'm pointing out that calling a 3-week extension "a bit more time" is underselling it. That's nearly doubling the original timeline. It's fair feedback, not a personal attack on anyone.
+And my dashboard is fine, thanks. But I appreciate the unsolicited advice.
+YAGPDB.xyz
+APP
+ — 1/13/26, 2:30 PM
+Gave +1 Rep to @Bhondu (current: #20 - 6)
+S. Kuhlmann — 1/13/26, 4:37 PM
+can you share your dashboard - would love to see it
+Rob — 1/13/26, 4:42 PM
+I've intentionally kept mine private. Funny thing about making your dashboard public early - I've watched ideas migrate from one submission to another throughout this process. Kind of defeats the purpose of a competition. That's why deadlines exist, and the Superteam submission guidelines said nothing about being able to keep iterating after you submit.
+Not much of a competition if everyone can just copy the best ideas and keep updating, is it?
+S. Kuhlmann — 1/13/26, 4:45 PM
+that is true - i am a consumer... still lookiing for good tools. Loved the one from @Substance 2.42
+Rob — 1/13/26, 4:46 PM
+Well, even he realizes how ridiculous this is :  PAUSED UNTIL SUPERTEAM FUCKS OFF 
+That's a quote.  I'm not using profane language 
+mrhcon
+
+ — 1/13/26, 4:50 PM
+Check out ChillXand's -> https://control.chillxand.com/pnode-viz/ 
+Bhondu — 1/13/26, 5:17 PM
+Idk if you are aware of the fact that mainnet came live after the submission deadline ended 
+
+Therefore your dashboard shouldn't be supporting mainnet right
+Rob — 1/13/26, 5:21 PM
+Bold assumption from someone who hasn't seen my submission. You have no idea what features it has or doesn't have.
+Also, mainnet wasn't exactly a surprise. Some of us have been here long enough to anticipate what's coming and build for it ahead of time. It's called preparation.
+Bhondu — 1/13/26, 5:33 PM
+Nice 🙂‍↕️
+S. Kuhlmann — 1/13/26, 8:06 PM
+Daily Marketing plug for @Chill Marketing guy  😉
+Ymetro
+
+Role icon, Chat Mod — 1/13/26, 8:07 PM
+🥁 -roffle... 
+Some more 🥁 -roffle, then?
+NeoBubba
+
+Role icon, Chat Mod — 1/13/26, 8:08 PM
+Not me... 🤣
+Chill Marketing guy
+
+ — 1/13/26, 8:08 PM
+THAT IS ME!! SO RIGHTEOUS!!!   ....   uh... can I help you? 
+Image
+Ymetro
+
+Role icon, Chat Mod — 1/13/26, 8:08 PM
+Tadaa! 🎉
+Chill Marketing guy
+
+ — 1/13/26, 8:09 PM
+AND remember guys, our RPC is free for January ...
+Image
+mrhcon
+
+ — 1/13/26, 9:03 PM
+I have added a poop-tonne of metrics into the nodes I manage.  I've discovered that after a Big Bang data event (large amount of data sent), I am losing 100+ points from my credit score despite the Heartbeat working properly.  I have had 10 instance of credit loss across my nodes and if I capture the logs for the 5 min around the credit loss incident, all 10 have a Big Bang event.
+That cannot be coincidence.
+We need to make the pnodes as resiliant as possible.  Maybe we can have a channel dedicated (an perhaps even frequented by Xandeum developers/staff) to finding causes and solutions to credit loss?  After all Credits are the primary health metric for pNodes.
+@Brad|Xandeum-imposter DM'ing You  @Blockchain Bernie | Xandeum Labs   Thoughts?
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/13/26, 9:18 PM
+I will have the devs dive into it and come up with some way to track the credit scoring somehow...
+mrhcon
+
+ — 1/13/26, 11:16 PM
+Not so much about tracking it.  More about what influences it.  For example, why would you lose 100 points?  All the heartbeats in that 5 min period were successful according to the logs so is there something else that takes points away?
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/13/26, 11:19 PM
+Missing or not responding properly or timely to a data transaction is a -100 in credits, and each heartbeat is a +1 (with heartbeats every 30 seconds)
+So there may be something worng in the port setup...or something somewhere else preventing data transactions... 
+mrhcon
+
+ — 1/13/26, 11:23 PM
+So something like this? 
+[2026-01-10 11:05:39] ERROR [pod::client:501] - Failed to receive data operation: Failed to deserialize packet : InvalidTagEncoding(111)
+[2026-01-10 11:05:39] ERROR [pod::client:802] - Data stream error: Failed to deserialize packet : InvalidTagEncoding(111) - reconnecting streams
+Or this?
+[2026-01-09 17:04:15] ERROR [pod::client:660] - ❌ Operation PMigrate (ID: 1767996255074000241) failed: Global page number 93 not found in the index.
+I was hoping to put together a list of different errors.  The cost in credits and what caused and if they can be fixed.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/13/26, 11:26 PM
+Yes, not exactly sure which ones say your machine has a problem or which one is a cluster problem...but if the xandeum-pages file was wiped, moved or somehow corrupted and it was supposed to include page 93 then that would explain it....
+I'm not sure how to tell which "client" you are off the top of my head...
+but likely in the logs somewhere....possibly during pod startup.... 
+mrhcon
+
+ — 1/13/26, 11:28 PM
+Ah, so the client id  660 in this case, may not be me!
+These are errors for all pods in my logs?
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/13/26, 11:30 PM
+I'd have to dive deeper into it, but my understanding is yes...given the decentralized goal...we want all pnodes to see as much as possible of what the cluster is doing...it will allow policeing from a cluster viewpoint without central oversight...
+mrhcon
+
+ — 1/13/26, 11:32 PM
+Fascinating!  So for diagnosing issues, if we have multiple pods it would be easier to get all error messages by combining them.  And then we just have to figure out what our client ids are and then we can correlate issues to our specific pnodes.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/13/26, 11:33 PM
+I'll ask for some clarification on those points
+mrhcon
+
+ — 1/13/26, 11:33 PM
+Yes, that would be great.  Including how to get our client id.  Thanks Brad.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/14/26, 12:14 AM
+so waiting for clarification still...but I pulled up some logs and realize I was looking at it wrong already...in the case of a standard log line:
+Jan 13 23:01:11 pod-man-demo xandeum-pod[2263530]: [2026-01-13 23:01:11] INFO [pod::client:1022] - Split into 1 chunks for transmission
+
+
+The [pod::client:1022] correlates to Service::Module::Notice_Identity So we will see that 1022 every time we see line Split into 1 chunks for transmission
+
+or 1018 for Sender stream locked
+
+In the log snippet I pulled, I do not have log Identity 501, 802, or 660 as your log shows above...but did not go back that far....
+
+It might be that we would need to enable DEBUG logs to see more....they might help you also. 
+
+In the system service, replace the log line word INFO with DEBUG and then deamon-reload/restart the service. They will fill disks if not careful...so I'd usually shut them back off when your done debugging...but with logrotate working should be ok most likely...especially on devnet...
+mrhcon
+
+ — 1/14/26, 12:32 AM
+Environment=RUST_LOG=debug?
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/14/26, 12:33 AM
+correct
+mrhcon
+
+ — 1/14/26, 12:33 AM
+Not getting any debug messages...
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/14/26, 12:36 AM
+are you using
+journalctl -u pod -f ?
+mrhcon
+
+ — 1/14/26, 12:38 AM
+All INFO and WARN
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/14/26, 12:39 AM
+hmm, i have used it before but I see the same now also....another thing to ask about...
+Ymetro
+
+Role icon, Chat Mod — 1/14/26, 12:00 PM
+Hey @kryptobiten did you know you are in a voice channel here?
+Bhondu — 1/14/26, 12:02 PM
+He's in voice channel since 1-2 days🙂‍↕️
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/14/26, 1:43 PM
+I tried to figure out how to close it...but lost interest
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/14/26, 1:50 PM
+The correct environment variable is:
+
+Environment=LOG_LEVEL=debug
+
+
+I assume it works but haven't had time yet to test. I would try removing the Environment=RUST_LOG=debug and adding the new.
+mrhcon
+
+ — 1/14/26, 1:53 PM
+I'll take a look in a bit.  Thanks.
+kryptobiten — 1/14/26, 3:44 PM
+I think I closed it know.
+
+I don't really understand what to update and where, if I follow the link it dosen't look correct when I compare to picture.
+
+Brad|Xandeum-imposter DM'ing YouXandeumTeam — 13:58onsdag den 14 januari 2026 13:58
+@DevNet Please add roles for @MainNet and @RPC Operator where applicable.
+Also follow along with ⁠◎-xandeum-agave-mainnet for updates from Solana community.
+
+@RPC Operator We need to have you update to version 3.0.14 ASAP for an exploit that was detected.
+
+Here is the new branch:
+https://github.com/Xandeum/xandeum-agave/tree/v3.0.14-upgrade
+Ymetro
+
+Role icon, Chat Mod — 1/14/26, 4:56 PM
+I think his update is intended for Validator node admins. Are you running a Solana RPC or a Xandeum enabled Solana Validator node? 
+kryptobiten — 1/14/26, 5:41 PM
+Ok then I don't hink it's for me. Thankyou Ymetro
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/15/26, 12:54 PM
+can i get your pnode pubkey for looking into this?
+mrhcon
+
+ — 1/15/26, 1:11 PM
+Sent via DM
+Dim Coded
+
+ — 1/15/26, 2:39 PM
+Hello
+Ymetro
+
+Role icon, Chat Mod — 1/15/26, 4:28 PM
+Hi! How are you?
+Ymetro
+
+Role icon, Chat Mod — 1/17/26, 7:09 PM
+To get push notifications for checking Pod is still running on your pNode to an Uptime Kuma instance: 
+install Upime Kuma on a local machine or wherever (might wanna use a service like Cloudflare Tunnel for a fixed domain to a wandering (dynamic) IP address at home)
+add a new monitor with the butten "+ Add New Monitor" and select the "Monitor Type": "Push" in the list
+copy the script from the attachedpod-check.sh and replace  your-uptime-kuma-instance with your Uptime Kuma domain and <your-id> with the push monitor ID (that hash part) from your Uptime Kuma Push URL you can copy in the Edit page of the node you want to receive pushes from in Uptime Kuma.
+make it executable with 
+chmod +x pod-check.sh
+make a service for to run it automatically after a reboot and make it restart whenever it fails - see the second file called pod-check.service - copy it's content to your pNode system as well
+run ```systemctl daemon-reload
+systemctl enable pod-check.service
+systemctl start pod-check.service```
+set Uptime Kuma Heartbeat Interval to 30 seconds with a 1 2 times retry and a 30 seconds Heartbeat Retry Interval
+
+Edit: Check new script at ⁠devnet-pnode-operations⁠
+
+Now you should see green ticks every 30 seconds and a message saying "ServiceRunning" once until it something goes wrong with Pod or your VPS that has Pod running. 
+Attachment file type: unknown
+pod-check.service
+278 bytes
+You can test if this works by stopping Pod with 
+systemctl stop pod.service
+ wait a while and check your Uptime Kuma instance. Then use 
+systemctl start pod.service
+ to see it go back up.
+Ymetro
+
+Role icon, Chat Mod — 1/17/26, 8:37 PM
+And if your VPS itself goes belly op you'll get that DOWN signal as well. 😉
+S. Kuhlmann — 1/17/26, 11:35 PM
+Ok here we go - my blog describing how to setup a wireguard VPN connection between my pNodes and my local network. Goal was to create a simple heartbeat monitoring (leveraging the pod RPC ) and uptime-kuma. Hope this will help others.
+https://www.adultintraining.us/post/secure-your-vps-services-with-wireguard-a-complete-guide-to-site-to-site-vpn-with-uptime-kuma-monit
+Let me know what you guys think 😉
+Ymetro
+
+Role icon, Chat Mod — 1/17/26, 11:43 PM
+Nicely elaborated! 👏 Grats!
+S. Kuhlmann — 1/18/26, 2:00 AM
+thanks to Claude for the outline and remembering the struggles i had 😉 Oh also make sure you Internet Provider has not CGNAT .... in that case you need a static IP, cause DynDNS does not work ...
+YAGPDB.xyz
+APP
+ — 1/18/26, 2:00 AM
+Gave +1 Rep to @Ymetro (current: #6 - 48)
+Ymetro
+
+Role icon, Chat Mod — 1/18/26, 7:54 AM
+That's the main reason I use a Cloudflare Tunnel; then I don't have to deal with a local dynamic IP address, but still can run the services from home. 
+Updated version of pod-check.sh script. 
+
+It is more readable and easier to configure that way. It ads a MAX_FAILURE part to lessen the amount of false alerts and when the up signal is a second to late, and the service backs of more and more when Pod stays down, to lessen pressure on the systems. Set retry interval at Kuma to 2.
+
+This also adds a logfile at /var/log/pod-uptime-kuma.log. Use logrotate if you want to keep this log for a longer amount of time, else use dashes to commet it out like 
+# LOG_FILE="/var/log/pod-uptime-kuma.log" 
+# echo "$(date ...) – $SERVICE_NAME is UP" >>"$LOG_FILE"
+
+Or replace it with 
+LOG_FILE="/dev/null"
+ to keep the code, but it won't create that file. 
+
+Tighten your MAX_FAILURES and experiment with the BASE_INTERVAL and MAX_INTERVAL settings. I might want to set MAX_FAILURES to 2 later. But first I'll see how these settings are going to check out. 
+#!/usr/bin/env bash
+# ------------------------------------------------------------
+# pod-check.sh – lightweight heartbeat sender for Uptime Kuma
+# ------------------------------------------------------------
+
+# ----- Configuration -------------------------------------------------
+Expand
+pod-check.sh
+2 KB
+Ymetro
+
+Role icon, Chat Mod — 1/18/26, 8:43 AM
+For now I have this running on all my nodes next to the old ping system and will wait to see if the ping system will crash. Then I'll decommission it to remove that burden on the systems and network.
+... and also on my sanity 🤣 (all those double alerts! 🙄 ) 
+kryptobiten — 1/18/26, 11:13 AM
+I had issues with wireguard,  I really don't now why but is running with tailscale instead without problem. 

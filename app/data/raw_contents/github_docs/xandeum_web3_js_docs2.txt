@@ -1,0 +1,222 @@
+source=https://github.com/Xandeum/xandeum-web3.js
+path_from_source=/docs
+
+[**Xandeum Web3 Library v1.12.0**](../README.md)
+
+***
+
+[Xandeum Web3 Library](../globals.md) / exists
+
+# Function: exists()
+
+> **exists**(`connection`, `path`): `Promise`\<`any`\>
+
+Defined in: [exists.ts:23](https://github.com/Xandeum/xandeum-web3.js/blob/master/src/exists.ts#L23)
+
+Sends a JSON-RPC request to the Xandeum RPC endpoint to check if a file or directory exists.
+
+This function calls the custom RPC method `isExist`, which should be implemented
+by the backend to validate the existence of metadata (files/directories) at a given path.
+
+## Parameters
+
+### connection
+
+`Connection`
+
+The solana web3 connection with Xandeum-compatible JSON-RPC endpoint (e.g., `'https://api.devnet.solana.com'`).
+
+### path
+
+`string`
+
+The filesystem path to check (e.g., `/documents/myfile.txt`).
+
+## Returns
+
+`Promise`\<`any`\>
+
+A `Promise<any>` resolving to the RPC response JSON, typically including a `result` field
+         indicating existence (e.g., `true` or `false`), or `null` if not found.
+
+///
+
+[**Xandeum Web3 Library v1.12.0**](../README.md)
+
+***
+
+[Xandeum Web3 Library](../globals.md) / getMetadata
+
+# Function: getMetadata()
+
+> **getMetadata**(`connection`, `path`): `Promise`\<`any`\>
+
+Defined in: [getMetadata.ts:26](https://github.com/Xandeum/xandeum-web3.js/blob/master/src/getMetadata.ts#L26)
+
+Sends a JSON-RPC request to the Xandeum RPC endpoint to retrieve metadata
+about a file or directory at the given path.
+
+This function calls the custom RPC method `getMetadata`, which is implemented
+by the backend to return metadata such as type (file or directory), size,
+timestamps etc.
+
+## Parameters
+
+### connection
+
+`Connection`
+
+The solana web3 connection with Xandeum-compatible JSON-RPC endpoint (e.g., `'https://api.devnet.solana.com'`).
+
+### path
+
+`string`
+
+The filesystem path to query metadata for (e.g., `/documents/myfile.txt`).
+
+## Returns
+
+`Promise`\<`any`\>
+
+A `Promise<any>` resolving to the parsed JSON response from the RPC server,
+         typically containing a `result` object with metadata fields.
+
+//
+
+[**Xandeum Web3 Library v1.12.0**](../README.md)
+
+***
+
+[Xandeum Web3 Library](../globals.md) / getXandeumResult
+
+# Function: getXandeumResult()
+
+> **getXandeumResult**(`connection`, `signature`): `Promise`\<`any`\>
+
+Defined in: [getXandeumResult.ts:21](https://github.com/Xandeum/xandeum-web3.js/blob/master/src/getXandeumResult.ts#L21)
+
+Sends a JSON-RPC request to the Xandeum-compatible endpoint to retrieve
+the result of a transaction previously submitted with a specific signature.
+
+This function calls the custom RPC method `getXandeumResult`, which returns
+the result associated with the given transaction signature.
+
+## Parameters
+
+### connection
+
+`Connection`
+
+The Solana web3 connection object pointing to a Xandeum-compatible RPC endpoint.
+
+### signature
+
+`string`
+
+The transaction signature string whose result should be queried.
+
+## Returns
+
+`Promise`\<`any`\>
+
+A `Promise<any>` resolving to the parsed JSON response from the RPC server,
+         which includes the result of the transaction if available.
+
+//
+[**Xandeum Web3 Library v1.12.0**](../README.md)
+
+***
+
+[Xandeum Web3 Library](../globals.md) / listDirectoryEntry
+
+# Function: listDirectoryEntry()
+
+> **listDirectoryEntry**(`connection`, `path`): `Promise`\<`any`\>
+
+
+Defined in: [listDirectoryEntery.ts:24](https://github.com/Xandeum/xandeum-web3.js/blob/master/src/listDirectoryEntery.ts#L24)
+
+Sends a JSON-RPC request to the Xandeum RPC endpoint to list all entries (files and subdirectories)
+within a specified path.
+
+This function calls the custom RPC method `listDirs`, which is  return an array of
+directory entry metadata — names, types etc.
+
+## Parameters
+
+### connection
+
+`Connection`
+
+The solana web3 connection with Xandeum-compatible JSON-RPC endpoint (e.g., `'https://api.devnet.solana.com'`).
+
+### path
+
+`string`
+
+The  filesystem path representing the directory to list (e.g., `/documents`).
+
+## Returns
+
+`Promise`\<`any`\>
+
+A `Promise<any>` resolving to the parsed JSON response from the RPC server,
+         typically including a `result` array containing directory entry objects.
+
+//
+[**Xandeum Web3 Library v1.12.0**](../README.md)
+
+***
+
+[Xandeum Web3 Library](../globals.md) / move
+
+# Function: move()
+
+> **move**(`fsid`, `srcPath`, `destPath`, `name`, `wallet`): `Promise`\<`Transaction`\>
+
+D
+Defined in: [move.ts:19](https://github.com/Xandeum/xandeum-web3.js/blob/master/src/move.ts#L19)
+
+Constructs a Solana transaction to copy a file or directory from one  path to another.
+
+## Parameters
+
+### fsid
+
+`string`
+
+The unique numeric identifier representing the target file system.
+
+### srcPath
+
+`string`
+
+The source path to copy from (e.g., `/documents`).
+
+### destPath
+
+`string`
+
+The destination path to copy to (e.g., `/archive`).
+
+### name
+
+`string`
+
+The name of the new file or directory at the destination (e.g., `report.txt`).
+
+### wallet
+
+`PublicKey`
+
+The wallet public key used to sign and authorize the transaction.
+
+## Returns
+
+`Promise`\<`Transaction`\>
+
+A Promise that resolves to a Solana `Transaction` object containing the copyPath instruction.
+
+## Throws
+
+Will throw an error if `srcPath` or `destPath` contains invalid characters.

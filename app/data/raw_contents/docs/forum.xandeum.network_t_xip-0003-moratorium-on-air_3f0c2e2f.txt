@@ -1,0 +1,129 @@
+URL: https://forum.xandeum.network/t/xip-0003-moratorium-on-airdrops-3/193
+TITLE: XIP-0003 - Moratorium on Airdrops 3+ - XIPs - Xandeum Network
+================================================================================
+
+Skip to last reply
+Skip to top
+Skip to main content
+Sign Up
+Log In
+​
+Topics
+More
+CATEGORIES
+General
+Site Feedback
+All categories
+​
+XIP-0003 - Moratorium on Airdrops 3+
+XIPs
+86
+views
+2
+links
+ 
+ 
+ 
+Dec 2025
+1 / 5
+Dec 2025
+21d ago
+post by forummaster on Dec 23, 2025
+forummaster 
+27d
+Temporary Moratorium on Future Airdrops (Airdrop 3+) Pending Strategic Review
+
+
+​
+​
+​
+86
+views
+2
+links
+ 
+ 
+ 
+post by forummaster on Dec 23, 2025
+forummaster 
+27d
+
+Discussion of this topic can take place here. This has been created in response to a community-created Realms DAO proposal.
+
+
+
+1
+​
+​
+​
+post by Niccolo on Dec 29, 2025
+Niccolo 
+22d
+
+You can see the proposal here
+
+Realms
+Temporary Moratorium on Future Airdrops (Airdrop 3+) Pending Strategic Review...
+
+Check out this Xandeum DAO proposal on Realms.
+
+Discord
+Discord - Group Chat That’s All Fun & Games
+
+Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.
+
+
+
+​
+​
+​
+post by Niccolo on Dec 29, 2025
+Niccolo 
+22d
+
+The DAO proposal for a temporary moratorium on future airdrops (Airdrop 3 and beyond) has successfully passed as of December 25, 2025. Voting results indicate 65.5% in favor (approximately 17.95 million XAND votes) for pausing airdrops pending a strategic review, against 34.5% opposed (about 9.45 million votes). This outcome reflects a clear community preference for data-driven token distribution strategies, requiring Xandeum Directors to demonstrate positive correlations between airdrop campaigns and XAND price stability before resuming.
+
+Key elements of the moratorium include:
+
+Halting all “Airdrop 3+” events until empirical evidence supports their efficacy.
+
+Mandating third-party verification and business cases for any future proposals.
+
+Aligning with broader blockchain governance trends toward sustainability and value protection, as seen in evolving DeFi protocols.
+
+While vote has concluded, this forum thread remains the ideal space for ongoing dialogue. Insights on implementation, potential metrics for review, or comparisons to similar measures in other Solana-based projects would advance the conversation.
+
+For reference, the full proposal details are available here.
+
+
+
+​
+​
+​
+post by pH33LiX on Dec 29, 2025
+Reply
+
+
+Related topics
+Topic list, column headers with buttons are sortable.
+Topic	Replies	Views	Activity
+
+Moratorium on Airdrops 3+
+XIP Ideas
+	1	26	27d
+
+Tokenomics Community Feedback
+Token Launch
+	33	635	Dec 2024
+
+New vesting scheme for XANDC holders
+Token Launch
+	15	536	Feb 2025
+
+XIP-0002 - Community Moderator Compensation Proposal
+XIPs
+	25	402	Feb 2025
+
+About the XIP Ideas category
+XIP Ideas
+	2	21	26d

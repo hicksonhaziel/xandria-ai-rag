@@ -1,0 +1,285 @@
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 6/18/25, 4:23 PM
+@DevNet Please upgrade your vNodes as soon as possible to the v2.2.0-xandeum_b5a94688 release.
+For most users, use the pre-built binaries and the standard guide
+https://devnet.xandeum.network/validator-update-version
+
+To build from source use the branch:
+https://github.com/Xandeum/xandeum-agave/tree/x2.2.0-munich 
+Validator UPDATE version - Xandeum Foundation DevNet
+Set up your Xandeum DevNet validator with ease using this comprehensive document. From user installation to downloading the Xandeum release, this guide covers it all. Discover the steps for creating a user, adding to the sudo group, and switching to the X
+GitHub
+GitHub - Xandeum/xandeum-agave at x2.2.0-munich
+Contribute to Xandeum/xandeum-agave development by creating an account on GitHub.
+GitHub - Xandeum/xandeum-agave at x2.2.0-munich
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 6/18/25, 4:34 PM
+Note: if you were testing the build from source tool...you may be on this version depending on when you did it:
+agave-validator -V to check the build src code 
+Current will be :
+agave-validator 2.2.0 (src:b5a94688; feat:3294202862, client:Xandeum)
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 7/11/25, 12:18 AM
+@DevNet it's time to upgrade your pNodes to Munich!
+
+https://pnodes.xandeum.network/pnode-update-version
+pNode UPDATE version - pNode Setup Guide
+Update your elready set up Xandeum pNode using this update guide.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 7/17/25, 12:43 PM
+---
+@DevNet 
+There was an update pushed to the install.sh script. The update will help handling reboots and instances where pod.service is failed and will not start.
+
+All pNode operators should run the new install.sh  Option 3 - Restart to enable a config file at reboot to create a file association that pod.service is currently relying on. 
+
+Use the link above in pNode UPDATE version to grab the newest install file.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 9/23/25, 4:46 AM
+@DevNet Attention vNode operators 
+We would like to call for upgrade to Herrenberg version
+https://github.com/Xandeum/xandeum-agave/tree/x2.2.0-herrenberg
+
+We are discontinuing the pre-built binaries with this release. Please build from source.
+
+I have published a tool that you may use if you wish. The system tuning script is intended to setup a new server or migrate an existing one from the directory structure of the vNode install guide to a more straight-forward one. Read the read me files and ask questions in ⁠devnet-validator-operations.
+
+Some of the mods have used the tool and it has seemed effective.
+GitHub
+GitHub - Xandeum/xandeum-agave at x2.2.0-herrenberg
+Contribute to Xandeum/xandeum-agave development by creating an account on GitHub.
+GitHub - Xandeum/xandeum-agave at x2.2.0-herrenberg
+The tool is located here:
+https://github.com/T3chie-404/agave-maint-util
+GitHub
+GitHub - T3chie-404/agave-maint-util: Agave Validator Upgrade, Roll...
+Agave Validator Upgrade, Rollback, and Clean Script - T3chie-404/agave-maint-util
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 10/6/25, 3:35 AM
+@DevNet We're working on getting caught up on DevNet operator payments. 
+We had planned to have an automated process ready to take care of this but it isn't ready.
+We'll work at getting it up to date using the old method in the DAO this week.
+Verena | Xandeum LabsRole icon, XandeumTeam — 10/6/25, 6:47 PM
+pNode Onboarding Open!
+
+Hello @DevNet operators,
+You can now onboard your pNodes that you bought in the Dutch Auction. Go to https://pnode-onboarding.paperform.co/ and fill out the simple form. Make sure that everything is correct as we can legally not reonboard them for you anymore.
+
+If you have trouble, check your connection, try another browser, or open a ticket on https://help.xandeum.network/.
+Paperform
+Xandeum pNode Onboarding
+Xandeum pNode Onboarding
+Verena | Xandeum LabsRole icon, XandeumTeam — 10/17/25, 3:55 PM
+pNode Payout Announcements
+
+July pNodes Payouts
+Proposal - Part 1: https://dao.xandeum.network/dao/XAND/proposal/8mSLZWPzPtsn63AiMuUs1kMHUP4pzxGrqtqGSCJFwPg6
+Proposal - Part 2: https://dao.xandeum.network/dao/XAND/proposal/2AJgQ8Tc83r1eRcHxNnbWKZirweWxrogGnfQhdMhar4G
+
+August pNodes Payouts
+Proposal - Part 1: https://dao.xandeum.network/dao/XAND/proposal/9dsQH11fKKVHBixw5MWuWgaV27iB6cJXEbQc4HeDiNf1
+Proposal - Part 2: https://dao.xandeum.network/dao/XAND/proposal/6r2CKH8tekAauLTD7eucE2pgtBJTHvjVg6tXz2FzGihZ
+
+September pNodes Payouts
+Proposal - Part 1: https://dao.xandeum.network/dao/XAND/proposal/5w16mZMqGy6HA1Y3vkKydN7H2g64SjCqD1pxi7EMqCTU
+Proposal - Part 2: https://dao.xandeum.network/dao/XAND/proposal/34acZLbBSw2KDSj6JDkM2k9qTYGo9z7kg124o6zByE4A
+
+
+vNode Payout Announcements
+
+August vNodes Payouts
+Proposal: https://dao.xandeum.network/dao/XAND/proposal/DiAAtx8nc9asg8mHCq8tLwCkJQMsvHyZMFtnnCsHEe7x
+
+September vNodes Payouts
+Proposal: https://dao.xandeum.network/dao/XAND/proposal/6u1K6iv2nGYcgXKnbNPfN2jmbL5PJRuK73VkuSU8j53x
+Verena | Xandeum LabsRole icon, XandeumTeam — 10/22/25, 5:53 PM
+Just a quick reminder @everyone that onboarding is still open and if you have registered pNodes that are not onboarded yet, now is the time! 😇  We can't pay you rewards without being onboarded unfortunately.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 10/23/25, 8:22 PM
+@DevNet :alert: :alert: :alert:  Attention pNode and vNode operators!! :alert: :alert: :alert: 
+
+Make sure you are backing up your operator keypairs to a safe location. 
+This key will be required to recover your pNode to a new server should you ever require to rebuild from scratch.
+Currently only one pNode-keypair can be onboarded per pNode license purchased and there is no provision to use a new key to onboard again!
+We are looking into a way to make this option available but have no timeline on an implementation.
+Don't wipe or decommission a server without first backing up your pNode keypair.
+
+For pNode operators, the key that is created during registration is located at:
+/root/xandminerd/keypairs/pnode-keypair.json
+
+You need to use a text editor (nano, vim, etc) to read this PRIVATE KEY and copy it to a safe location on a secure machine.
+
+--
+
+For vNode operators, the keys were created in your home directory if you followed the guide:
+
+/home/sol/validator-keypair.json
+/home/sol/vote-keypair.json
+/home/sol/withdraw-keypair.json
+
+
+Again, a text editor can be used to view the files and copy the contents to a secure machine.
+Also, the withdraw keypair is required to withdraw funds from the vote account so the keys should not be stored together if there is economic value secured by the keys. (mainnet)
+
+--
+
+Be mindful that these are private keys, and if you lose them, there is no way to gain access to the contents or sign anything that was associated with them.
+Also, if someone else gains access to these keys, they will have control of anything in or associated with those keys as well, so treat them securely!
+
+-- 
+Verena | Xandeum LabsRole icon, XandeumTeam — 11/12/25, 10:42 PM
+@everyone 
+You can claim your validator rewards for October here once the council votes have been made https://dao.xandeum.network/dao/XAND/proposal/J8dGCznPyscfw779XpXo1KRzrPNXoaPiE3tnry7FFYz8 🎉
+Realms
+Image
+Verena | Xandeum LabsRole icon, XandeumTeam — 11/28/25, 7:30 PM
+@DevNet 
+v0.5 "Ingolstadt" is out. 🚢
+
+pNode operators update your pod.
+Blockchain Bernie | Xandeum LabsRole icon, XandeumTeam — 11/29/25, 8:13 PM
+@everyone We found and fixed some issues that some of you encountererd upgrading to the latest Ingolstadt release. It should work for most now. If [Update pNode] in the Xandminer GUI won't work, try running ./install.sh via ssh and select option 2, update Xandeum pNode software.
+Image
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/5/25, 11:16 PM
+@DevNet 
+We have released tracking information for pNode Credits. 
+It's tracking responses and failed attempts to contact, as well as responses (or failures) to data (peek/poke etc...) events and its creating a sort of reputation that resets monthly! 
+Take a look, find a way to track yours (or everyone's)!
+
+This is what we will eventually move to for deciding who gets paid for working in DevNet!
+
+https://podcredits.xandeum.network/
+https://podcredits.xandeum.network/api/pods-credits
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/7/25, 3:39 PM
+@DevNet We found a problem with the keypair permissions...
+
+Use this to lock it down.
+# Fix permissions on this pNode
+sudo chmod 600 /local/keypairs/pnode-keypair.json
+sudo chown root:root /local/keypairs/pnode-keypair.json
+
+# Verify
+ls -la /local/keypairs/pnode-keypair.json
+# Should show: -rw------- 1 root root
+
+# Test that a local basic user can't read it...use your standard username
+sudo -u <non-sudo-username> cat /local/keypairs/pnode-keypair.json
+# Should show: Permission denied
+
+Expected output:
+demo-user@pNode-006:/local/keypairs$ 
+demo-user@pNode-006:/local/keypairs$ cat pnode-keypair.json 
+cat: pnode-keypair.json: Permission denied
+demo-user@pNode-006:/local/keypairs$ 
+
+
+We'll get that fixed in the installer but in the meantime check it and fix it.
+It's only DevNet but need to watch out for these things anyhow and stay vigilant for errors.
+Sorry for the oversight on this!
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/8/25, 7:40 PM
+To anyone running a pNode without a pNode license...there is one final step to get it up and running:
+Run as root user:
+fallocate /xandeum-pages -l 10g
+ln -s /xandeum-pages /run/xandeum-pod
+
+This creates a 10gb file, and symlinks it to where the pod software is looking for it allowing pod to start.
+It will be added to docs with the next release.
+
+Adjust the size to what you want to allocate and then check the service
+This allows it to start to use the pRPC, but does not allow you to be part of the incentivized DevNet payouts.
+
+sudo systemctl status pod.service
+
+Let me know if you see different results.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/8/25, 8:30 PM
+@DevNet 
+We are ready to have DevNet upgraded to v0.7.0! 
+Please upgrade your pNode servers when you're available.
+
+sudo wget -O install.sh "https://raw.githubusercontent.com/Xandeum/xandminer-installer/refs/heads/master/install.sh" && sudo chmod a+x install.sh && sudo ./install.sh
+
+-upgraded gossip speeds
+-bugfix for outgoing gossip packet size
+-detailed API endpint get-pods-with-stats
+-updated /stats page
+Ymetro
+ pinned a message to this channel. See all pinned messages. — 12/8/25, 8:42 PM
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/9/25, 2:53 PM
+@DevNet Were ready to try v0.7.3. Upgrade your pNode when available.
+cd ~ && wget -O install.sh "https://raw.githubusercontent.com/Xandeum/xandminer-installer/refs/heads/master/install.sh" && chmod a+x install.sh && ./install.sh
+
+Option 2
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/9/25, 10:57 PM
+Would you guess we have 100TB in @DevNet storage?!
+Well we do! With a couple of 15+ TB pNodes!
+Can't wait to fill them up!
+Image
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/14/25, 5:58 PM
+------
+
+@DevNet Operators, please proceed to upgrade to v0.8.0 at your convenience! 
+
+Run as root user:
+cd ~ && wget -O install.sh "https://raw.githubusercontent.com/Xandeum/xandminer-installer/refs/heads/master/install.sh" && chmod a+x install.sh && ./install.sh
+
+Use Option 2 to upgrade
+
+Check running version after install using either the GUI via port forwarding rules or on the pNode using a script like this one:
+curl -s -X POST http://localhost:6000/rpc \
+-H "Content-Type: application/json" \
+-d '{"jsonrpc":"2.0","method":"get-version","id":1}' | \
+jq -r '.result.version as $v | "xandminer: \($v) xandminerd: \($v) pod: \($v)"'
+
+xandminer: 0.8.0 xandminerd: 0.8.0 pod: 0.8.0
+
+
+Please let us know in ⁠devnet-pnode-operations if you have any issues.
+
+----- 
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/18/25, 6:06 PM
+@DevNet live now
+https://www.youtube.com/live/hrEgvLPSmE8?si=mujupq_tA-jbhKCV
+pNode portal
+YouTube
+Blockchain Bernie
+Ep 415: Own Xandeum pNodes with Zero IT Skills
+Image
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/2/26, 3:20 PM
+@DevNet
+We've added https://podcredits.xandeum.network/devnet for devnet pod credits. 
+
+https://podcredits.xandeum.network/ now shows mainnet pod credits. 
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/2/26, 6:07 PM
+@DevNet The API endpoints
+
+mainnet:- https://podcredits.xandeum.network/api/pods-credits
+
+devnet:- https://podcredits.xandeum.network/api/devnet-pod-credits 
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/2/26, 9:08 PM
+@DevNet 
+
+After internal discussions over the past few hours, we are going to reverse the changes that were made to the API syntax. 
+Sorry for all of you who responded and corrected your app immediately...I understand it is a pain for you all!
+We decided this need to be corrected and understand the significance of making breaking changes.
+
+This will be the New (old) Format:
+
+DevNet API:  https://podcredits.xandeum.network/api/pods-credits
+MainNet API: https://podcredits.xandeum.network/api/mainnet-pod-credits
+
+DevNet pod credits : https://podcredits.xandeum.network/devnet
+MainNet pod credits :https://podcredits.xandeum.network/
+
+Sorry for the confusion and frustration!
+
+(I am not 100% certain when the changes will go live)
+
+We'll keep continuing to try harder.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/13/26, 1:24 PM
+@DevNet @Developer 
+Due to the incredible response to the Superteam Projects and the fact we received far more submissions than expected and to ensure as fair and thorough reviews as possible... we need a bit more time and expect to complete evaluations by January 31. Appreciate your patience and understanding.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/14/26, 1:58 PM
+@DevNet Please add roles for @MainNet and @RPC Operator where applicable.
+Also follow along with ⁠◎-xandeum-agave-mainnet for updates from Solana community.
+
+@RPC Operator We need to have you update to version 3.0.14 ASAP for an exploit that was detected.
+(this is only for operators running Xandeum-Agave on Solana Mainnet... not vNodes or pNodes on our Xandeum DevNet)
+
+Here is the new branch:
+https://github.com/Xandeum/xandeum-agave/tree/v3.0.14-upgrade 
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/14/26, 3:22 PM
+@DevNet Now I corrected the Channels and Roles properly:
+Image

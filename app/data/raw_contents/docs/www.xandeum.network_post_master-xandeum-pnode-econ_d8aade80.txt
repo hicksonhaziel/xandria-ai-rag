@@ -1,0 +1,249 @@
+URL: https://www.xandeum.network/post/master-xandeum-pnode-economics-unlock-storage-income-and-earn-rewards
+TITLE: Master Xandeum pNode Economics: Unlock Storage Income and Earn Rewards
+================================================================================
+
+Learn
+💡 Docs
+Earn
+Blog
+Subscribe
+Blog
+Master Xandeum pNode Economics: Unlock Storage Income and Earn Rewards
+Sean
+
+Aug 29, 2025
+
+4 min read
+
+8
+
+209
+
+1
+
+Xandeum's pNode system opens new ways to earn money in Web3 storage. pNodes are computers that help store data for a decentralized network on the Solana blockchain. Operators (people who run pNodes) can earn XAND tokens by providing storage space. Factors like delegated stake (tokens others lend you), performance (how well your pNode works), and commission rates (fees you charge) decide how much you earn. pNodes help build a strong storage system for apps like decentralized video sites or file sharing tools. As Xandeum grows from recent updates like Munich to new releases like Herrenberg, the rewards can be high. Read on to learn how pNodes can help you make income in a place where "dApps (decentralized apps) grow strong"!
+
+
+
+
+
+What is STOINC? Simple Guide to Storage Income
+
+
+
+STOINC means Storage Income. It is how pNode operators earn XAND tokens. You run software from Xandeum and give storage space to the network. Earnings happen every epoch (about 2 days). They depend on "storage credits," calculated from four main things:
+
+
+
+
+Number of pNodes you own
+
+Total storage space you provide (in GB)
+
+Performance score (from 0 to 1, based on how reliable your pNode is)
+
+Amount of staked XAND (tokens locked to support the pNode)
+
+
+
+
+For example, more pNodes or more storage means higher earnings. A good performance score and more staked XAND also help. If any factor is zero, you earn nothing that epoch. Operators create the Xandeum Network and earn directly from sedApps (storage-enabled dApps) through smart contracts. It uses Solana's secure system and Xandeum's erasure coding (a way to protect data) for safe storage.
+
+Important: 94% of STOINC goes to pNode operators – they are the main part of the network. Only 6% goes to development and operations. Storage comes from fees like transactions or app use. In high-use cases (like scaling to huge data amounts, similar to other networks), earnings could be big, like $30,000 per day per pNode – but this depends on how many people use the network.
+
+
+
+
+
+Why Delegated Stake is Important for Earnings
+
+
+
+To make money with a pNode, you need stake (XAND tokens) delegated from others, not just your own. If you stake your own tokens, it's like staking normally – no extra benefit for running a pNode. Real profit comes from commissions (like 5%) on delegated XAND from the community or the Xandeum Foundation Delegation Program. This program will give a lot of XAND to DevNet (test network) pNode operators, helping earnings on mainnet (real network). Deep South Era pNodes get a 16x boost. To attract stake, join Discord or X (formerly Twitter) to build trust and grow your share.
+
+pNodes on mainnet are free and open to anyone, but profit needs external stake (like millions of XAND from the Foundation). Think of it like a bank: you earn on deposits from others. Without NFT licenses for boosts, you start at 1x with no initial stake – so early joining is key.
+
+
+
+
+
+Dutch Auction: How to Get Your pNode
+
+
+
+The Dutch Auction sells 49 Deep South Era pNodes. It starts on September 6, 2025, at pnode.store.xandeum.network. Prices start high and drop over 48 hours.
+
+Here's a simple table of examples:
+
+
+
+
+Time in Auction
+
+	
+
+Price (USDC + XAND)
+
+	
+
+NFT Type
+
+	
+
+Boost Multiplier
+
+	
+
+Total Boost with 16x Era
+
+
+
+
+Start (high price)
+
+	
+
+$4,900 USDC + 490,000 XAND
+
+	
+
+Titan
+
+	
+
+11x
+
+	
+
+Up to 176x
+
+
+
+
+End (low price)
+
+	
+
+$577 USDC + 57,700 XAND
+
+	
+
+Rabbit
+
+	
+
+1.5x
+
+	
+
+Up to 24x
+
+
+
+
+Boosts stack (multiply) – for example, one Titan gives 176x total. More NFTs mean higher, like 774x for multiples. Vote on start time (0:00–23:00 UTC) with 20 cents (or less) USDC using DutchDecider app before September 5. All money goes to Xandeum Foundation for building the network – buy early for best rewards!
+
+
+
+
+
+Rewards and Incentives Explained
+
+
+
+pNode operators get fixed rewards, 10,000 XAND per month from the Foundation to cover costs. These are separate from variable STOINC. On mainnet, rewards are in SOL (about $210 per epoch example), easy to sell without price drops.
+
+
+
+
+Boost Factors: Base 16x for Deep South pNodes, plus NFT boosts (e.g., 11x Titan) – they multiply for huge gains.
+
+Epoch Distribution: Based on performance credits – respond to checks every 30 seconds and storage requests.
+
+Hypothetical Earnings: If network makes $15 million in fees, split among 500 pNodes, each gets good returns – but depends on growth.
+
+
+
+
+Future: DAO (community vote) may change boosts to help small operators and avoid too much power in few hands.
+
+
+
+
+
+What You Need to Run a pNode: Hardware and Operations
+
+
+
+Running a pNode is easy with reliable setup:
+
+
+
+
+Internet: Stable with static IP. Use data centers like Contabo or Netcup – costs $5–$10 per month.
+
+Hardware: At least 256 GB storage, but use terabytes for better scale. Monitor performance to avoid penalties (like -100 credits for failures).
+
+Other: Software from Xandeum, no special skills needed, but keep it online for best scores.
+
+
+
+
+Coming soon: Better features like data backups, auto-replace if pNode fails, and stronger security.
+
+
+
+
+
+Recent Updates: Munich and Herrenberg Releases
+
+
+
+Munich release at Rare Evo 2025 added file hosting and XandMiner GUI (tool for stats), showing storage power. Herrenberg adds basic search, helping sedApps for social media or research tools.
+
+
+
+
+
+Join the Xandeum Community
+
+
+
+Learn more at Xandeum.network, join Discord for help, or follow on X for auction news. Xandeum: Where dApps grow! 
+
+Blog
+Sean
+
+Aug 29, 2025
+
+4 min read
+
+8
+
+209
+
+1
+
+Related Posts
+See All
+Discover Xandeum pNodes: Power Solana's Scalable Storage
+Xandeum’s Dutch Auction and Herrenberg Release: Advancing Solana’s Storage Revolution
+Xandeum Shines at Rare Evo 2025: Munich Release Demo Steals the Show
+Comments (1)
+Write a comment
+Sort by:
+Newest
+Substance?
+Aug 30, 2025
+
+Correct link to pNode Store is:
+https://pnodestore.xandeum.network/
+
+Like
+Reply
+Privacy Policy
+Terms Of Service
+
+© 2025 Xandeum Foundation
+
+All rights reserved

@@ -1,0 +1,41 @@
+URL: https://www.xandeum.network/innovation-eras
+TITLE: Innovation Eras | Xandeum.network
+================================================================================
+
+Learn
+💡 Docs
+Earn
+Blog
+Subscribe
+Xandeum’s Path to Storage Freedom
+
+From the Bavarian Alps of the Deep South...
+
+...to the Baltic Sea of the North.
+
+Xandeum is leading the storage revolution.
+
+DeepSouth Era
+South Era
+Main Era
+Central Era
+Coal Era
+North Era
+
+The DeepSouth Era is Xandeum's starting point for building a decentralized storage layer. In this era, the first version of XandMiner, the XandMiner Daemon dubbed XandMinerD will be released, allowing users to create key pairs, register their pNodes, and create and destroy file systems on their pNode. These basic functions provide everything needed to begin operating a pNode and get a headstart through first mover advantage in the scalable storage layer.
+
+Laid out in 6 Innovation eras. Xandeum is committed to transparency, building in public, and community influenced. 
+
+Stay Updated
+
+Want more? Here's the Technical stuff.
+
+Xandeum Innovation Era's Milestones.
+
+Learn More
+Privacy Policy
+Terms Of Service
+
+© 2025 Xandeum Foundation
+
+All rights reserved

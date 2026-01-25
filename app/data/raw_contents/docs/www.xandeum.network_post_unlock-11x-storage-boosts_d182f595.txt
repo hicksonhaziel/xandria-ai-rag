@@ -1,0 +1,293 @@
+URL: https://www.xandeum.network/post/unlock-11x-storage-boosts-the-titan-nft-time-travel-sale-on-xandeum-network
+TITLE: Unlock 11x Storage Boosts: The Titan NFT Time Travel Sale on Xandeum Network
+================================================================================
+
+Learn
+💡 Docs
+Earn
+Blog
+Subscribe
+News
+Unlock 11x Storage Boosts: The Titan NFT Time Travel Sale on Xandeum Network
+Verena
+
+Oct 24, 2025
+
+4 min read
+
+7
+
+350
+
+1
+
+
+
+
+Hello community! Whether you're a blockchain enthusiast, a decentralized storage advocate, or simply curious about opportunities on Solana, welcome. We're excited to share big news from the Xandeum Network, the decentralized storage layer on Solana, as we approach our mainnet launch—where apps will pay storage fees, rewarding node operators like you. The highlight today? Our limited-time Titan NFT sale, offering existing Provider Node (pNode) holders a chance to revisit Dutch auction prices for an impressive 11x boost on storage income.
+
+This post is designed to be clear and approachable, with skimmable headings for quick insights and detailed explanations for those who want more. Let's dive in!
+
+
+
+
+
+Why the Titan NFT Matters
+
+
+
+The Titan NFT is a powerful tool for maximizing rewards on the Xandeum storage network. Here's the essence:
+
+
+
+
+The Boost: When paired with a pNode, it delivers an 11x multiplier on storage income—a 1,000% increase. This means earning more from apps storing data on Xandeum, with fees paid in SOL and shared with node operators.
+
+Timing: This sale is exclusive to the "Deep South Era" (our current phase), where pNodes already benefit from a 16x era boost. Together, that's a 176x total multiplier. Early supporters are rewarded generously.
+
+Deadline: The sale closes on November 5, 2025, at 16:00 UTC (roughly 5-6 PM CET or 10-11 AM EST). Don't miss this limited offer for those who missed the original Dutch auction.
+
+
+
+
+For those interested: Storage income, or "STOINC," comes from apps using Xandeum's storage layer. Once mainnet launches—targeted for this year—your node earns based on its performance. Learn more at xandeum.network/stoinc for a detailed breakdown.
+
+
+
+
+
+Looking Back: The Dutch Auction Recap
+
+
+
+Last month, we held a Dutch auction for NFTs tied to pNodes, with prices starting high and decreasing over time. If you secured one, you're already set. For others, here's a summary of the NFT tiers:
+
+NFT Tier
+
+	
+
+Boost Factor
+
+	
+
+Description
+
+
+
+
+Titan
+
+	
+
+11x
+
+	
+
+The top-tier boost for maximum rewards
+
+
+
+
+Dragon
+
+	
+
+4x
+
+	
+
+A strong mid-tier option
+
+
+
+
+Coyote
+
+	
+
+2.5x
+
+	
+
+Balanced for steady gains
+
+
+
+
+Rabbit
+
+	
+
+1.5x
+
+	
+
+A reliable entry-level boost
+
+
+
+
+Cricket
+
+	
+
+1x
+
+	
+
+The baseline boost
+
+Titan Pricing: In the first hour, prices were higher. By the second hour, Titans sold for 4,410 USDC + 441,000 XANDEUM, the best deal. Most were snapped up then.
+
+Bundle Note: Dutch auction buyers got pNodes with NFTs, but earlier pNode purchases (without NFTs) remain unboosted.
+
+
+
+
+This auction supported our development efforts. Now, we're extending that opportunity with the time travel sale.
+
+
+
+
+
+Time Travel Offer: Titan NFTs at Auction Prices
+
+
+
+If you missed the auction but own a pNode (purchased early for 35,000 XANDEUM), we're making it fair by crediting your initial investment:
+
+
+
+
+Your Price: 4,410 USDC + 406,000 XANDEUM (we deduct the 35,000 XANDEUM pNode cost).
+
+Who Qualifies: pNode owners only. Each NFT boosts one node, so grab enough for your unboosted nodes.
+
+Era Advantage: Secure the Deep South Era's 16x boost before we transition to the South Era (11x base). Future sales won't offer this combination.
+
+
+
+
+Good to Know: These NFTs are visually appealing, animated assets in your wallet, representing your role in Xandeum's decentralized vision. They combine style with significant utility.
+
+
+
+
+
+How to Purchase Your Titan NFT
+
+
+
+The process is straightforward. Visit titanstore.xandeum.network and follow these steps:
+
+Connect Wallet: Use a Solana-compatible wallet (e.g., Phantom or Solflare) with sufficient funds.
+
+Select Quantity: Choose the number of NFTs based on your unboosted pNodes.
+
+Agree to Terms: Review the terms of service for transparency.
+
+Complete Purchase: Pay, and your NFT will be minted and delivered to your wallet within days.
+
+Verify: You'll receive a Solscan transaction link for confirmation. Join our Discord for support or updates.
+
+
+
+
+We tested the store live (pre-recorded for authenticity), and it worked seamlessly—transaction proof included. With 13 days until the deadline, there's time to transfer funds if needed.
+
+
+
+
+Note: This isn't financial advice. Always research thoroughly and understand the risks before participating.
+
+
+
+
+
+Why Boosts Benefit the Xandeum Community
+
+
+
+Xandeum is built for real revenue, not just promises. Apps (starting with ours, then third-party) will pay SOL fees for storage, which node operators share based on their activity. Without a boost, a 1% share might earn 1 SOL daily; with a Titan, that's 11 SOL—same effort, bigger payout.
+
+
+
+
+Era System Explained: We're in six phases. Deep South (now) offers a 16x boost for early adopters. South Era drops to 11x for wider access. This rewards those funding development pre-mainnet.
+
+Node Operations: Only active nodes earn STOINC. Keep your software updated and online—sadly, half of early buyers aren't running theirs, missing out.
+
+The 176x multiplier (16x era × 11x NFT) is a strong incentive. Check xandeum.network/stoinc for the full reward structure—clear and accessible.
+
+
+
+
+
+No pNode Yet? Here's Your Path
+
+
+
+If you don't own a pNode, sales are currently paused, but we're open to engaged operators:
+
+
+
+
+Upcoming Sales: South Era node sales are coming, with an 11x era boost (still valuable, but less than Deep South's 16x).
+
+Special Offers: Interested in a Titan bundle? Contact us on Discord's general channel. We prioritize committed operators who'll actively run nodes.
+
+Why Run a Node?: You power Web3 storage, earning from apps globally. It's accessible to anyone with a basic setup.
+
+
+
+
+Join our Discord for guidance and updates.
+
+
+
+
+
+What's Next: Airdrop 2 and Mainnet Progress
+
+
+
+The Titan sale is just the start. Mainnet launch is nearing, with our apps paving the way and third-party integrations in progress. Plus, Airdrop 2 is almost here—expect an announcement soon with details on dates and mechanics. Engaging with our content (likes, comments) earns points for airdrops, as seen in our successful Airdrop 1.
+
+News
+titan store
+titan nft
+xandeum pnodes
+Verena
+
+Oct 24, 2025
+
+4 min read
+
+7
+
+350
+
+1
+
+Related Posts
+See All
+Exciting Updates from Xandeum: Foundation Milestones and Exchange Strategies
+Xandeum’s pNode Store Unveiled: First Look at Dutch Auction and NFTs
+Xandeum’s Munich Milestone and What’s Next: Herrenberg, Dutch Auction, and More
+Comments (1)
+Write a comment
+Sort by:
+Newest
+rLorenz
+Oct 30, 2025
+
+I'm so excited I can't wait
+
+Like
+Reply
+Privacy Policy
+Terms Of Service
+
+© 2025 Xandeum Foundation
+
+All rights reserved

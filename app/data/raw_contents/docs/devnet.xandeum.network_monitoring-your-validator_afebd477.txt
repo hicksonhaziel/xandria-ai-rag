@@ -1,0 +1,306 @@
+URL: https://devnet.xandeum.network/monitoring-your-validator
+TITLE: Monitoring your validator - Xandeum Foundation DevNet
+================================================================================
+
+Xandeum Foundation DevNet
+Ctrl
+K
+Validator Home
+Old Server housekeeping
+Access your server
+Ports Setup
+Setup Your Disks
+Validator Installation
+Setup System Service
+Setup LogRotate
+Starting your validator
+Monitoring your validator
+Onboarding
+Validator Commands
+Learn Tmux
+Validator UPDATE version
+Faucet Repayment
+Troubleshooting
+Docs powered by
+ 
+Archbee
+Validator Home
+Monitoring your validator
+18 min
+Tail your log file
+
+Watch the latest entries in your log file for errors. It moves fast...so may need to stop the tail and read before restarting. Here are several ways to run it. 
+
+When the validator is first starting up, it asks the entrypoint in the start script "what IP address do you see me at?" Then it proceeds to ask the entrypoint if the required ports are open for it to use. This can be searched for during the startup sequence using the last tail option below that will grep 10 lines before and 50 after the search term to see if you are reachable. There is a ton of good connection debugging info in this search. See screenshot below.
+
+Run as sol  user
+
+CLI
+1
+su sol
+
+2
+cd ~
+
+﻿
+CLI
+1
+tail -f ~/validator.log
+
+﻿
+CLI
+1
+tail -f ~/validator.log | grep "search terms"
+
+﻿
+
+This will restart your validator then grep the log file for initial connection info:
+
+CLI
+1
+sudo systemctl restart validator.service &&
+
+2
+tail -f ~/validator.log | grep --color=always -B 10 -A 50 "Checking that tcp ports"
+
+﻿
+Correct ports are reachable
+﻿
+﻿
+
+mon.sh
+
+Create a monitor script to easily run the monitor command
+
+Run as sol user
+
+Create a blank file named mon.sh in your home dir with editor.
+
+CLI
+1
+cd ~
+
+﻿
+nano
+vim
+1
+vim mon.sh
+
+﻿
+
+Copy the code block into the file, correcting your ledger path if needed. Save and exit.
+
+CLI
+1
+agave-validator --ledger ~/ledger monitor
+
+﻿
+
+Make the file executable
+
+CLI
+1
+chmod a+x mon.sh
+
+﻿
+
+Run the monitor from home dir
+
+CLI
+1
+cd ~
+
+2
+./mon.sh
+
+﻿
+
+NOTE: Press enter to drop a line to compare old values and press ctrl+c to exit the monitor command.
+
+﻿
+
+
+catchup.sh
+
+Create a catchup script that compares your machine to the RPC that you are connected to.
+
+
+
+Create a blank file named catchup.sh in your home dir with editor.
+
+CLI
+1
+cd ~
+
+﻿
+nano
+vim
+1
+vim catchup.sh
+
+﻿
+
+Copy the code block into the file. Save and exit.
+
+Note: if using the ALT method for catchup because localhost is not working for you...be sure to grab your validator ID pubkey using solana-keygen pubkey ~/validator-keypair.json
+
+﻿
+
+
+CLI
+ALT
+1
+solana catchup -k ~/validator-keypair.json --our-localhost --follow --verbose
+
+﻿
+
+Make the file executable
+
+CLI
+1
+chmod a+x catchup.sh
+
+﻿
+
+Run the monitor from home dir
+
+CLI
+1
+cd ~
+
+2
+./catchup.sh
+
+﻿
+
+NOTE: Press enter to drop a line to compare old values and press ctrl+c to exit the catchup command.
+
+﻿
+
+
+Watchtower
+
+
+
+NOTE: agave-watchtower is an optional monitoring system running on a separate computer that will alert you in your own personal discord. Setup is required that is not shown in this guide. 
+
+﻿
+
+
+Run as sol user without sudo
+
+﻿
+
+
+Watchtower should be ran from a remote computer that is running 24/7. It works by asking the RPC node if your Validator passes all the sanity checks. It can be added as a service or ran in a tmux window that never closes. You will need the  software compiled to the point that solana -V works after a reboot. You will need to create a Discord or Slack channel with a webhook to make this work. Telegram, PagerDudy, and Twilio are also supported.
+
+This example script checks every <interval> seconds and alerts to Discord and Slack if <unhealthy-threshold> number of failures show in a row...ie 900 seconds
+
+Multiple scripts can be running with different --validator-identity and pumped into the same alert channel and use the --name-suffix to uniquely identify which machine is failing.
+
+﻿
+
+
+NOTE: If our RPC node goes down or is unreachable from your location...you will get false positives that your machine is down...this can be added if desired:
+
+--ignore-http-bad-gateway    
+
+Ignore HTTP 502 Bad Gateway errors from the JSON RPC URL. This flag can help reduce false positives, at the expense of no alerting should a Bad Gateway error be a side effect of the real problem
+
+﻿
+
+
+nano
+vim
+1
+nano watchtower-alerts.sh
+
+﻿
+
+Add text to file and modify for your needs:
+
+text
+1
+export DISCORD_WEBHOOK=https://discord.com/api/webhooks/xxxxxxx/yyyyyyyyyy
+
+2
+export SLACK_WEBHOOK=https://hooks.slack.com/services/xxxxxxxxx/yyyyyyyy/zzzzzz
+
+3
+#note for google spaces output, use the same format as slack but add double quotes, see below.
+
+4
+export SLACK_WEBHOOK="https://chat.googleapis.com/v1/spaces/xxxxxxxxx/messages?key=yyyyyyyyyyy-yyyyyyyytoken=zzzzzzzzzzzzzzz"
+
+5
+
+
+6
+#! /bin/sh
+
+7
+exec agave-watchtower \
+
+8
+         --url https://api.devnet.xandeum.com:8899/ \
+
+9
+         --validator-identity <Validator ID> \
+
+10
+         --name-suffix ::<Alert>:: \
+
+11
+         --interval 300 \
+
+12
+         --unhealthy-threshold 3 \
+
+13
+         --minimum-validator-identity-balance 3 \
+
+14
+
+
+﻿
+CLI
+1
+chmod a+x watchtower-alerts.sh
+
+﻿
+
+Run the script! You may want this running in a tmux session so it stays active when you close your teminal. Learn Tmux
+﻿
+﻿
+
+CLI
+1
+./watchtower-alerts.sh
+
+﻿
+﻿
+
+From the script, we will see that 3 ERRORS in a row checked at 300 second intervals will trigger the alert to be sent to our Discord webhook.
+
+﻿
+
+
+Consider next Zabbix Installation
+﻿
+﻿
+
+Updated 31 Dec 2024
+PREVIOUS
+Starting your validator
+NEXT
+Onboarding
+Copy
+TABLE OF CONTENTS
+Tail your log file
+mon.sh
+catchup.sh
+Watchtower
+Did this page help you?
+Yes
+No
+Back to Top

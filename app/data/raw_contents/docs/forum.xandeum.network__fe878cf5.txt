@@ -1,0 +1,87 @@
+URL: https://forum.xandeum.network/
+TITLE: Xandeum Network
+================================================================================
+
+Skip to main content
+Sign Up
+Log In
+​
+Topics
+More
+CATEGORIES
+General
+Site Feedback
+All categories
+​
+All categories
+categories
+tags
+Categories
+Latest
+Hot
+Category	Topics
+
+XIPs
+Discussions about specific Xandeum Improvement Proposals
+	
+3
+
+
+XIP Ideas
+Drop your XIP ideas here.
+	
+1
+
+
+Token Launch
+All topics concerning the Q4 2024 token launch go here.
+	
+2
+
+
+General
+Create topics here that don’t fit into any other existing category.
+	
+1
+
+
+Site Feedback
+Discussion about this site, its organization, how it works, and how we can improve it.
+	
+0
+
+
+DAO Proposals (non-XIP)
+DAO Proposals that aren’t XIPs are being discussed here
+	
+0
+Latest
+Welcome to Xandeum Network! 
+General
+1
+Sep 2024
+XIP-0003 - Moratorium on Airdrops 3+
+XIPs
+4
+21d
+Moratorium on Airdrops 3+
+XIP Ideas
+1
+27d
+XIP-0002 - Community Moderator Compensation Proposal
+XIPs
+25
+Feb 2025
+New vesting scheme for XANDC holders
+Token Launch
+15
+Feb 2025
+XIP-0001: Devnet Phase 1, vNodes
+XIPs
+21
+Dec 2024
+Tokenomics Community Feedback
+Token Launch
+33
+Dec 2024
+More

@@ -1,0 +1,105 @@
+URL: https://devnet.xandeum.network/setup-logrotate
+TITLE: Setup LogRotate - Xandeum Foundation DevNet
+================================================================================
+
+Xandeum Foundation DevNet
+Ctrl
+K
+Validator Home
+Old Server housekeeping
+Access your server
+Ports Setup
+Setup Your Disks
+Validator Installation
+Setup System Service
+Setup LogRotate
+Starting your validator
+Monitoring your validator
+Onboarding
+Validator Commands
+Learn Tmux
+Validator UPDATE version
+Faucet Repayment
+Troubleshooting
+Docs powered by
+ 
+Archbee
+Validator Home
+Setup LogRotate
+3 min
+LogRotate
+
+LogRotate will break your log into a new file daily and keep 7 days of logs and discard old logs.
+
+Important: Make sure your validator start script starts with exec or your validator will go offline for a time each time the logs rotate.
+
+Run as root user, use sudo -i
+
+Copy code block and paste into terminal.
+
+CLI
+1
+cat > logrotate.agave <<EOF
+
+2
+/home/sol/validator.log {
+
+3
+  rotate 7
+
+4
+  daily
+
+5
+  missingok
+
+6
+  postrotate
+
+7
+	systemctl kill -s USR1 validator.service
+
+8
+  endscript
+
+9
+}
+
+10
+EOF
+
+11
+sudo cp logrotate.agave /etc/logrotate.d/agave
+
+12
+
+
+﻿
+
+Restart logrotate service
+
+CLI
+1
+sudo systemctl restart logrotate.service
+
+﻿
+
+﻿
+
+
+Continue on to Starting your validator
+﻿
+﻿
+
+Updated 15 Dec 2024
+PREVIOUS
+Setup System Service
+NEXT
+Starting your validator
+Copy
+TABLE OF CONTENTS
+LogRotate
+Did this page help you?
+Yes
+No
+Back to Top

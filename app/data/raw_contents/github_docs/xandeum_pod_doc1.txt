@@ -1,0 +1,79 @@
+sourse=https://github.com/Xandeum/pod-docs
+
+Skip to content
+logo
+Xandeum Pod Documentation v0.4.2 v0.4.2
+Home
+
+Home
+pRPC API
+CLI Usage
+Home
+Table of contents
+Quick Start
+Installation
+Basic Usage
+Test Your Setup
+What's Included
+🔌 pRPC API
+⚙️ CLI Usage
+Architecture Overview
+Default Configuration
+Xandeum Logo Xandeum pNode Documentation
+Welcome to the complete documentation for Xandeum pNode - a high-performance blockchain node implementation.
+
+Quick Start
+Installation
+# Install via apt package manager
+sudo apt update
+sudo apt install pod
+Basic Usage
+# Start with default settings (private pRPC)
+pod
+
+# Start with public pRPC access
+pod --rpc-ip 0.0.0.0
+
+# Check version
+pod --version
+
+# Get help
+pod --help
+Test Your Setup
+curl -X POST http://127.0.0.1:6000/rpc \
+  -H "Content-Type: application/json" \
+  -d '{
+    "jsonrpc": "2.0",
+    "method": "get-version",
+    "id": 1
+  }'
+What's Included
+🔌 pRPC API
+Complete JSON-RPC 2.0 API for interacting with your pnode: - get-version: Get pnode software version - get-stats: Retrieve comprehensive pnode statistics - get-pods: List known peer pnodes in the network
+
+View pRPC API Documentation
+
+⚙️ CLI Usage
+Comprehensive command-line reference: - --rpc-ip: Configure pRPC server IP binding - --entrypoint: Set bootstrap node for peer discovery - --atlas-ip: Configure Atlas server connection - And more...
+
+View CLI Documentation
+
+Architecture Overview
+The Xandeum pNode consists of several key components:
+
+pRPC Server: JSON-RPC API on port 6000 (configurable IP)
+Stats Dashboard: Web interface on port 80 (localhost only)
+Gossip Protocol: Peer-to-peer communication on port 9001
+Atlas Client: Data streaming connection on port 5000
+Default Configuration
+Service	Port	Access	Configurable
+pRPC API	6000	Private (127.0.0.1)	IP only
+Stats Dashboard	80	Private (127.0.0.1)	No
+Gossip Protocol	9001	All interfaces	No
+Atlas Connection	5000	Fixed endpoint	No
+Security by Default
+
+The pnode is configured to be secure by default - pRPC API is private unless explicitly configured otherwise.
+
+ Back to top
+Made with Material for MkDocs

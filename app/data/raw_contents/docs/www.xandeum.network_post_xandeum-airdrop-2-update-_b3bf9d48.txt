@@ -1,0 +1,178 @@
+URL: https://www.xandeum.network/post/xandeum-airdrop-2-update-what-s-happening-right-now-november-2025
+TITLE: Xandeum Airdrop 2 Update – What’s Happening Right Now (November 2025)
+================================================================================
+
+Learn
+💡 Docs
+Earn
+Blog
+Subscribe
+Xandeum Airdrop 2 Update – What’s Happening Right Now (November 2025)
+Verena
+
+Nov 24, 2025
+
+2 min read
+
+4
+
+405
+
+0
+
+Hello Xandeum community! Blockchain Bernie just went live from Germany with a big update on Airdrop 2, the points system, and everything that’s coming next. Here is a clear, easy-to-read summary of the most important news.
+
+
+
+1. Airdrop 2 Snapshot is DONE
+
+Snapshot taken on November 19, 2025
+
+Total points collected: approximately 226 million
+
+The team is now reviewing for cheating (empty wallets, fake referrals, etc.)
+
+Suspicious allocations will be temporarily held (same process as Airdrop 1). Users get 6–8 weeks to prove legitimacy. Any unclaimed suspicious rewards will later be redistributed to honest participants.
+
+
+
+2. Airdrop 3 is ALREADY LIVE!
+
+Start earning points for Airdrop 3 today
+
+Visit points.xandeum.network → connect wallet → complete tasks
+
+New bonus: joining the official Xandeum Discord now gives extra points. The goal is to grow from ~4,000 members to 10,000+ very soon.
+
+
+
+3. Upcoming DAO Proposal for Airdrop 2 (60 million $XAND total)
+
+A DAO proposal will be published very soon (expected early next week). The suggested split is three equal parts of 20 million $XAND each:
+
+Part
+
+	
+
+Who gets it
+
+	
+
+Purpose
+
+
+
+
+1
+
+	
+
+Point earners (classic tasks)
+
+	
+
+Reward everyone who liked, retweeted, watched videos, referred friends, etc.
+
+
+
+
+2
+
+	
+
+Developers building storage-enabled dApps on Xandeum
+
+	
+
+Bounties (USDC + $XAND) for useful tools such as pNode analytics, StakeWiz-style dashboards, etc. via the new SuperTeam Pro platform launching next week.
+
+
+
+
+3
+
+	
+
+Content creators & influencers
+
+	
+
+Rewards for high-quality videos and posts that bring real new users (minimum reach required).
+
+$XAND holders decide everything. Anyone can create a competing proposal by gathering ~5–6 million $XAND (owned or delegated).
+
+
+
+4. Fairer Distribution Using the Square-Root Formula
+
+To reward smaller honest participants more fairly, points will go through the square-root formula before final shares are calculated (already used successfully by Jupiter, Marinade, and other large Solana projects).
+
+Example:
+
+User A: 1,000,000 points → square root = 1,000
+
+User B: 1,000 points → square root ≈ 31.6 Instead of a 1,000× difference, the big user only gets ~32× more. Big earners still come out on top, but genuine smaller contributors get a meaningful boost.
+
+
+
+5. Proposed Vesting Schedule
+
+4-month cliff (you’ll see your allocation but can’t claim yet)
+
+Then linear vesting over 12 months This protects the token price until Mainnet and real utility are live.
+
+
+
+6. Other Quick Updates
+
+Season 4 staking rewards (XAND staking & liquid staking) → DAO proposal coming in the next few days
+
+Brand-new documentation live at xandeum.network/docs – feedback welcome!
+
+Major releases in the next few weeks: Ingolstadt v0.5 (pNode metrics), Stuttgart release (redundancy), pNode–NFT assignment portal, and more
+
+SuperTeam Pro bounties launch next week – builders can earn USDC + $XAND
+
+
+
+What You Can Do Right Now
+
+Earn Airdrop 3 points at points.xandeum.network
+
+Join Discord and stay active (big point bonus!)
+
+Watch the DAO next week and vote with your $XAND
+
+Developers & creators: prepare for SuperTeam bounties
+
+Everything is 100 % community-governed via the DAO. The team only proposes – $XAND holders make the final call.
+
+Thank you for being part of Xandeum. Many more exciting updates are coming very soon!
+
+Verena
+
+Nov 24, 2025
+
+2 min read
+
+4
+
+405
+
+0
+
+Related Posts
+See All
+Xandeum Alpha Release: What to Expect
+Xandeum Update: Superteam Bounty, Mainnet Plans, and Airdrop 2
+Xandeum Rewards Now 100% Controlled by $XAND Holders
+Comments
+Write a comment
+Share Your Thoughts
+Be the first to write a comment.
+Privacy Policy
+Terms Of Service
+
+© 2025 Xandeum Foundation
+
+All rights reserved

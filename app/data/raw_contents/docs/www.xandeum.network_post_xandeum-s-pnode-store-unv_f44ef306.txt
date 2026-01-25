@@ -1,0 +1,115 @@
+URL: https://www.xandeum.network/post/xandeum-s-pnode-store-unveiled-first-look-at-dutch-auction-and-nfts
+TITLE: Xandeum’s pNode Store Unveiled: First Look at Dutch Auction and NFTs
+================================================================================
+
+Learn
+💡 Docs
+Earn
+Blog
+Subscribe
+News
+Xandeum’s pNode Store Unveiled: First Look at Dutch Auction and NFTs
+Sean
+
+Aug 15, 2025
+
+4 min read
+
+5
+
+202
+
+0
+
+Xandeum’s pNode Store is live, and it’s a game-changer for Web3 storage! CEO Bernie Blume gave an exclusive first look at the sleek pNode Store and stunning 3D-rendered NFTs for the upcoming Dutch Auction, launching September 6, 2025. With 49 Deep South Era pNodes up for grabs, each offering a 16x era boost for Storage Income (STOINC) and up to an 11x NFT multiplier, this is your chance to join Xandeum’s decentralized storage revolution on Solana. Fresh off the Munich release’s success at Rare Evo 2025, we’re charging toward a future where “dApps thrive”! These final Deep South pNodes are highly coveted, as community members from the Netherlands, Sweden, and beyond are eager to participate—many who missed earlier sales are now waiting to secure theirs.
+
+
+
+
+
+Why Act Now? Key Benefits for the Community
+
+
+
+Getting a pNode during DevNet is crucial for mainnet profitability. If you join now, you receive support from the Xandeum Foundation, including stake delegation of millions of XAND to your pNode—essential for earning STOINC later. Waiting for permissionless mode means you're on your own, with no delegation and a base 1x boost factor. Running your own pNode only pays off with stake from others; your own XAND stake provides no extra value, as you could stake it elsewhere without the operational effort. Deep South pNodes deliver a massive 16x era boost (1,600%), and combining it with a Titan NFT yields up to 176x overall—17,600% compared to permissionless entrants. This boost is guaranteed at least until the end of the North Era, with potential for continuation decided by the community via DAO governance for flexibility as adoption evolves.
+
+
+
+
+
+Munich Release: Powering Web3 Innovation
+
+
+
+Unveiled at Rare Evo 2025, the Munich release (v0.3) delivered a fully functional pNode prototype for file hosting on Xandeum’s storage layer—a massive leap for data-intensive dApps like decentralized YouTube or Dropbox alternatives. Built with Xandeum Web3.js, a thin layer atop Solana’s Web3.js, Munich simplifies development while enabling exabyte-scale storage. The updated XandMiner GUI, powered by Xandeum Pod software, provides real-time pNode performance stats, showcased to enthusiastic crowds at Rare Evo. This community-driven DevNet, with 133 of 300 pNodes upgraded, sets the stage for the pNode Store launch. The release generated significant buzz, including press coverage, VC interest, and outreach from other companies—proving Xandeum's traction.
+
+
+
+
+
+pNode Store and Dutch Auction: Grab Your Boost
+
+
+
+The pNode Store, live at pnodestore.xandeum.network, is your gateway to the Dutch Auction, starting September 6, 2025. As revealed, 49 Deep South Era pNodes are available, each with a 16x era boost for STOINC, as detailed in our STOINC blog post. Early bidders can secure NFTs with multipliers: Titan (11x, $4,900 USDC + 490,000 XAND, first two hours), Dragon (7x), Coyote (2.5x), Rabbit (1.5x), or Cricket (1.1x). Combined with the era boost, a Titan NFT yields a 176x boost—massive for mainnet earnings! Prices drop hourly over 48 hours from a high ceiling, creating a high-stakes environment where waiting risks a sell-out. The store features a countdown timer, high-stakes arena music (turn it on for the full experience!), a progress bar tracking pNodes purchased, and a pie chart showing remaining availability. No limit per buyer—anyone can purchase multiple, but they may sell out fast, potentially even in the first hour.
+
+Vote on the auction’s start time (0:00–23:00 UTC) via the Dutch Decider app before September 5, 2025. Pledge USDC (e.g., as little as $0.20, but higher amounts influence more) to your preferred hour—the winning time is decided by total pledges, displayed in your local timezone. All funds go directly to the Xandeum Foundation to support network development. This ensures fairness, as the start time impacts your strategy (e.g., aligning with your sleep schedule to monitor price drops without missing out).
+
+
+
+
+
+Stunning 3D NFTs: A Visual Feast
+
+
+
+Bernie showcased the Dutch Auction’s 3D-rendered NFTs, designed by our marketing team’s graphics expert, Sean. From the fire-breathing Dragon (with animated flames) to the sleek Titan (with dynamic light reflections), these NFTs animate in your wallet, adding flair to their STOINC-boosting power. “They’re not just rewards—they’re art,” Bernie said. Later hours offer the Coyote, Rabbit, or Cricket NFTs, while the final hours provide no NFT but still the 16x era boost at the lowest price—if any remain. Check them out in the pNode Store and see why our community is buzzing! Note: No NFT airdrops for previous pNode holders; these are exclusive to Dutch Auction buyers for fundraising purposes.
+
+
+
+
+
+Herrenberg and AI Demo App: What’s Next
+
+
+
+The Herrenberg release, nearing completion, will add crude search capabilities to our storage layer, enhancing dApp functionality for developers building social platforms or research hubs. It also introduces an RPC interface for querying pNodes, enabling community-built analytics sites. Our stealth-mode AI demo app, focused on AI accountability and transparency (e.g., verifying LLM responses against bias or censorship), leverages Xandeum’s unique smart contract-integrated storage—impossible on chains like Ethereum or Filecoin due to lack of seamless integration. This app, which restores trust in AI through decentralization, aims to spark a “Cambrian explosion” of storage-enabled dApps. Solana remains our main focus, though we're open to multi-chain support (e.g., Solayer) in the future without shifting priorities.
+
+
+
+
+
+Fundraising and Community Support: Why It Matters
+
+
+
+After 2.5 years since the last major pNode sales, these auctions fund team salaries (now 10 members, with three offshore devs visiting Vegas soon for collaboration), marketing, PR, and development. We're community-funded to stay independent of VCs, though open to them later. Risks include network adoption and dApp success—storage fees depend on thriving apps generating transactions (potentially 5-10x Solana's $45M daily fees). Help grow Xandeum: Like/comment on videos, earn points at points.xandeum.network for X posts/shares, and join Discord for updates.
+
+News
+Sean
+
+Aug 15, 2025
+
+4 min read
+
+5
+
+202
+
+0
+
+Related Posts
+See All
+Unlock 11x Storage Boosts: The Titan NFT Time Travel Sale on Xandeum Network
+Exciting Updates from Xandeum: Foundation Milestones and Exchange Strategies
+Xandeum’s Munich Milestone and What’s Next: Herrenberg, Dutch Auction, and More
+Comments
+Write a comment
+Share Your Thoughts
+Be the first to write a comment.
+Privacy Policy
+Terms Of Service
+
+© 2025 Xandeum Foundation
+
+All rights reserved

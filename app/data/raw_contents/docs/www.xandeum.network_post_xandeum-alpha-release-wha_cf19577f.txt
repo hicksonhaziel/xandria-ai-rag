@@ -1,0 +1,148 @@
+URL: https://www.xandeum.network/post/xandeum-alpha-release-what-to-expect
+TITLE: Xandeum Alpha Release: What to Expect
+================================================================================
+
+Learn
+💡 Docs
+Earn
+Blog
+Subscribe
+Xandeum Alpha Release: What to Expect
+Verena
+
+Dec 14, 2025
+
+3 min read
+
+6
+
+131
+
+1
+
+Xandeum is building a scalable storage layer for the Solana blockchain. This layer allows smart contracts to store large amounts of data in a decentralized way. The upcoming alpha release is an important step toward launching this on Solana mainnet.
+
+
+
+
+
+Timeline for Alpha Release
+
+
+
+The Xandeum team is working hard to launch the alpha release before the end of 2025. The team is in daily development calls and releasing updates frequently. There is a good chance it will go live on mainnet this year. However, since it is an alpha version, a short delay of a week or two would not be a big problem. The focus is on quality and getting real feedback.
+
+
+
+
+
+What Is Included in the Alpha Release
+
+
+
+Storage Layer on Mainnet: The alpha will provide a decentralized storage layer for Solana. Data will be stored across many pNodes (provider nodes) run by the community. There are usually 150 to 200 active pNodes that update quickly.
+
+Redundancy: With recent releases like Stuttgart, data is stored with multiple replicas on different pNodes. This means the same data is copied to several nodes for safety.
+
+Crash Fault Tolerance: The system can handle nodes that crash or go offline (as long as they are not malicious). Data can be recovered from other nodes. This is built in for alpha.
+
+FS Onchain App: An improved version of the FS Onchain app (like a decentralized Dropbox) will be available. Users can store large files in a fault-tolerant way.
+
+Integration with Solana: It uses a modified Solana validator client (Agave) to process Xandeum transactions and access the storage.
+
+
+
+
+
+What Is Not Included in Alpha (Coming in Beta)
+
+
+
+Byzantine Fault Tolerance: This protects against malicious nodes that try to cheat or provide wrong data. It will be added in the beta release.
+
+Full Decentralization: Alpha still has a central component called Atlas, operated by the Xandeum Foundation. This is a single point of failure. In beta, Atlas will be removed and fully distributed to pNodes.
+
+The beta release is planned for the first quarter of 2026.
+
+
+
+
+
+Benefits and Use Cases
+
+
+
+Xandeum storage is designed for applications that need unstoppable data storage. It is accessible directly from smart contracts and acts like a file system (not just simple blob storage). This is useful for:
+
+Organizations that cannot risk losing data due to censorship or policy changes.
+
+Industries in "gray zones," such as cannabis, where access to data might be affected by future rules.
+
+Early adopters could include corporate customers who need reliable, decentralized storage.
+
+For pNode Operators
+
+In alpha, running a mainnet pNode may require extra resources.
+
+Early operators will receive an alpha NFT with advantages.
+
+Storage rewards (staking income) are not available at launch but should start soon after, possibly in early 2026.
+
+Later, pNodes will need to bond XAND tokens for reputation and rewards. Bonding makes stakes slashable for poor performance.
+
+The community of pNode operators is strong and motivated.
+
+
+
+
+
+Next Steps After Alpha
+
+
+
+Add storage rewards quickly.
+
+Move to full bonding and staking for pNodes.
+
+Reach out to customers for real-world use.
+
+Launch beta with full Byzantine fault tolerance and no central components.
+
+After beta, Xandeum will move to a stable, operational product.
+
+This alpha release marks an exciting milestone for scalable storage on Solana. It allows the community to test and provide feedback on mainnet. The team is committed to building a robust, decentralized solution.
+
+Verena
+
+Dec 14, 2025
+
+3 min read
+
+6
+
+131
+
+1
+
+Related Posts
+See All
+Xandeum Update: Superteam Bounty, Mainnet Plans, and Airdrop 2
+Xandeum Airdrop 2 Update – What’s Happening Right Now (November 2025)
+Xandeum Rewards Now 100% Controlled by $XAND Holders
+Comments (1)
+Write a comment
+Sort by:
+Newest
+Substance242
+Dec 15, 2025
+
+Very good, added to PCHED AI. :-)
+
+Like
+Reply
+Privacy Policy
+Terms Of Service
+
+© 2025 Xandeum Foundation
+
+All rights reserved

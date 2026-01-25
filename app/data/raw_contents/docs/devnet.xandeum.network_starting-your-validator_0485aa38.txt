@@ -1,0 +1,124 @@
+URL: https://devnet.xandeum.network/starting-your-validator
+TITLE: Starting your validator - Xandeum Foundation DevNet
+================================================================================
+
+Xandeum Foundation DevNet
+Ctrl
+K
+Validator Home
+Old Server housekeeping
+Access your server
+Ports Setup
+Setup Your Disks
+Validator Installation
+Setup System Service
+Setup LogRotate
+Starting your validator
+Monitoring your validator
+Onboarding
+Validator Commands
+Learn Tmux
+Validator UPDATE version
+Faucet Repayment
+Troubleshooting
+Docs powered by
+ 
+Archbee
+Validator Home
+Starting your validator
+6 min
+There are two methods to start your validator. 
+
+Only run one method or the other. If you have followed the guide, then proceed to option 2 below to start as a background service.
+
+﻿
+
+
+1) Manual 
+
+Manual will require you to keep the terminal window open or use a terminal multiplexor (tmux) as the validatator will die if the window closes.
+
+﻿
+
+
+Run the exec file from the home dir 
+
+CLI
+1
+cd ~
+
+﻿
+CLI
+1
+./validator-start.sh
+
+﻿
+
+﻿
+
+
+﻿
+
+
+﻿
+
+
+﻿
+
+
+2) System Service (Auto)
+
+The service will run in the background and will auto start 1 second after the system reboots. 
+
+NOTE: complete the section Setup System Service
+﻿
+ first.
+
+Run as sudo or root user
+
+Enable the service to run in auto
+
+CLI
+1
+sudo systemctl daemon-reload
+
+2
+sudo systemctl enable --now validator.service
+
+﻿
+
+Check if the service started and stayed running
+
+CLI
+1
+sudo systemctl status validator.service
+
+﻿
+
+Note: You should see the service is active (running) and you should see no exit code in the log at the bottom of the status window as shown below. 
+
+Press q to quit.
+
+﻿
+
+
+﻿
+
+Continue to Monitoring your validator
+﻿
+﻿
+
+Updated 15 Dec 2024
+PREVIOUS
+Setup LogRotate
+NEXT
+Monitoring your validator
+Copy
+TABLE OF CONTENTS
+There are two methods to start your validator.
+1) Manual
+2) System Service (Auto)
+Did this page help you?
+Yes
+No
+Back to Top

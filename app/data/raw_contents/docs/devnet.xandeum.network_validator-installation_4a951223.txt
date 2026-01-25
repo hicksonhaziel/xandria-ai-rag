@@ -1,0 +1,716 @@
+URL: https://devnet.xandeum.network/validator-installation
+TITLE: Validator Installation - Xandeum Foundation DevNet
+================================================================================
+
+Xandeum Foundation DevNet
+Ctrl
+K
+Validator Home
+Old Server housekeeping
+Access your server
+Ports Setup
+Setup Your Disks
+Validator Installation
+Setup System Service
+Setup LogRotate
+Starting your validator
+Monitoring your validator
+Onboarding
+Validator Commands
+Learn Tmux
+Validator UPDATE version
+Faucet Repayment
+Troubleshooting
+Docs powered by
+ 
+Archbee
+Validator Home
+Validator Installation
+47 min
+How To Setup a Xandeum DevNet Validator
+
+NOTE: This guide shows commands for text editors nano and vim. A quick search can find a guide or video to operate these text editors more efficiently and make your life easier.
+
+﻿
+
+
+﻿
+
+1) Update and setup our user
+
+Start with a fresh instance of Linux as the root user. 
+
+These instructions use Ubuntu Server 22.04.2LTS﻿
+
+BEFORE YOU CONTINUE!
+
+Make sure you see your entire drive space as available!
+Use df -h to see your free space. You want to see that you have all your space in a free partition. Ubuntu will want to default to 100g LVM. The preferance is to eliminate LVM and Raid and use all available space for your / mount point. If you don't show all your disk space, run the Ubuntu installer again and pay attention to the storage section.
+
+﻿
+
+
+Get root user
+
+Run as sudo or root user. If you don't have access to the root user, then you will need to prepend all your requests in this section with sudo. 
+
+Notice in the screenshot below I start as user solchange to root user then back to sol. 
+
+Root user has ALL the privledges and won't require sudo. But some items NEED to be ran as the sol user (ie rust install, validator build, etc)
+
+Use sudo -i to change to root user and exit to end root user
+
+﻿
+
+Update your installation
+
+CLI
+1
+sudo apt-get update -y && 
+
+2
+sudo apt-get upgrade -y
+
+﻿
+
+Install a few apps
+
+CLI
+1
+sudo apt install -y bzip2 vnstat
+
+﻿
+CLI
+1
+sudo systemctl enable --now vnstat
+
+﻿
+
+﻿
+
+
+Create Xandeum Validator User Account
+
+Skip creating a user if you already have it
+
+﻿
+
+
+CLI
+1
+sudo adduser sol
+
+﻿
+
+Enter a password and accept defaults to the following questions:
+
+New password:
+ Retype new password:
+ passwd: password updated successfully
+ Changing the user information for xand
+ Enter the new value, or press ENTER for the default
+        Full Name []:
+        Room Number []:
+        Work Phone []:
+        Home Phone []:
+        Other []:
+Is the information correct? [Y/n] y
+
+﻿
+
+
+Add new user to sudo group
+
+CLI
+1
+sudo usermod -aG sudo sol
+
+﻿
+
+Change to the New User account
+
+CLI
+1
+su sol
+
+﻿
+
+﻿
+
+
+Switch the Xand home directory. 
+
+NOTE: If you log in as root and switch to sol it will bring you into the /root dir!
+So use cd ~ to get to home dir each time you log in!
+
+﻿
+
+
+CLI
+1
+cd ~
+
+﻿
+
+Test switching between root user and xand user
+
+Note: When you are root user, your line starts with root and when you are sol user the line starts with sol
+
+﻿
+
+
+CLI
+1
+sudo -i
+
+﻿
+CLI
+1
+exit
+
+﻿
+﻿
+﻿
+2) Choose which release you want to install
+
+Go to the Xandeum Binaries repo and download the tar.bz2 file to your server.
+This guide is using version v2.2.0-xandeum_c9b4b31d but check for newer releases.
+You can right-click on the file name to copy the download link.
+https://github.com/Xandeum/binaries/releases﻿
+
+﻿
+
+Set the version and filename variables
+
+Text
+1
+ver="v2.2.0-xandeum_b5f66263"
+
+2
+file="v2.2.0-xandeum_b5f66263.tar.gz"
+
+3
+echo -e "\n"
+
+4
+echo version=$ver;
+
+5
+echo filename=$file
+
+6
+echo -e "\n"
+
+﻿
+CLI
+1
+cd ~
+
+2
+wget https://github.com/Xandeum/binaries/releases/download/$ver/$file
+
+﻿
+
+Create the needed bin folder
+
+CLI
+1
+mkdir ~/.local/share/xandeum/install/releases/$ver -p
+
+﻿
+
+Extract the file into the new bin dir
+
+Add a directory for connection info
+
+CLI
+1
+sudo mkdir -p /var/run/xandeum && chown sol:sol /var/run/xandeum && chmod 755 /var/run/xandeum
+
+﻿
+
+Test a binary by running it in the local folder
+
+CLI
+1
+cd ~/.local/share/xandeum/install/releases/$ver/bin
+
+﻿
+CLI
+1
+./agave-validator -V
+
+﻿
+﻿
+
+Remove downloaded file if binaries are working
+
+CLI
+1
+rm ~/$file
+
+﻿
+Set our symlink, PATH, and some convenient aliases
+
+Set a symlink from our new release to the active_release folder we will use in our $PATH later. (This command removes an old symlink to active_release if it exists)
+
+CLI
+1
+rm /home/sol/.local/share/xandeum/install/releases/active_release
+
+2
+ln -sf /home/sol/.local/share/xandeum/install/releases/$ver/bin /home/sol/.local/share/xandeum/install/releases/active_release
+
+﻿
+
+Backup the old $PATH for reference.
+
+CLI
+1
+echo $PATH >> ~/PATH.bak
+
+﻿
+
+Using your favorite editor to open the bashrc config:
+
+nano
+vim
+1
+vim ~/.bashrc
+
+﻿
+
+Add the following lines at the very bottom and save your changes and exit.
+
+text
+1
+export PATH="/home/sol/.local/share/xandeum/install/releases/active_release:$PATH"
+
+2
+alias l="ls -a --color=auto"
+
+3
+alias ll="ls -alh --color=auto"
+
+4
+alias sv="solana validators --sort skip-rate --reverse"
+
+5
+alias sg="solana gossip"
+
+6
+alias se="solana epoch-info"
+
+7
+alias sb="solana balance"
+
+﻿
+CLI
+1
+source ~/.bashrc
+
+﻿
+Check your Install of the software
+
+As sol user, time to test if everything worked.
+
+CLI
+1
+cd ~
+
+2
+agave-validator -V
+
+﻿
+Check Xandeum Software Version:
+Results should appear simlar to the following (check for correct version and src)
+﻿
+
+﻿
+
+
+﻿
+﻿
+
+3) Configure your validator instance.
+
+Please observe proper security of your private keys! 
+
+MainNet Keys should be created on a secure machine, not an unknown remote machine.
+
+Record your 12 words (and bip39 passphrase) in a safe spot. For DevNet it's not critical if you lose them...but if on MainNet, losing the keys equals LOST FUNDS. There is no recovering from lost keys.
+
+For MainNet, your withdraw authority key should never be on your machine!
+
+﻿
+
+
+Generate your 3 DevNet keys.
+
+NOTE: If you already have created keys on this machine from the previous install, 
+DON'T CREATE NEW ONES!
+Skip to Switch to Xandeum Cluster instead.
+
+﻿
+
+
+You can leave the  bip39 passphrase empty (only applies to DevNet/TesNet since it is not real money).
+Your 12 words and pubkey are shown immediatly after the prompt for bip39 passphrase.
+Take note of the public key it provides you (copy it down). It will help us help you should there be an issue.
+
+Run as sol user!
+
+﻿
+
+
+CLI
+1
+cd ~
+
+﻿
+
+Create your3 keys...note down all 3 keyphrases before you continue on.
+
+CLI
+1
+solana-keygen new -o ~/validator-keypair.json
+
+2
+solana-keygen new -o ~/vote-keypair.json
+
+3
+solana-keygen new -o ~/withdraw-keypair.json
+
+﻿
+
+To view your public key later
+
+CLI
+1
+solana-keygen pubkey ~/validator-keypair.json
+
+﻿
+
+View your current configuration information
+
+CLI
+1
+solana config get
+
+﻿
+Switch to Xandeum cluster
+CLI
+1
+solana config set --url https://api.devnet.xandeum.com:8899
+
+﻿
+Set your new keypair to be used by default.
+CLI
+1
+solana config set --keypair ~/validator-keypair.json
+
+﻿
+Testing our work so far.
+Check your connecrtion to the cluster
+Linux
+1
+solana gossip
+
+﻿
+Request an airdrop from the Xand Faucet
+CLI
+1
+solana airdrop 1 ~/validator-keypair.json
+
+﻿
+
+Do this again 4 more times. (We are also giving you fake SOL tokens to get started.)
+
+There is a daily limit per wallet...These tokens on TestNet/DevNet are not real.
+Check your wallet balance.
+CLI
+1
+solana balance
+
+﻿
+
+You should have ~5 tokens present if you do it 5x's.
+
+﻿
+
+
+Create your vote account.
+Submit a transaction on the blockchain setting up your vote account
+CLI
+1
+solana create-vote-account --commission 0 ~/vote-keypair.json ~/validator-keypair.json ~/withdraw-keypair.json
+
+﻿
+
+To find your Vote Account Pubkey later, use:
+
+CLI
+1
+solana-keygen pubkey ~/vote-keypair.json
+
+﻿
+﻿
+﻿
+
+4) Configure your Start Script Configuration
+Create your validator configuration file using your editor
+nano
+vim
+1
+vim ~/validator-start.sh
+
+﻿
+There will be nothing in here, so copy and paste in the following configurations. Save and Exit.
+text
+1
+#!/bin/bash
+
+2
+exec agave-validator \
+
+3
+        --known-validator G6x4w89TJA9oDBSRNcpeanaThqBUJbEv5DJRBZGrQHYV \
+
+4
+        --known-validator 5PW1SsXftQqKLF9FU88898BMG1vv3tqYRrVkGkFRwobs \
+
+5
+        --known-validator 96wn2RrHFxXNMNJCN64qZCpBPCkHVTuKfWoeRTGrCdDy \
+
+6
+        --known-validator DiEyTNni4uPwXaj9AX4pvFWvYFY5FKLEo3RRgN6Q22Lc \
+
+7
+        --known-validator 9HKXdh8Veb278efwgPjsRkQtyJEGhyGP8vkbCSmp4HgR \
+
+8
+        --entrypoint xand-5.devnet.xandeum.com:8000 \
+
+9
+        --entrypoint xand-4.devnet.xandeum.com:8000 \
+
+10
+        --entrypoint xand-3.devnet.xandeum.com:8000 \
+
+11
+        --entrypoint xand-2.devnet.xandeum.com:8000 \
+
+12
+        --entrypoint xand-1.devnet.xandeum.com:8000 \
+
+13
+        --expected-shred-version 48698 \
+
+14
+        --expected-genesis-hash 7BNTf1Z8KDUb3yCsNiVS5XH1CxfYG3HQP2VeHMVqP7AW \
+
+15
+        --snapshot-interval-slots 500 \
+
+16
+        --full-snapshot-interval-slots 10000 \
+
+17
+        --identity ~/validator-keypair.json \
+
+18
+        --vote-account ~/vote-keypair.json \
+
+19
+        --ledger ~/ledger/ \
+
+20
+        --dynamic-port-range 8000-10000 \
+
+21
+        --rpc-port 8899 \
+
+22
+        --log ~/validator.log \
+
+23
+        --no-poh-speed-test \
+
+24
+        --limit-ledger-size 30000000
+
+25
+
+
+﻿
+
+Note: Every trailing \ is important!
+Any commented lines # must be at the bottom of the script. This is to save a command that may be needed later but not used now.
+
+Note: Change the location of ledger in the script to your second drive if you aren't using raid0
+
+Here are the known-validators:
+
+xand-1 9HKXdh8Veb278efwgPjsRkQtyJEGhyGP8vkbCSmp4HgR
+xand-2 DiEyTNni4uPwXaj9AX4pvFWvYFY5FKLEo3RRgN6Q22Lc   
+
+xand-3 96wn2RrHFxXNMNJCN64qZCpBPCkHVTuKfWoeRTGrCdDy
+xand-4 5PW1SsXftQqKLF9FU88898BMG1vv3tqYRrVkGkFRwobs
+xand-5 G6x4w89TJA9oDBSRNcpeanaThqBUJbEv5DJRBZGrQHYV
+
+
+
+
+
+﻿
+
+
+Make the script you just made executable.
+CLI
+1
+chmod a+x ~/validator-start.sh
+
+﻿
+﻿
+﻿
+
+5) System Tuning
+
+Run as root user, use sudo -i
+
+﻿
+
+
+Optimize sysctl knobs (copy block and paste into teminal, press return)
+
+CLI
+1
+sudo bash -c "cat >/etc/sysctl.d/21-agave-validator.conf <<EOF
+
+2
+# Increase UDP buffer sizes
+
+3
+net.core.rmem_default = 134217728
+
+4
+net.core.rmem_max = 134217728
+
+5
+net.core.wmem_default = 134217728
+
+6
+net.core.wmem_max = 134217728
+
+7
+
+
+8
+# Increase memory mapped files limit
+
+9
+vm.max_map_count = 2000000
+
+10
+
+
+11
+# Increase number of allowed open file descriptors
+
+12
+fs.nr_open = 2000000
+
+13
+EOF"
+
+﻿
+CLI
+1
+sudo sysctl -p /etc/sysctl.d/21-agave-validator.conf
+
+﻿
+
+Open the file /etc/systemd/system.conf in your editor
+
+nano
+vim
+1
+sudo vim /etc/systemd/system.conf
+
+﻿
+
+Add the following to the [Manager] section. Save and exit.
+
+CLI
+1
+DefaultLimitNOFILE=2000000
+
+﻿
+
+Reload the daemon
+
+CLI
+1
+sudo systemctl daemon-reload
+
+﻿
+
+Increase process file desriptor count limit. (copy block and paste into teminal, press return)
+
+CLI
+1
+sudo bash -c "cat >/etc/security/limits.d/90-agave-nofiles.conf <<EOF
+
+2
+# Increase process file descriptor count limit
+
+3
+* - nofile 2000000
+
+4
+EOF"
+
+﻿
+
+This section is complete. Exit all shells or reboot to activate changes!
+
+﻿
+
+
+﻿
+
+
+Continue on to Setup System Service
+﻿
+﻿
+
+﻿
+
+
+Updated 18 Jun 2025
+PREVIOUS
+Setup Your Disks
+NEXT
+Setup System Service
+Copy
+TABLE OF CONTENTS
+How To Setup a Xandeum DevNet Validator
+1) Update and setup our user
+2) Choose which release you want to install
+Set our symlink, PATH, and some convenient aliases
+Check your Install of the software
+3) Configure your validator instance.
+Generate your 3 DevNet keys.
+Switch to Xandeum cluster
+Set your new keypair to be used by default.
+Testing our work so far.
+Check your wallet balance.
+Create your vote account.
+4) Configure your Start Script Configuration
+Create your validator configuration file using your editor
+Make the script you just made executable.
+5) System Tuning
+Did this page help you?
+Yes
+No
+Back to Top

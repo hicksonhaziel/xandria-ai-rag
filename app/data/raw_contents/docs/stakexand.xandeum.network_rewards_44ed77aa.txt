@@ -1,0 +1,30 @@
+URL: http://stakexand.xandeum.network/rewards
+TITLE: XAND Rewards Claim Portal
+================================================================================
+
+Stake
+
+Rewards
+
+Unstake
+
+Select Wallet
+Current Rewards Season :	5	(October 29, 2025 - January 29, 2026)
+Previous Season :	4	(July 29, 2025 - October 29, 2025)
+Claim Your XAND Rewards
+
+Welcome to the XAND Rewards Claim portal!
+
+This claim portal is for claiming the XAND Rewards. Please make sure you have the required information before proceeding.
+
+Connect Wallet
+
+Powered by
+
+Xandeum Foundation (PA)
+
+Menu
+
+Home
+
+Xandeum Network

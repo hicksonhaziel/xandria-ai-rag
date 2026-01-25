@@ -1,0 +1,146 @@
+URL: https://devnet.xandeum.network/faucet-repayment
+TITLE: Faucet Repayment - Xandeum Foundation DevNet
+================================================================================
+
+Xandeum Foundation DevNet
+Ctrl
+K
+Validator Home
+Old Server housekeeping
+Access your server
+Ports Setup
+Setup Your Disks
+Validator Installation
+Setup System Service
+Setup LogRotate
+Starting your validator
+Monitoring your validator
+Onboarding
+Validator Commands
+Learn Tmux
+Validator UPDATE version
+Faucet Repayment
+Troubleshooting
+Docs powered by
+ 
+Archbee
+Faucet Repayment
+8 min
+
+The Faucet is used to supply tokens for development and staking on our DevNet. They have no value. When you run a DevNet validator, you earn DevNet Tokens into your vote account. We would appreciate you repaying these back into the faucet so we can keep funding future projects on DevNet! We have 2 wallet accounts for the faucet. 
+
+Use this to send some to your validator-keypair for voting fees too!
+
+Check out the "High Op-Sec option" below to test out having your withdrawal account removed from your machine!
+
+DevNet Faucet Addresses:
+BkFN8AC5aak9bXYxLLyXsUm1QJhbZh6aYEVHidJC3rs7
+﻿
+
+
+﻿
+
+
+DevNet Standard
+
+Run as sol user from the /user/sol directory
+
+CLI
+1
+su xand
+
+2
+cd ~
+
+﻿
+
+﻿
+
+
+Check your balance (yea, we wish it were real too!)
+
+CLI
+1
+solana balance ~/vote-keypair.json
+
+﻿
+
+﻿
+
+
+If your withdraw key is stored on the machine (highly undesireable once we get to mainnet!) Send 1000 to your validator-keypair to pay for vote transactions:
+
+CLI
+1
+solana withdraw-from-vote-account --authorized-withdrawer ~/withdraw-keypair.json ~/vote-keypair.json ~/validator-keypair.json 50
+
+﻿
+
+Send the rest of your DevNet earnings back to the faucet (don't worry, you will earn more!)
+
+CLI
+1
+solana withdraw-from-vote-account --authorized-withdrawer withdraw-keypair.json vote-keypair.json BkFN8AC5aak9bXYxLLyXsUm1QJhbZh6aYEVHidJC3rs7 ALL
+
+﻿
+
+﻿
+
+
+﻿
+
+
+﻿
+
+
+High Op-Sec option
+
+It would be worthwhile to figure these options out while on DevNet!
+
+﻿
+
+
+If your withdraw key is NOT stored on the machine, then use this. This will require you to input your 12 words (+bip39 passphrase if used). It may be most desirable to recover all keys needed to a secure local machine. 
+
+CLI
+1
+solana withdraw-from-vote-account --authorized-withdrawer ASK vote-keypair.json BkFN8AC5aak9bXYxLLyXsUm1QJhbZh6aYEVHidJC3rs7 ALL
+
+﻿
+
+NOTE: If you require more than one transaction with the recovered key, you may wish to temporarily recover the key to a file to process multiple transactions without requiring the 12 words each time.
+
+Recover a keypair from seed phrase to json output file. Bip39 passphrase (if used) will be required after seed phrase is accepted.
+
+CLI
+1
+solana-keygen recover -o temporary-key.json
+
+﻿
+
+Withdraw from vote account using temporary withdraw keyfile and send back to faucet address.
+
+CLI
+1
+xandeum withdraw-from-vote-account --authorized-withdrawer temporary-key.json vote-keypair.json BkFN8AC5aak9bXYxLLyXsUm1QJhbZh6aYEVHidJC3rs7 ALL
+
+﻿
+
+Don't forget to remove the temporary key from the machine so the two keys required to withdraw from your vote-account are not sitting side-by-side!
+
+﻿
+
+
+Updated 28 Dec 2024
+PREVIOUS
+Validator UPDATE version
+NEXT
+Troubleshooting
+Copy
+TABLE OF CONTENTS
+DevNet Standard
+High Op-Sec option
+Did this page help you?
+Yes
+No
+Back to Top

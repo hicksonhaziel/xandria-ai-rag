@@ -1,0 +1,60 @@
+URL: https://devnet.xandeum.network/learn-tmux
+TITLE: Learn Tmux - Xandeum Foundation DevNet
+================================================================================
+
+Xandeum Foundation DevNet
+Ctrl
+K
+Validator Home
+Old Server housekeeping
+Access your server
+Ports Setup
+Setup Your Disks
+Validator Installation
+Setup System Service
+Setup LogRotate
+Starting your validator
+Monitoring your validator
+Onboarding
+Validator Commands
+Learn Tmux
+Validator UPDATE version
+Faucet Repayment
+Troubleshooting
+Docs powered by
+ 
+Archbee
+Validator Home
+Learn Tmux
+1 min
+
+Tmux is a teminal multiplexor...allowing you to run more than one terminal instance in the same window and switch between them. 
+
+It also allows you multiple pages that can have one or more panes of terminal windows.
+
+Added benifits are that the windows all stay running and multiple people can view and work on the same session at the same time.
+
+﻿https://www.redhat.com/sysadmin/introduction-tmux-linux﻿
+
+﻿https://tmuxcheatsheet.com/﻿
+
+This isn't required, but is a helpful tool once you learn how to use it.
+
+﻿
+
+
+﻿
+
+﻿
+
+
+Updated 28 Dec 2024
+PREVIOUS
+Validator Commands
+NEXT
+Validator UPDATE version
+Copy
+Did this page help you?
+Yes
+No
+Back to Top

@@ -1,0 +1,68 @@
+URL: https://docs.xandeum.network/
+TITLE: Getting Started - Docs (getting-started)
+================================================================================
+
+Home
+Docs
+API
+Cookbook
+Get Support
+Ctrl
+K
+Getting Started
+v1.2 Bonn
+Core Concepts
+🐻
+Operator Guides
+🐺
+Developer Guides
+⚔️
+Older Releases
+Getting Started
+﻿
+
+Welcome to Xandeum Network, the groundbreaking scalable storage platform transforming Solana with scalable, secure, and smart contract-native solutions for data-intensive Web3 applications. 
+
+Built to tackle network congestion and reliability challenges, Xandeum empowers developers and users with exabyte-scale storage, innovative pNodes for distributed data management, and the XAND token for seamless governance and rewards. 
+
+Join us in redefining blockchain efficiency and unlocking the future of decentralized innovation.
+
+🚀
+
+﻿Introduction
+﻿
+ 
+
+Xandeum is a revolutionary scalable storage solution on Solana, enabling fast, data-intensive Web3 apps with exabyte-scale capacity, seamless smart contracts, and true decentralization.
+
+﻿
+
+
+﻿The blockchain storage trilemma
+﻿
+﻿
+
+
+Xandeum solves the blockchain storage trilemma by delivering exabyte-scale scalability, seamless smart contract-native integration, and instant random access, empowering data-intensive Web3 apps on Solana without compromises.
+
+﻿
+
+
+﻿Xandeum's scalable storage solution
+﻿
+﻿
+
+
+Xandeum operates as a complementary infrastructure to Solana, and it extends Solana's capabilities through seamless primitives that allow smart contracts to store, retrieve, and verify large datasets.
+
+﻿
+
+
+Updated 04 Dec 2025
+NEXT
+Introduction
+Copy
+Did this page help you?
+Yes
+No
+Back to Top

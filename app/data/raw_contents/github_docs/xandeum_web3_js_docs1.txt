@@ -1,0 +1,228 @@
+source=https://github.com/Xandeum/xandeum-web3.js
+path_from_source=/docs
+
+
+[**Xandeum Web3 Library v1.12.0**](../README.md)
+
+***
+
+[Xandeum Web3 Library](../globals.md) / armageddon
+
+# Function: armageddon()
+
+> **armageddon**(`fsid`, `wallet`): `Promise`\<`Transaction`\>
+
+Defined in: [armageddon.ts:13](https://github.com/Xandeum/xandeum-web3.js/blob/master/src/armageddon.ts#L13)
+
+Constructs a Solana transaction that triggers the "armageddon" instruction
+on the specified file system (fsid).
+
+## Parameters
+
+### fsid
+
+`string`
+
+A stringified integer representing the file system ID to be used in the instruction.
+
+### wallet
+
+`PublicKey`
+
+The public key of the wallet that will sign and authorize the transaction.
+
+## Returns
+
+`Promise`\<`Transaction`\>
+
+A Promise that resolves to a Solana `Transaction` object containing the armageddon instruction.
+
+
+///
+
+[**Xandeum Web3 Library v1.12.0**](../README.md)
+
+***
+
+[Xandeum Web3 Library](../globals.md) / bigbang
+
+# Function: bigbang()
+
+> **bigbang**(`wallet`): `Promise`\<`Transaction`\>
+
+
+Defined in: [bigbang.ts:10](https://github.com/Xandeum/xandeum-web3.js/blob/master/src/bigbang.ts#L10)
+
+Constructs a Solana transaction that triggers the "bigbang" instruction and create new file system.
+
+## Parameters
+
+### wallet
+
+`PublicKey`
+
+The public key of the wallet that will sign and authorize the transaction.
+
+## Returns
+
+`Promise`\<`Transaction`\>
+
+A Promise that resolves to a Solana `Transaction` object containing the bigbang instruction.
+
+//
+
+[**Xandeum Web3 Library v1.12.0**](../README.md)
+
+***
+
+[Xandeum Web3 Library](../globals.md) / copyPath
+
+# Function: copyPath()
+
+> **copyPath**(`fsid`, `srcPath`, `destPath`, `wallet`): `Promise`\<`Transaction`\>
+
+Defined in: [copyPath.ts:18](https://github.com/Xandeum/xandeum-web3.js/blob/master/src/copyPath.ts#L18)
+
+Constructs a Solana transaction to copy a file or directory from one  path to another.
+
+## Parameters
+
+### fsid
+
+`string`
+
+The unique numeric identifier representing the target file system.
+
+### srcPath
+
+`string`
+
+The source path to copy from (e.g., `/documents/report.txt`).
+
+### destPath
+
+`string`
+
+The destination path to copy to (e.g., `/archive/report.txt`).
+
+### wallet
+
+`PublicKey`
+
+The wallet public key used to sign and authorize the transaction.
+
+## Returns
+
+`Promise`\<`Transaction`\>
+
+A Promise that resolves to a Solana `Transaction` object containing the copyPath instruction.
+
+## Throws
+
+Will throw an error if `srcPath` or `destPath` contains invalid characters.
+
+//
+
+[**Xandeum Web3 Library v1.12.0**](../README.md)
+
+***
+
+[Xandeum Web3 Library](../globals.md) / createDirectory
+
+# Function: createDirectory()
+
+> **createDirectory**(`fsid`, `path`, `name`, `wallet`): `Promise`\<`Transaction`\>
+
+
+Defined in: [createDirectory.ts:17](https://github.com/Xandeum/xandeum-web3.js/blob/master/src/createDirectory.ts#L17)
+
+Constructs a Solana transaction to create a new directory within a  file system.
+
+## Parameters
+
+### fsid
+
+`string`
+
+A numeric filesystem identifier used to scope the directory creation.
+
+### path
+
+`string`
+
+The parent path where the directory should be created (e.g., `/documents`).
+
+### name
+
+`string`
+
+The name of the new directory (e.g., `reports`).
+
+### wallet
+
+`PublicKey`
+
+The signer’s public key that authorizes the transaction.
+
+## Returns
+
+`Promise`\<`Transaction`\>
+
+A Promise that resolves to a Solana `Transaction` object containing the createDirectory instruction.
+
+## Throws
+
+Will throw an error if `path` or `name` contains invalid characters.@throws Will throw if the combined path is invalid (non-alphanumeric or unsupported characters).
+
+//
+
+[**Xandeum Web3 Library v1.12.0**](../README.md)
+
+***
+
+[Xandeum Web3 Library](../globals.md) / createFile
+
+# Function: createFile()
+
+> **createFile**(`fsid`, `path`, `name`, `wallet`): `Promise`\<`Transaction`\>
+
+Defined in: [createFile.ts:17](https://github.com/Xandeum/xandeum-web3.js/blob/master/src/createFile.ts#L17)
+
+Constructs a Solana transaction to create a new file
+within a file system, identified by a file system ID (`fsid`).
+
+## Parameters
+
+### fsid
+
+`string`
+
+A stringified integer representing the file system ID where the file is to be created.
+
+### path
+
+`string`
+
+The absolute or relative path within the file system where the file should be created.
+
+### name
+
+`string`
+
+The name of the new file or directory to be created.
+
+### wallet
+
+`PublicKey`
+
+The public key of the wallet that will sign and authorize the transaction.
+
+## Returns
+
+`Promise`\<`Transaction`\>
+
+A Promise that resolves to a Solana `Transaction` object containing the createFile instruction.
+
+## Throws
+
+Will throw an error if `path` or `name` contains invalid characters.

@@ -1,0 +1,213 @@
+sources=xandeum discord support channel 
+
+Ymetro
+
+Role icon, Chat Mod — 5/28/25, 10:11 AM
+Can someone help me out? - I am getting a 
+bind [127.0.0.1]:3000/4000: Permission denied
+channel_setup_fwd_listener_tcpip: cannot listen to port: 3000/4000
+Could not request local forwarding. 
+I changed nothing of the command line to SSH into the VPS/PC, but somehow it does not connect anymore. Dit some Linux update change things?
+Ymetro
+
+Role icon, Chat Mod — 5/28/25, 10:20 AM
+The AI I'm chatting with mentions: 
+using root - I do ✅;
+ports above 1024 - we use 3000 and 4000, so ✅;
+installing authbind - not willing to do that yet ❌;
+use the -R option of SSH for a reverse tunnel...
+ 
+The last option - isn't that what we used to do instead of using -L? As we are reverse-tunneling, right?
+Ports 3000 and 4000 are not opened in the firewall on the remote systems.
+This is all about the pNodes. If this is not te correct channel for these questions, then please, redirect me.
+mrhcon
+
+ — 5/28/25, 10:26 AM
+Please provice the full command you are trying to run (minus  your ip address)
+Please also ensure you not already running the command.
+You can do that by going to the browser and going to http://localhost:3000/
+Ymetro
+
+Role icon, Chat Mod — 5/28/25, 10:32 AM
+http://localhost:3000/ did not respond, so does that mean I have no tunnel open or are there 2 tunnels open that collide with each other?
+I am using 
+ssh -i ~/.ssh/id_ed25519 -L 4000:localhost:4000 -L 3000:localhost:3000 root@<ip-address> 
+as the command for my local PC and remote VPS. 
+Both are displaying the exact same errors about the local portbinding.
+mrhcon
+
+ — 5/28/25, 10:35 AM
+You only run that command on local PC, NOT on the VPS
+Ymetro
+
+Role icon, Chat Mod — 5/28/25, 10:35 AM
+Yes I do.
+mrhcon
+
+ — 5/28/25, 10:36 AM
+You go to http://localhost:3000/ on your local PC 
+Ymetro
+
+Role icon, Chat Mod — 5/28/25, 10:36 AM
+Sorry I mean I login from my local PC to another PC on my local network or to the VPS
+Ymetro
+
+Role icon, Chat Mod — 5/28/25, 10:37 AM
+That responds with a "page not available" error (roughly translated from Dutch)
+mrhcon
+
+ — 5/28/25, 10:37 AM
+Running that command (where ithe <ip-address> is the ip address of your VPS.
+Ymetro
+
+Role icon, Chat Mod — 5/28/25, 10:37 AM
+... or my local machine.
+mrhcon
+
+ — 5/28/25, 10:37 AM
+?
+Ymetro
+
+Role icon, Chat Mod — 5/28/25, 10:38 AM
+But I think the focus has to be on the remote (LAN and VPS) system.
+mrhcon
+
+ — 5/28/25, 10:39 AM
+From 1 machine at your home, run that command and insert the ip address of your VPS in here -> <ip-address>
+Ymetro
+
+Role icon, Chat Mod — 5/28/25, 10:39 AM
+Just to be clear: I have a pNode running on a local PC (a NUC) on my local network, that I can access from my work PC
+AND
+a pNode running on a Contabo VPS instance.
+Both "remote" systems display the same error
+Ymetro
+
+Role icon, Chat Mod — 5/28/25, 10:42 AM
+O, I just removed the IP address of my local box and the remote VPS for privacy concerns and replaced it here with the "<ip-address>" part. 
+So I do use the correct IP addressess to connect to, but the binding of the ports 3000 and 4000 fails all of a sudden.
+Could someone take a peak at their node to see if they have a similar error?
+Ymetro
+
+Role icon, Chat Mod — 5/28/25, 10:54 AM
+When using the -R option it responds on the remote machine with "Warning: remote port forwarding failed for listen port 3000/4000". So that is not the issue, I guess.
+Then authbind is the thing to learn about.
+"It allows a program that would normally require superuser privileges to access privileged network services to run as a non-privileged user." - Wikipedia. 
+I guess that would be unwise to use. 
+O, and elevating the cmd.exe to admin in Windows Terminal did not help.
+Ymetro
+
+Role icon, Chat Mod — 5/28/25, 10:59 AM
+Could you login on one of your pNodes to check if you get errors like I got?
+mrhcon
+
+ — 5/28/25, 11:03 AM
+I ran the ssh command on a PC (not the pNode) and was able to run it correctly.  Then on the same machine that I ran the ssh command, I had no issue going to http://localhost:3000/ via that machines browser. 
+Why would I log into the pNode?
+You are runnning the ssh command from a machine that is NOT your pNode.
+It's creating a tunnel (like a train tunnel from one side of the mountain to another) from one machine to another directly linking them, 
+Ymetro
+
+Role icon, Chat Mod — 5/28/25, 11:15 AM
+I run the command from my private PC to connect to the remote systems.
+Ymetro
+
+Role icon, Chat Mod — 5/28/25, 11:16 AM
+This did work for me until today. I'll give my non-pNode PC a reboot to check if it fixes this.
+Hm, I tried from a different PC (a Steam Deck running KDE Plasma on Arch) and no such errors!
+So something is up with my Windows PC...
+Well, I'll reboot first.
+Ymetro
+
+Role icon, Chat Mod — 5/28/25, 11:33 AM
+That reboot fixed it! That was weird... 
+I guess I got a bit scared I couldn't contact my nodes anymore. At least for the GUI part.
+Flexispy — 5/29/25, 4:44 AM
+Is team indeed planning for 5 points rewards airdrop?
+Image
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 5/29/25, 5:15 AM
+In one form or another the earmarked tokens will be used for community engagement of some sort. But the DAO might have control enough by then to decide on that.
+grinku0x — 5/29/25, 8:45 PM
+@Brad|Xandeum-imposter DM'ing You 
+Hi team, I want to report a security issue. Can you guide me on how to proceed with the responsible disclosure process? Additionally, are there any rewards for bug bounty submissions? Thanks!
+YAGPDB.xyz
+APP
+ — 5/29/25, 8:45 PM
+Gave +1 Rep to @Brad|Xandeum-imposter DM'ing You (current: #1 - 129)
+Ymetro
+
+Role icon, Chat Mod — 5/29/25, 9:22 PM
+If you want to contact the team directly about an issue, the only way is to open a support ticket at ⁠🎫open-a-ticket. 
+selfmade skillionaire — 6/2/25, 7:46 PM
+@Brad|Xandeum-imposter DM'ing You Hey Brad, I just changed the payment wallet address of my second Pnode, hope it went through... Sorry for any inconvenience.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 6/3/25, 12:08 PM
+Can you open a ticket ⁠🎫open-a-ticket and give us the correct wallet address so we can remove the incorrect one from the list.
+selfmade skillionaire — 6/3/25, 12:30 PM
+👍Done…
+ocd.andy — 6/7/25, 9:17 AM
+Hi, is there any word of the new conversion window for XANDC to XAND?
+Zedok
+
+ — 6/7/25, 12:43 PM
+No word yet
+lulu — 6/14/25, 6:54 PM
+@Brad|Xandeum-imposter DM'ing You Hi, after speaking to Niccolo, I urgently need to confirm if my pNode is still running.
+
+After a system issue, I lost access to the Docker container, but I still have my keypair (pnode-keypair.json) and a working snapshot from right after I installed it.
+
+Before I reinstall or restore from the snapshot, could you please check whether my pNode is still online and earning? Who should I send my wallet address to?
+
+Thanks a lot — this issue has been going for weeks and I want to make sure I don’t lose my earnings.
+YAGPDB.xyz
+APP
+ — 6/14/25, 6:54 PM
+Gave +1 Rep to @Brad|Xandeum-imposter DM'ing You (current: #1 - 132)
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 6/15/25, 8:51 PM
+Check your pNode by logging into it via the SSH command and check they web gui for a connection.
+lulu — 6/17/25, 5:40 PM
+Thanks. I have regained SSH access prior to my message here. However, the original pNode setup seems to be missing (no Docker installed, no containers running, etc.). I'm restoring from a snapshot taken before the issue. Can someone please confirm if my node is currently connected on your end? I can PM you the  wallet address (already sent to Bernie but no reaction so far). 
+If recovery fails, can I reinstall and restore using my backed-up pnode-keypair.json — and will I retain my rewards and onboarding status?
+YAGPDB.xyz
+APP
+ — 6/17/25, 5:40 PM
+Gave +1 Rep to @Brad|Xandeum-imposter DM'ing You (current: #1 - 135)
+Substance 2.42Role icon, Chat Mod — 6/18/25, 11:41 AM
+Right now, the only thing Xandeum can do is to ping IP address from onboarding, pNodes are not communicating yet (ports 3000 and 4000 are using only localhost) - that will start with Munich release soon. What you can do is check systemctl status xandminer* and/or open ssh tunnel and web GUI, if daemon is "online", all good.
+Ymetro
+
+Role icon, Chat Mod — 6/18/25, 6:29 PM
+Thanks for the tip to use wildcards. Those little things that make life a bit easier.
+lulu — 6/19/25, 10:39 AM
+Hi @Brad|Xandeum-imposter DM'ing You  I’ve successfully restored my VPS from a snapshot and have my pnode-keypair.json ready.
+Docker is running, but I can’t restart the pNode because the container image ghcr.io/xandeum/pnode:latest is private and requires authentication.
+
+Can you please provide:
+
+The correct (public or private) image URL
+Or Docker login instructions (e.g. GitHub token) if the image is private?
+I need to restore this before the snapshot expires again.
+Thanks in advance!
+YAGPDB.xyz
+APP
+ — 6/19/25, 10:39 AM
+Gave +1 Rep to @Brad|Xandeum-imposter DM'ing You (current: #1 - 136)
+Substance 2.42Role icon, Chat Mod — 6/19/25, 11:33 AM
+I've precisely counted how many times Docker is mentioned in Xandeum docs: zero. So for me, this looks like SEP.
+Ymetro
+
+Role icon, Chat Mod — 6/19/25, 12:32 PM
+SEP?
+Substance 2.42Role icon, Chat Mod — 6/19/25, 12:34 PM
+Somebody else's problem.
+lulu — 6/20/25, 5:12 PM
+about a month ago there was a list posted here with wallet addresses where pnode was successfully onboarded. I would need to verify if mine is still running without interruption after some technical issues. How to / Who can help? @Brad|Xandeum-imposter DM'ing You
+NeoBubba
+
+Role icon, Chat Mod — 6/20/25, 5:14 PM
+You do not need Brad to verify your pNode is running.
+Log into it and ensure it is correct.
+go to the seenodes web page and check if your wallet if there.
+Substance 2.42Role icon, Chat Mod — 6/20/25, 5:20 PM
+So my or Brad's answers to the same question were not enough it seems. If you'd be so kind to claim any "role" here on Discord to see all channels, then latest list of onboarded pNodes is in this message:
+⁠devnet-pnode-operations⁠
+Only you can check if it is running, as answered before.

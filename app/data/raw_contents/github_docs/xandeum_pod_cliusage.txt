@@ -1,0 +1,292 @@
+source=https://github.com/Xandeum/pod-docs
+
+Skip to content
+logo
+Xandeum Pod Documentation v0.4.2 v0.4.2
+CLI Usage
+
+Home
+pRPC API
+CLI Usage
+CLI Usage
+Table of contents
+Basic Usage
+Start with Default Settings
+Check Version
+Get Help
+Command-Line Arguments
+--rpc-ip <IP_ADDRESS>
+--entrypoint <IP:PORT>
+--no-entrypoint
+--atlas-ip <IP:PORT>
+--version
+--help
+Common Usage Patterns
+🔒 Private Development Setup
+🌐 Public Node
+🏢 Enterprise/Private Network
+🧪 Local Testing with Custom Atlas
+Port Information
+Firewall Configuration
+Error Handling
+Invalid IP Address
+IP Address Not Available
+Missing Argument Value
+Unknown Argument
+Configuration Examples
+Development Environment
+Production Public Node
+Private Network Setup
+Environment Variables
+Systemd Service
+Troubleshooting
+Port Already in Use
+Network Interface Issues
+Peer Discovery Problems
+CLI Usage
+Complete reference for all command-line arguments and configuration options.
+
+Basic Usage
+Start with Default Settings
+pod
+Starts the pnode with default configuration: - pRPC server on 127.0.0.1:6000 (private) - Stats server on 127.0.0.1:80 (private) - Uses default bootstrap node for peer discovery
+
+Check Version
+pod --version
+# Output: pod 0.4.2
+Get Help
+pod --help
+# Shows complete usage information with all options and examples
+Output:
+
+Xandeum pNode is a high-performance blockchain node that provides JSON-RPC API, 
+peer-to-peer communication via gossip protocol, and real-time statistics monitoring.
+
+PORTS:
+    6000    pRPC API (configurable IP binding)
+    80      Stats dashboard (localhost only)  
+    9001    Gossip protocol (peer communication)
+    5000    Atlas connection (outbound)
+
+DOCUMENTATION:
+    For complete documentation, visit /usr/share/doc/pod/ after installation
+
+Usage: pod [OPTIONS]
+
+Options:
+      --rpc-ip <IP_ADDRESS>
+          Set RPC server IP binding [default: 127.0.0.1 for private]
+
+      --entrypoint <IP:PORT>
+          Bootstrap node for peer discovery [default: 173.212.207.32:9001]
+
+      --no-entrypoint
+          Disable peer discovery (run in isolation)
+
+      --atlas-ip <IP:PORT>
+          Atlas server address for data streaming [default: 95.217.229.171:5000]
+
+  -h, --help
+          Print help (see a summary with '-h')
+
+  -V, --version
+          Print version
+Command-Line Arguments
+--rpc-ip <IP_ADDRESS>
+Optional - Specifies the IP address for the pRPC server to bind to.
+
+Default: 127.0.0.1 (private, localhost only)
+
+
+Examples
+# Private access (default)
+pod --rpc-ip 127.0.0.1
+
+# Public access from any interface
+pod --rpc-ip 0.0.0.0
+
+# Bind to specific network interface
+pod --rpc-ip 192.168.1.100
+
+# IPv6 localhost
+pod --rpc-ip ::1
+Security Note
+
+Using 0.0.0.0 makes your pRPC API accessible from any network interface. Only use this if you understand the security implications.
+
+--entrypoint <IP:PORT>
+Optional - Specifies a bootstrap node to connect to for initial peer discovery.
+
+Default: 173.212.207.32:9001 (default bootstrap node)
+
+
+Examples
+# Connect to specific bootstrap node
+pod --entrypoint 192.168.1.50:9001
+
+# Connect to custom port
+pod --entrypoint 10.0.0.5:9002
+--no-entrypoint
+Optional - Disables bootstrap peer discovery. The pnode will start without attempting to connect to any initial peers.
+
+
+Example
+# Start without peer discovery
+pod --no-entrypoint
+Isolated Mode
+
+When using --no-entrypoint, your pnode will operate in isolation until other pnodes connect to it directly.
+
+--atlas-ip <IP:PORT>
+Optional - Specifies the Atlas server address for data streaming and synchronization.
+
+Default: 95.217.229.171:5000 (Devnet)
+
+
+Examples
+# Connect to local Atlas server
+pod --atlas-ip 127.0.0.1:5000
+
+# Connect to custom Atlas server
+pod --atlas-ip 10.0.0.10:5000
+--version
+Standalone - Displays the pnode software version and exits immediately.
+
+pod --version
+# Output: pod 0.4.2
+--help
+Standalone - Displays complete usage information including all options, examples, and port information.
+
+pod --help
+# Shows complete usage information with all options and examples
+Common Usage Patterns
+🔒 Private Development Setup
+pod --no-entrypoint
+Perfect for local development and testing. No external connections, pRPC only accessible locally.
+🌐 Public Node
+pod --rpc-ip 0.0.0.0
+Runs a public node with pRPC API accessible from any network interface. Uses default bootstrap for peer discovery.
+🏢 Enterprise/Private Network
+pod --rpc-ip 192.168.1.100 --entrypoint 192.168.1.50:9001 --atlas-ip 192.168.1.10:5000
+Configured for private corporate networks with custom Atlas server and internal bootstrap node.
+🧪 Local Testing with Custom Atlas
+pod --atlas-ip 127.0.0.1:5000 --no-entrypoint
+For testing with a local Atlas server without peer discovery.
+Port Information
+Service	Default Port	Configurable	Description
+pRPC API	6000	IP Only	JSON-RPC API endpoint
+Stats Dashboard	80	❌ Fixed	Web-based statistics dashboard (localhost only)
+Gossip Protocol	9001	❌ Fixed	Peer-to-peer communication and bootstrap discovery
+Atlas Connection	5000	❌ Fixed	Connection to Atlas server for data streaming
+Firewall Configuration
+For public nodes, ensure these ports are accessible:
+
+Port 6000: pRPC API (if using --rpc-ip 0.0.0.0)
+Port 9001: Gossip protocol (always required for peer communication and discovery)
+Port 5000: Atlas connection (outbound to Atlas server)
+Error Handling
+Invalid IP Address
+pod --rpc-ip invalid-ip
+# Error: Invalid IP address 'invalid-ip': invalid IP address syntax
+IP Address Not Available
+pod --rpc-ip 192.168.1.200
+# Error: Cannot bind to IP address 192.168.1.200 on port 6000: Address not available.
+# Make sure the IP address is available on this system.
+Missing Argument Value
+pod --rpc-ip
+# error: a value is required for '--rpc-ip <IP_ADDRESS>' but none was supplied
+# 
+# For more information, try '--help'.
+Unknown Argument
+pod --invalid-option
+# error: unexpected argument '--invalid-option' found
+# 
+# Usage: pod [OPTIONS]
+# 
+# For more information, try '--help'.
+Configuration Examples
+Development Environment
+# Start isolated pnode for development
+pod --no-entrypoint
+
+# Test pRPC locally
+curl -X POST http://127.0.0.1:6000/rpc \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"get-version","id":1}'
+Production Public Node
+# Start public node with proper logging
+RUST_LOG=info pod --rpc-ip 0.0.0.0
+
+# Verify pRPC is accessible
+curl -X POST http://YOUR_PUBLIC_IP:6000/rpc \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"get-version","id":1}'
+Private Network Setup
+# Configure for private network
+pod \
+  --rpc-ip 10.0.1.100 \
+  --entrypoint 10.0.1.50:9001 \
+  --atlas-ip 10.0.1.10:5000
+Environment Variables
+You can also configure logging and other runtime behavior:
+
+# Set log level
+export RUST_LOG=debug
+pod
+
+# Enable specific module logging
+export RUST_LOG=pod::rpc=debug,pod::gossip=info
+pod
+Systemd Service
+For production deployments, the pnode can be managed as a systemd service. When installed via apt, the service file is automatically configured.
+
+[Unit]
+Description=Xandeum Pod System service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/pod --rpc-ip 0.0.0.0
+Restart=always
+User=pod
+Environment=NODE_ENV=production
+Environment=RUST_LOG=info
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=xandeum-pod
+
+[Install]
+WantedBy=multi-user.target
+# Enable and start the service
+sudo systemctl enable pod
+sudo systemctl start pod
+
+# Check status
+sudo systemctl status pod
+
+# View logs
+sudo journalctl -u pod -f
+Troubleshooting
+Port Already in Use
+# Check what's using port 6000
+sudo lsof -i :6000
+
+# Kill process using the port
+sudo kill -9 <PID>
+Network Interface Issues
+# List available network interfaces
+ip addr show
+
+# Test if IP is accessible
+ping <your-ip>
+Peer Discovery Problems
+# Test connectivity to bootstrap node
+nc -u 173.212.207.32 9001
+
+# Check local gossip port
+sudo netstat -ulnp | grep 9001
+Logging
+
+Use RUST_LOG=debug to get detailed logs for troubleshooting network and configuration issues.
+
+ Back to top
+Made with Material for MkDocs

@@ -1,0 +1,176 @@
+sources=xandeum discord support channel 
+
+mrhcon
+
+ — 4/14/25, 1:45 PM
+You will do fine.  Cut and paste the commands.  Easy peasy.
+You paid 35,000 for a collectable?  Three times?
+Adonis — 4/14/25, 1:46 PM
+Didnt do any research 🤷🏻‍♂️
+Yep thought it would gain value over time
+mrhcon
+
+ — 4/14/25, 1:48 PM
+And it will!  Only if you run them!
+10,000 XAND a month.
+Adonis — 4/14/25, 1:49 PM
+I did ask the Xandeum team for a refund of my Xandeum tokens
+However they said it was not possible to make refunds
+confident_hamster_84394 — 4/14/25, 1:50 PM
+Scammer @Игла
+Adonis — 4/14/25, 1:51 PM
+I even offered them a 70,000 Xandeum settlement for the 3 pNodes i purchased but no response for the past 10 days.. 🤷🏻‍♂️
+mrhcon
+
+ — 4/14/25, 1:52 PM
+You should just make the most of it and run them on rented servers.  You'll be fine.
+Adonis — 4/14/25, 1:53 PM
+In my case would you recommend me renting 3 different servers to run all 3 pNodes?
+Zedok
+
+ — 4/14/25, 1:56 PM
+The servers should pay for themselves. It is your decision to run all three or only one. By the way, the token is up to 0.00812USD.
+mrhcon
+
+ — 4/14/25, 1:56 PM
+Yes.
+Adonis — 4/14/25, 1:57 PM
+Thank you for your support much appreciated 🙏🏻
+YAGPDB.xyz
+APP
+ — 4/14/25, 1:57 PM
+Gave +1 Rep to @mrhcon (current: #3 - 51)
+mrhcon
+
+ — 4/14/25, 2:00 PM
+When you do the install, we are always around to answer any questions!
+Substance 2.42Role icon, Chat Mod — 4/14/25, 2:33 PM
+Btw, as for installing using ssh on phone... I wonder if it is possible to run ssh tunnel + browser? Really not sure. (for pNode registration) 
+mrhcon
+
+ — 4/14/25, 2:35 PM
+Probably need to install a SSH Tunnel app.  There are plenty of those offerings in the store.
+Substance 2.42Role icon, Chat Mod — 4/14/25, 2:36 PM
+That's good info, thanks, did not know that.
+(I was worried that ssh session is kinda "sandboxed" but it seems it really works...) 
+YAGPDB.xyz
+APP
+ — 4/14/25, 2:36 PM
+Gave +1 Rep to @mrhcon (current: #3 - 52)
+mrhcon
+
+ — 4/14/25, 3:00 PM
+Has anyone else found instructions how to upgrade the pNodes to the latest release?
+Blockchain Bernie | Xandeum LabsRole icon, XandeumTeam — 4/14/25, 3:01 PM
+The pNodes are not affected by the Freibirg release. They are the same in Freiburg as they were in Constance. This will change in Munich!
+mrhcon
+
+ — 4/14/25, 3:02 PM
+Thanks for the clarification @Blockchain Bernie | Xandeum Labs ! 
+YAGPDB.xyz
+APP
+ — 4/14/25, 3:02 PM
+Gave +1 Rep to @Blockchain Bernie | Xandeum Labs (current: #6 - 29)
+kezla
+
+ — 4/18/25, 12:38 PM
+I'm back in FY2024 (ending 30 Jun 2024 for our tax year) - trying to find the cost basis OKU tokens and XAND tokens?   What value were the OKU tokens before being switched into XAND tokens and was the conversion from OKU to XAND 1:1?  Where do I find this info now?  My original purchase was Bitoku Nodes before they started to earn OKU tokens.  If someone could help, that would be amazing!  Thank you.
+agregersen
+
+ — 4/18/25, 4:56 PM
+OKU never had an assigned value.  Until the XAND token went live last October our tokens had no value.  On the issue date I believe we started at $0.07 per token. Hope that helps..  The conversion from OKU to XAND was 1 for 1.
+If I remember US tax law correctly the day you receive coins in your wallet is the day you earned them and must pay taxes, but I would suggest asking an accountant if you know one. Or ask the IRS directly they can always help confuse things even better.  My account said something along the lines of, "until you can actually spend them you don't get taxed."
+Olaf V. — 4/18/25, 8:29 PM
+Hello everybody, I have a question concerning the ssh tunnel to the server. What if my usual remote computer breaks down or I'd like to log in from a different machine... What were the things to do in advance, or in case of a breakdown... Thank you for your answers!
+NeoBubba
+
+Role icon, Chat Mod — 4/18/25, 8:30 PM
+🔨
+NeoBubba
+
+Role icon, Chat Mod — 4/18/25, 8:30 PM
+Ignore the last message from scammer please !!
+Substance 2.42Role icon, Chat Mod — 4/18/25, 9:07 PM
+Quote from pNode Setup Guide: "Keep your SSH private key safe and backed up. If you lose it, you won't be able to access your pNode without assistance from your hosting provider." Usually, VPS providers offer also web login that works even when ssh login with password is disabled ("VNC").
+Olaf V. — 4/19/25, 7:12 AM
+Thank you for your reply. I understand that I have to backup things, but isn't the key linked to the machine that it was created on? What if I had to access the server from a different computer (having the key on a USB stick, maybe) Or could I register different remote computers with different keys to my server, and if so, do you know how? 
+YAGPDB.xyz
+APP
+ — 4/19/25, 7:12 AM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 71)
+Substance 2.42Role icon, Chat Mod — 4/19/25, 8:12 AM
+"SSH keys are not tied to the machine where they were generated. You can back up the private and public key files (typically id_rsa and id_rsa.pub in the ~/.ssh/ directory) and restore them on another computer by copying them to the ~/.ssh/ directory on the new machine. Ensure the private key file has strict permissions (e.g., chmod 600 id_rsa)." (source: Grok)
+Olaf V. — 4/19/25, 9:55 AM
+Well that makes life a lot easier. I will try on my office computer on Tuesday. Thanks again and Happy Easter 🐰 🍳 🥚
+YAGPDB.xyz
+APP
+ — 4/19/25, 9:55 AM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 72)
+Substance 2.42Role icon, Chat Mod — 4/19/25, 11:31 AM
+In the worst case, you would have to rebuild the VPS and install XandMiner again. :-) Anyway, as with all private keys, careful with safety. Happy Easter!
+kezla
+
+ — 4/20/25, 2:28 PM
+Thanks for the clarification.
+YAGPDB.xyz
+APP
+ — 4/20/25, 2:28 PM
+Gave +1 Rep to @agregersen (current: #10 - 14)
+Curl — 4/21/25, 8:22 PM
+Where can I find the file Vote-keypair.json
+Substance 2.42Role icon, Chat Mod — 4/21/25, 10:05 PM
+Both validator-keypair and vote-keypair are used on vNodes - so not sure if these two fields should be in pNode onboarding or not, maybe wait one day and then just ignore them. :-) But I would make sure that "Solana Wallet Rewards Payments Address" is the one used for buying pNode (so it's the same as "manager" wallet on seenodes site).
+(and for anyone with vNode, you can get your public address using solana address -k vote-keypair.json) 
+johnm56466
+
+ — 4/21/25, 11:31 PM
+I wonder if they want the pnode-keypair instead of the validator-keypair? @Brad|Xandeum-imposter DM'ing You Can you look at the onboarding form. Looks like it wasn't modified from validators to pnodes???
+Ymetro
+
+Role icon, Chat Mod — 4/25/25, 12:32 AM
+Bought a second pNode today, but I got the error at registration: "You have already reached your maximum registration limit", and I only see the first one tied to my manager wallet. Does it take some time to enable the 2nd pNode for my wallet, or do I need to open a ticket for support?
+Ymetro
+
+Role icon, Chat Mod — 4/25/25, 12:50 AM
+Has this anything to do with previously generated pNode Identity Pubkeys on newer installs I tested, that weren't registered yet?
+In other words: am I to restore a previous pnode-keypair.json file (the second that has been created after the first pNode that is registered)? 
+NeoBubba
+
+Role icon, Chat Mod — 4/25/25, 12:52 AM
+🔨
+Ymetro
+
+Role icon, Chat Mod — 4/25/25, 12:56 AM
+Welp, I need to hit the hay now. I'll get back to it in the morning.
+Ymetro
+
+Role icon, Chat Mod — 4/25/25, 8:19 AM
+I'm baaaack!
+I'll just open a ticket.
+Mindy — 4/27/25, 4:54 PM
+Hi when setting up my Pnode on Command tool i keep getting permission denied - after entering password even though it's correct
+NeoBubba
+
+Role icon, Chat Mod — 4/27/25, 4:58 PM
+This is a server setup issue.  You must have a typo or something in the password.
+Mindy — 4/27/25, 5:16 PM
+Image
+I've got to this part now but not sure where I go from here
+NeoBubba
+
+Role icon, Chat Mod — 4/27/25, 5:17 PM
+Follow the pNode guide at pnodes.xandeum.network
+
+It is pretty easy to follow.  Make sure you do every step.
+S. Kuhlmann — 4/27/25, 5:31 PM
+did anyone had luck lately to stake via the Xandeum LST website ? I am getting an Transcation error when i tried to up my stake
+Ymetro
+
+Role icon, Chat Mod — 4/29/25, 8:52 AM
+I did/do too have that problem. I just went to a DEX aggregator to swap to SandSOL and checked on the LST site if the amount was increased. Please @XandeumTeam (?) could you make that webpage more robust? 
+ocd.andy — 4/29/25, 10:52 AM
+Hello, what's the process of upgrading XANDC to XAND now?
+Zedok
+
+ — 4/29/25, 3:20 PM
+Check regularly for the next conversion window. No idea when the next one is.

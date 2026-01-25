@@ -1,0 +1,146 @@
+sources=xandeum discord pnodes staking channel
+
+lulu — 6/23/25, 5:15 PM
+Hi, my wallet doesn't appear in the list of pnodes eligible for May payouts. I've opened a ⁠ticket-0530 - thanks for letting me know if i can do anything
+niccolo45 — 6/23/25, 6:45 PM
+I'll check transactions carefully
+Substance 2.42Role icon, Chat Mod — 6/23/25, 7:00 PM
+Just FYI, I just manually opened all 26 executed transactions from DAO "May 2025 DevNet pNode payments" :-), and all of them had SOL fee 0.000145 or less... so if some were more expensive then it must be somewhere else in the transaction... I was sure we ruled out initial Realms accoun setup, not so sure now.
+Edit: Actually, no, NeoBubba reported he was using DAO before and still had very high fees, and I trust him... so it's unlikely initial Realms setup. 
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 6/24/25, 12:13 AM
+Yes, any time setting up the initial accounts for your wallet in the DAO, it opens multiple accounts... And deposits the required rent to have the account open. This is not "spent" but a deposit you get back if/when you close the account some day after your funds unlock and you move it out to your other wallet...
+NodeMasters — 6/24/25, 8:01 PM
+Do I need to tag this to anyone or post in a different channel?
+mrhcon
+
+ — 6/25/25, 11:50 AM
+No.  When they get to the ticket, they will let you know.
+Jeppe — 7/13/25, 9:41 AM
+I have a question about backuping the p-nodes identity keypair which was created when I registred the pNode. I can view the public pnode key in the GUI.
+
+Thing is I want to backup my pNode identity key-pair so I have them if I should switch to a completely new server in the future.
+
+Are there any docs about how to do this ?
+Substance 2.42Role icon, Chat Mod — 7/13/25, 9:53 AM
+Answered in:
+⁠devnet-pnode-operations⁠ 
+Substance 2.42Role icon, Chat Mod — 7/13/25, 12:19 PM
+Looking forward to STOINC! :-)
+(STOrage INCome, on mainnet maybe as early as two months from now)
+source: https://x.com/bernieblume/status/1943821416224448594
+Chakma — 7/17/25, 5:15 PM
+Looking help @Mr Brad khol
+NeoBubba
+
+Role icon, Chat Mod — 7/17/25, 6:12 PM
+Try explaining what you are dealing with here and the community will try to give you a hand before we get the team involved. 
+Otherwise,  ⁠🎫open-a-ticket !  🫡
+foxdiddy — 7/23/25, 3:33 PM
+So, it’s July 23… has @Blockchain Bernie | Xandeum Labs said anything about June PNode payouts?
+Pheelix | Xandeum Champion
+
+ — 7/27/25, 2:01 PM
+Is there a video somewhere on how to claim our PNode xand?
+Zedok
+
+ — 7/27/25, 3:46 PM
+Wait for the Dao proposal. Connect your wallet; find your wallet address in the list; press the button. Rewards will be deposited in your DAO account.
+Pheelix | Xandeum Champion
+
+ — 7/28/25, 8:50 AM
+Thanks. I have done this but never find my wallet. There only ever appears to be 14 wallets. Could you be specific about the tabs  to click on the website. Maybe I’m looking in the wrong place??
+Zedok
+
+ — 7/28/25, 8:51 AM
+Let's wait until the next DAO proposal and we will figure things out together.
+Pheelix | Xandeum Champion
+
+ — 7/28/25, 8:52 AM
+Thank you my friend , I appreciate your support 🙏
+Digital Energy — 7/30/25, 12:22 PM
+FYI, my xandminer.service exit-coded after updating pnode software on the GUI localhost dashboard and lost connection on localhost.  I ran ./install.sh, option 2 from terminal and problem resolved.
+Qi — 8/8/25, 1:07 PM
+Why did the pnode payment for June take so long?
+foxdiddy — 8/8/25, 3:02 PM
+Has it happened yet? We’re all waiting on June and July now.
+Qi — 8/8/25, 3:03 PM
+Waiting
+foxdiddy — 8/8/25, 3:07 PM
+I don’t get it. I want to be positive. The people on that list of PNode payouts have been key in helping to support this project. It’s a project that needs to be building trust. And, it can’t even keep up with (using its own terms) “peanuts” bill payments to those supporters. This isn’t how you build trust.
+Substance 2.42Role icon, Chat Mod — 8/8/25, 3:39 PM
+As for July node (vNode, pNode) rewards, I'm sure they'll set up unlock so it's unlocked in July 2026, whenever they set it up - just like with previous ones. So if they do it in May 2026 :-), they'll configure 2 months lock time. Don't panic.
+foxdiddy — 8/8/25, 3:58 PM
+^^ this is great. But, it’s not about being able to access it. When we sign the “storage agreements” will they change afterwards? Will they be cancelled outright? Will THEY be paid 2/3/6 months late? Will they be paid at all? You can’t run a business like this. This is a really bad message to send supporters I’m having a tough time believing I’m the only one concerned. These payments are symbolic and they’ve stopped after 60
+Days….
+Substance 2.42Role icon, Chat Mod — 8/8/25, 4:26 PM
+Yeah. I guess, after that +-12 additional individual June pNode DAO proposals the person who was doing that is like "oh no, not again..." ;-) And this is just peanuts (btw, what will XAND price be in 2026? we don't know...), with mainnet and staking, anybody will run pNode, stake (VIPs with the help of... I forgot the abbreviation... foundation), and earn so much that these rewards will be long forgotten. :-) (storage agreements... I can't remember such thing)
+Also funny idea I had: what about payments for new pNodes being in XAND only and locked for one year, hmm? Just as fair-play, so Xandeum knows how it feels like? My time and hosting is also not free. :-) (note: don't take me too seriously) 
+Cailyn H — 8/11/25, 1:46 PM
+Many a true word is spoken in jest
+MeMeTo — 8/20/25, 9:28 AM
+Hi all, I was away for 1 month and trying to find out if there was any further update on devnet pnode.
+My latest state was the munich release in July. Did I miss something in the meantime?
+Image
+As I remember, there was an issue with dedicated disk space for vm´s (I´m using Proxmox).
+Now I can see that the diskspace is dedicated to the network. Is this solved?
+kryptobiten — 8/20/25, 9:44 AM
+Do anyone now how to change wallet the Pnode is attached to?
+Is it only to connect it to a another wallet and all rewards is payed out to that one or do I need to onboard it again or should I to it in a another way?
+Dean C — 8/20/25, 10:34 AM
+Yes lvm issue has been resolved. 
+mrhcon
+
+ — 8/20/25, 1:40 PM
+There is not a way yet.
+Ymetro
+
+Role icon, Chat Mod — 8/20/25, 3:56 PM
+Do ask the team directly by opening a ticket, as there is no way known to us users.
+Ymetro
+
+Role icon, Chat Mod — 8/20/25, 3:58 PM
+I recommend using the wget command from the guide to update.
+And welcome back! 🥳
+kryptobiten — 8/20/25, 7:21 PM
+I've done that the problem is they never answer. I'ts really hard to get in contact with the team. I've even tryed to write Bernie on mail but NO answer.
+John | WAGISDev
+
+ — 8/21/25, 1:45 AM
+It's okay....you are not alone w/ large delayed responses.
+MeMeTo — 8/21/25, 1:46 PM
+Thanks 🤝 
+Is this the general way to check for an update?
+NeoBubba
+
+Role icon, Chat Mod — 8/21/25, 4:08 PM
+I believe it it the best way.  Re-download the newest install with the script and hit #2 for the upgrade process 🫡
+Ymetro
+
+Role icon, Chat Mod — 8/21/25, 5:12 PM
+For now it is the most reliable way. I recon that in future versions upgrading with "a press of a button" will become more reliable as well.
+Qi — 8/22/25, 1:15 PM
+Everyone, Contabo's VPS products no longer have configuration packages suitable for running P nodes. Do you have any other recommendations?
+Image
+Ymetro
+
+Role icon, Chat Mod — 8/22/25, 2:35 PM
+The 3 vCores should be enough for now. Upgrade later on when the network is more demanding. 
+@Qi, I heard about NetCup. Maybe that's a good alternative to check out. Look under Server and vServer (VPS) there.
+Qi — 8/22/25, 2:40 PM
+thanks
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 8/28/25, 1:26 AM
+To check for updates...
+https://pnodes.xandeum.network/pnode-update-version
+pNode UPDATE version - pNode Setup Guide
+Update your elready set up Xandeum pNode using this update guide.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 8/28/25, 1:35 AM
+There is still no way to do this yet. It introduces security and liability issues on our part if we change something  for someone who isn't a rightful owner of something... Then we would be blamed. Not saying it's not possible, but it would take development time to come up with a process for verification and documentation and would take research into what is possible and how the system could be gamed. Right now we are focused on developing the product.
+iain — 8/28/25, 10:39 AM
+Hey Zedok can you add me as a friend so I can PM you please?
+John | WAGISDev
+
+ — 8/28/25, 3:24 PM
+Remember, this only impacts DevNet.....not MainNet which requires no license. 
+Qi — 8/30/25, 11:14 AM
+Image
+Hello, everyone, does this mean that the original P node, storage also needs to be upgraded to the standard in the picture?

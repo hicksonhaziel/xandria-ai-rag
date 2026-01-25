@@ -1,0 +1,132 @@
+URL: https://devnet.xandeum.network
+TITLE: Validator Home - Xandeum Foundation DevNet
+================================================================================
+
+Xandeum Foundation DevNet
+Ctrl
+K
+Validator Home
+Old Server housekeeping
+Access your server
+Ports Setup
+Setup Your Disks
+Validator Installation
+Setup System Service
+Setup LogRotate
+Starting your validator
+Monitoring your validator
+Onboarding
+Validator Commands
+Learn Tmux
+Validator UPDATE version
+Faucet Repayment
+Troubleshooting
+Docs powered by
+ 
+Archbee
+Validator Home
+3 min
+﻿
+Instructions for the installation and configuration of a Xandeum validator.
+Xandeum DevNet
+Based on Agave codebase v2.2.0
+
+ 
+
+﻿
+
+
+Complete in order:
+
+﻿Old Server housekeeping
+﻿
+ 
+﻿Access your server
+﻿
+﻿
+
+﻿Ports Setup
+﻿
+﻿
+
+﻿Setup Your Disks
+﻿
+﻿
+
+﻿Validator Installation
+﻿
+﻿
+
+﻿Setup System Service
+﻿
+﻿
+
+﻿Setup LogRotate
+﻿
+﻿
+
+﻿Starting your validator
+﻿
+﻿
+
+﻿Monitoring your validator
+﻿
+﻿
+
+﻿Onboarding
+﻿
+﻿
+
+﻿Validator Commands
+﻿
+﻿
+
+﻿Learn Tmux
+﻿
+﻿
+
+
+﻿Troubleshooting
+﻿
+﻿
+
+
+﻿
+
+
+Update a running Validator:
+
+﻿Validator UPDATE version
+﻿
+ 
+
+﻿
+
+
+vNode Xandeum-RPC upgrade guide (Coming Soon)
+
+ Enable Xandeum RPC functions
+﻿
+ 
+
+﻿
+
+
+Faucet Repayment / Funding your ID Account
+
+﻿Faucet Repayment
+﻿
+﻿
+
+Updated 24 May 2025
+NEXT
+Old Server housekeeping
+Copy
+TABLE OF CONTENTS
+Instructions for the installation and configuration of a Xandeum validator.
+Xandeum DevNet
+Based on Agave codebase v2.2.0
+Did this page help you?
+Yes
+No
+Back to Top

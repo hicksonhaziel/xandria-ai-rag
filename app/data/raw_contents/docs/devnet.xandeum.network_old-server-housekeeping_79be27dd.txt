@@ -1,0 +1,142 @@
+URL: https://devnet.xandeum.network/old-server-housekeeping
+TITLE: Old Server housekeeping - Xandeum Foundation DevNet
+================================================================================
+
+Xandeum Foundation DevNet
+Ctrl
+K
+Validator Home
+Old Server housekeeping
+Access your server
+Ports Setup
+Setup Your Disks
+Validator Installation
+Setup System Service
+Setup LogRotate
+Starting your validator
+Monitoring your validator
+Onboarding
+Validator Commands
+Learn Tmux
+Validator UPDATE version
+Faucet Repayment
+Troubleshooting
+Docs powered by
+ 
+Archbee
+Validator Home
+Old Server housekeeping
+8 min
+Update your server
+
+Run as sudo / root user
+
+Reboot if you have a new kernel installed during the update that needs loaded.
+
+Bash
+1
+sudo -s &&
+
+﻿
+Bash
+1
+apt-get update -y && apt upgrade
+
+﻿
+Stop old system service
+
+Use  status to check if its running, stop to stop the service, and disable to prevent it from loading next reboot
+
+Bash
+1
+systemctl status xand.service
+
+2
+systemctl disable xand.service
+
+3
+systemctl stop xand.service
+
+﻿
+SSH Keys
+
+If you want to make a new user sol to match the new guide, then make sure your ssh keys to login remotly are stored in your home dir for sol or root users (not only in xand home dir. Careful with the ssh keys...if you remove them you could lock yourself out of your server...
+
+Check for keys in root
+
+Bash
+1
+sudo cat ~/.ssh/authorized_keys
+
+﻿
+
+Check for keys in xand
+
+Bash
+1
+su xand
+
+﻿
+Bash
+1
+cd ~
+
+2
+cat ~/.ssh/authorized_keys
+
+﻿
+
+Copy from xand and append to root keys file
+
+Bash
+1
+sudo -i
+
+﻿
+Bash
+1
+sudo cat /home/xand/.ssh/authorized_keys >> /root/.ssh/authorized_keys
+
+﻿
+Validator Keypairs
+
+Make sure you have copied your validator keypairs if they are needed for the new server.
+
+Otherwise they can be created new during install of the validator software. 
+
+There is no reason to re-use the old one, only personal preferance.
+
+Remove xand user account
+
+Once you have sucessfully logged into your server using either root or sol user, and copied/backed up any files you need, you may wish to remove everything from xand user and their files.
+
+Bash
+1
+sudo -s
+
+﻿
+Bash
+1
+userdel -rf xand
+
+﻿
+
+﻿
+
+
+Updated 31 Dec 2024
+PREVIOUS
+Validator Home
+NEXT
+Access your server
+Copy
+TABLE OF CONTENTS
+Update your server
+Stop old system service
+SSH Keys
+Validator Keypairs
+Remove xand user account
+Did this page help you?
+Yes
+No
+Back to Top

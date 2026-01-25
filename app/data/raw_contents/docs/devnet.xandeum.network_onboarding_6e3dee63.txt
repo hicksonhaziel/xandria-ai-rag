@@ -1,0 +1,95 @@
+URL: https://devnet.xandeum.network/onboarding
+TITLE: Onboarding - Xandeum Foundation DevNet
+================================================================================
+
+Xandeum Foundation DevNet
+Ctrl
+K
+Validator Home
+Old Server housekeeping
+Access your server
+Ports Setup
+Setup Your Disks
+Validator Installation
+Setup System Service
+Setup LogRotate
+Starting your validator
+Monitoring your validator
+Onboarding
+Validator Commands
+Learn Tmux
+Validator UPDATE version
+Faucet Repayment
+Troubleshooting
+Docs powered by
+ 
+Archbee
+Validator Home
+Onboarding
+4 min
+Onboarding Process
+
+Follow All the steps on this page to verify you are ready to onboard your validator!
+
+After you have the validator running for at least 1 hour, please follow steps 2-6 to ensure you are ready to onboard and start validating transactions!
+Check htop to see if your cpu cores are active (meaning validator is running)
+Check the current slot solana slot
+Run your mon.sh script and verify you are above the slot listed in 2
+Run catchup.sh script to verify you are staying in pace with the blockchain...ie 0 slot(s) behind (us:12345 them:12345) and watch for 5 minutes
+Grab the needed info below and submit onboarding form with your IP address, hostname, Validator ID, and Vote ID using the button below.
+
+Use sol user
+
+﻿
+
+
+Find your Validator ID Pubkey
+
+CLI
+1
+solana-keygen pubkey ~/validator-keypair.json
+
+﻿
+
+Find your Vote Account Pubkey
+
+CLI
+1
+solana-keygen pubkey ~/vote-keypair.json
+
+﻿
+
+Find your Public IP Address with a suitable method, here are two:
+
+dig
+curl
+1
+curl https://ipinfo.io/ip/
+
+﻿
+
+﻿
+
+
+Submit Onboarding Details
+﻿
+
+Please take a moment to grab your Public IP address, hostname, Validator Pubkey and Vote Pubkey. Submit to Xandeum Foundation using this form! 
+
+
+Check out more Validator Commands
+﻿
+﻿
+
+Updated 02 Jan 2025
+PREVIOUS
+Monitoring your validator
+NEXT
+Validator Commands
+Copy
+TABLE OF CONTENTS
+Onboarding Process
+Did this page help you?
+Yes
+No
+Back to Top

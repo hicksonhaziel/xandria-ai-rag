@@ -1,0 +1,41 @@
+URL: https://stakexand.xandeum.network
+TITLE: XAND Stake Portal
+================================================================================
+
+Stake
+
+Rewards
+
+Unstake
+
+Select Wallet
+Stake your XAND token in the XAND DAO for a 16% APY
+01
+
+Go to the DAO and connect your wallet
+
+02
+
+Deposit your XAND
+
+03
+
+Click Lock your tokens
+
+04
+
+IMPORTANT: Choose "Constant"
+
+05
+
+For duration, click on "Custom"
+
+Powered by
+
+Xandeum Foundation (PA)
+
+Menu
+
+Home
+
+Xandeum Network

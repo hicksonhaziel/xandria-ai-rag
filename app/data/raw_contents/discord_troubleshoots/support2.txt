@@ -1,0 +1,190 @@
+sources=xandeum discord support channel 
+
+lulu — 6/23/25, 12:23 PM
+Hi, my wallet doesn't appear in the list of pnodes eligible for May payouts. I've opened a ⁠ticket-0530 - thanks for letting me know if i can do anything
+Ymetro
+
+Role icon, Chat Mod — 6/23/25, 3:04 PM
+Let say I want to move my VPS node to another region, so my pNode's IP address changes, do I need to inform the team by a ticket? And will it keep the same South Era benefits?
+MikeBaker — 6/27/25, 5:19 PM
+Hi there, when will the next XANDC to XAND upgrade window be please?
+MiklRole icon, Chat Mod — 6/28/25, 2:41 AM
+Same answer ✌️⁠foundation-general-chat⁠
+Ujjiban — 7/15/25, 6:12 PM
+Pls help for wallet connection I cant open my wallet
+mrhcon
+
+ — 7/15/25, 6:34 PM
+Maybe you could actually let people know whats going on...  You can't open your wallet?? Where?
+What were you trying to do?
+Did it give you an error?
+See where I'm going with this?
+nilesh vora
+
+ — 7/16/25, 5:04 PM
+why does my active running clock on my p node reset it self it has done this twice now
+Ymetro
+
+Role icon, Chat Mod — 7/17/25, 8:36 AM
+Are you running a node on a local network or on a VPS service?
+And did you reboot the system?
+If it is a local machine, that you can access, and it resets the clock / time / date after a reboot, then you might want to refresh the battery on the mainboard that keeps the time and date in its memory. 
+nilesh vora
+
+ — 7/17/25, 2:42 PM
+I am running the node on contabo and I have not rebooted the system
+Ymetro
+
+Role icon, Chat Mod — 7/17/25, 3:02 PM
+Okay. How did you notice that time resets on that server?
+nilesh vora
+
+ — 7/17/25, 3:18 PM
+I login via command prompt to see if everything is still active and running
+Ymetro
+
+Role icon, Chat Mod — 7/17/25, 3:19 PM
+Yes? And is everything running as expected?
+Is xandminer running, xandminerd running, pod running and is there space dedicated, so you can see the file xandeum-pages and is there a symbolic link tot that file in the /run folder? 
+You can use the following commands to check if everything is okay and check the interface at http://localhost:3000/
+systemctl status xandminer
+systemctl status xandminerd
+systemctl status pod
+ls -lh /
+ls -lh /run
+Ymetro
+
+Role icon, Chat Mod — 7/17/25, 3:26 PM
+If you run ssh -i ~/.ssh/<your private ssh key> root@<contabo vps ip address> -L 4000:localhost_4000 -L 3000:localhost:3000 -L 80:localhost:80 then you can also check the statistics page on http://localhost/ when pod is running correctly.
+Ymetro
+
+Role icon, Chat Mod — 7/17/25, 3:28 PM
+Maybe the timezone from where you are logging in from differs from where the VPS machine is located?
+You could also check the script that Brad made in ⁠devnet-pnode-operations⁠ to check if your ports are open and reachable.
+Since you are running a pNode I suggest you take a look in ⁠devnet-pnode-operations
+nilesh vora
+
+ — 7/17/25, 3:40 PM
+i do all that
+nilesh vora
+
+ — 7/17/25, 3:43 PM
+everything is working its just the active running clock resets itself after 4 weeks i just thought there was a problem or should i just ignore it?
+Ymetro
+
+Role icon, Chat Mod — 7/17/25, 5:44 PM
+I'm no sure, but I don't see how this would affect anything. The connection to the node is important - that is what you'll be rewarded for.
+nilesh vora
+
+ — 7/18/25, 12:05 AM
+Do I have to keep the port connection open all the time?
+Dean C — 7/18/25, 12:48 AM
+If you mean the SSH conection, No.
+Ymetro
+
+Role icon, Chat Mod — 7/18/25, 8:20 AM
+I agree with what Dean C says. The SSH connection should only be temporary for management. 
+What I meant, and should have said,  was poort 5000/UDP for the pod software to serve the network. 
+nilesh vora
+
+ — 7/18/25, 8:59 PM
+What is port 5000?
+Ymetro
+
+Role icon, Chat Mod — 7/21/25, 7:01 AM
+Port 5000 is needed for communication between pod and the network.
+nilesh vora
+
+ — 7/21/25, 11:33 AM
+I do not think I have this port
+Ymetro
+
+Role icon, Chat Mod — 7/21/25, 11:21 PM
+You can check if it is open with the script that Brad made in:  ⁠devnet-pnode-operations⁠
+Just copy-paste into the command prompt after you SSH'd in and it will tell you if the ports that are needed are open. 
+nilesh vora
+
+ — 7/22/25, 6:23 AM
+The only ports I have open using the SSH etc are 3000 and 4000
+nilesh vora
+
+ — 7/22/25, 6:31 AM
+Also you are providing these links but is says I do not have access to them
+NeoBubba
+
+Role icon, Chat Mod — 7/22/25, 7:02 AM
+Maybe do the onboarding and choose some roles... including "devnet" so that you can get to the channels you require. 😉
+Dean C — 8/18/25, 2:26 AM
+LVM-thin is now working, thanks to Brad & team.
+Image
+Mubby002 ⌘
+
+ — 8/21/25, 5:39 PM
+so this is what happened to me Today I tried to withdraw my vested airdrop, but the moment the tokens landed in my wallet, they were instantly drained. It happened so fast it seems like an automated script, because I can’t understand how it could be taken that quickly. We need to be very careful and please, it's really disturbing and discouraging
+NeoBubba
+
+Role icon, Chat Mod — 8/21/25, 5:40 PM
+Please check the response I sent to your first comment in the ⁠💬general channel.
+Hopefully that will help solve this issue for you.
+mikev — 9/5/25, 8:31 AM
+Hi, I have found my wallet address in the June devnet pay out list (Transaction 4, Account 3) but not sure how to claim my Xand. When I click on my wallet address, this is what comes up on screen (see screenshot attached). I've also attached a screenshot of my pnode dashboard. My wallet address for rewards given when onboarding is 25B1jTVF7MF7WyQdfAVkRirFJUXDWkAjw3ddkxmZJcxx although the pnode itself was purchased from a different Phantom wallet 9VP25vxUbKmzoMQvkKuWAEX9fX4p2vaMWovoXWkLEPaB     Thanks for your help!
+Image
+Image
+Et yanhu — 9/5/25, 8:34 AM
+Scammer @BONNY
+Zedok
+
+ — 9/5/25, 11:56 AM
+If nothing has changed since I was running my nodes, rewards are allocated in the DAO.
+Try:  https://app.realms.today/dao/XAND
+Substance 2.42Role icon, Chat Mod — 9/5/25, 12:08 PM
+You have to click "EXECUTE" button right below where you found your address. Make sure to have wallet connected in top right corner before that, and some fraction of SOL available.
+Direct link to the "June 2025 DevNet pNode payments":
+https://dao.xandeum.network/dao/XAND/proposal/4gXCHX1vPakBmxNgdKv1vWgcEwjf8KCeNQcda5sES2fy 
+Ymetro
+
+Role icon, Chat Mod — 9/5/25, 2:20 PM
+Make sure you search for your Phantom wallet address starting with 9VP25... etcetera, with Ctrl + F in your desktop browser on the page where you rollout the first section. Or use the "search on page" within your  mobile browser.
+Substance 2.42Role icon, Chat Mod — 9/5/25, 3:29 PM
+I think your onboarding address 25B1... is correct (it's there in proposal waiting to execute), but one more thing - if you haven't used Realms DAO before and "execute" will not work, you will probably need to "fund" it - go to "My governance power - View" and try "deposit" there, I think it was one-time fee like $3 in SOL or similar... 
+mikev — 9/6/25, 2:38 AM
+Hi thanks very much for replying. Yes I clicked on the Execute button below my wallet address and my wallet popped up for confirmation so that seems to be working. Trouble is, there was no change to wallet balance so no Xand credited. I'm a bit concerned because when I click on my wallet address it brings up some information (see screenshot) including Data Allocation of zero bytes. I don't understand this because on my Xandeum dashboard it shows that I have dedicated 100GB....
+Image
+Image
+Image
+YAGPDB.xyz
+APP
+ — 9/6/25, 2:38 AM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 95)
+Ymetro
+
+Role icon, Chat Mod — 9/6/25, 5:13 AM
+The XAND rewards are cliff staked for 12 months in the DAO. 
+You can see your allocation at the "My governance power" section of the main Xandeum DAO page.
+Ymetro
+
+Role icon, Chat Mod — 9/6/25, 5:20 AM
+O, I see I was wrong with the address. But is it possible to have bought it with one wallet and onboard it with another?
+Ymetro
+
+Role icon, Chat Mod — 9/6/25, 5:49 AM
+I could take a look at my systems, for comparison, but I can't find the link using my mobile phone. 
+Where can you click on your wallet address for that allocation info? No URL please. Maybe a screenshot or description of it. 
+mikev — 9/6/25, 5:56 AM
+When I went to the June payouts for pnode operators proposal and clicked on Investigate, it brought up lists of wallet addresses. I found my wallet address and clicked on it and a new window opened with lots of info (see the screenshot I attached earlier)
+mikev — 9/6/25, 5:57 AM
+I was told this would be okay but maybe it's not after all....
+Substance 2.42Role icon, Chat Mod — 9/6/25, 7:22 AM
+Yeah, clicking on address in Realms DAO opens the address in Solana Explorer, nothing strange about that, not important.
+And as Ymetro replied, rewards are NOT going to wallet directly, but they are in DAO "My governance power" locked for one year and you'll have to return then to claim them.
+As for different address to buy/onboard, you are in the proposal, so it does seem to work (proof by example haha). :-)
+And as for "it brings up some information (see screenshot) including Data Allocation of zero bytes" - this is info about your blockchain account, and this "data allocation" has NOTHING to do with pNode. Solana blockchain does not know or care something like pNode exists, completely different thing and it's OK. Maybe you can watch Solandy's video "Exploring Explorers [Solana Tutorial] - Jun 17th '25" to get better understanding.
+Summary: important is to click "execute" and the rewards go to DAO for one year. 
+mikev — 9/6/25, 11:22 AM
+Thanks it's good to know that the zero Data Allocation is not relevant. I went through the process again of finding my address, clicking on Execute and then checking in the governance power section and no sign of any new Xand unfortuntely. I've opened a Ticket but no-one has responded yet and it's been 4 or 5 days.....
+YAGPDB.xyz
+APP
+ — 9/6/25, 11:22 AM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 96)
+Substance 2.42Role icon, Chat Mod — 9/6/25, 11:41 AM
+When I look at the blockchain, I can see +10000 XAND eleven hours ago, total ~226K XAND now, I think it's OK. Look one more time. :-)

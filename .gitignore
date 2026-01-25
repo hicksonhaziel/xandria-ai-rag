@@ -17,7 +17,6 @@ build/
 
 # Data (don't commit scraped data)
 data/*
-app/data/*
 !data/.gitkeep
 
 # Logs

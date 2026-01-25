@@ -1,0 +1,73 @@
+URL: https://www.xandeum.network/post/xandeum-s-stoinc-program-powering-decentralized-storage-with-rewards
+TITLE: Xandeum’s STOINC: Earning Storage Income on the Decentralized Network
+================================================================================
+
+Learn
+💡 Docs
+Earn
+Blog
+Subscribe
+Blog
+Xandeum’s STOINC: Earning Storage Income on the Decentralized Network
+Sean
+
+Jul 18, 2025
+
+3 min read
+
+1
+
+71
+
+0
+
+Xandeum’s STOINC (Storage Income) empowers pNode operators to earn XAND tokens by contributing storage to our decentralized network on Solana. Unlike traditional incentive programs, STOINC allows operators to collect income directly from sedApps through smart contracts developed by Xandeum, as they form the backbone of the Xandeum Network itself. This mechanism fuels our smart contract-native, exabyte-scale storage layer, supporting data-intensive dApps like decentralized YouTube or Dropbox alternatives. Ready to earn storage income? Let’s explore how STOINC works and why it’s a game-changer for Solana’s ecosystem.
+
+What is STOINC?
+
+STOINC, or Storage Income, enables pNode operators to earn XAND tokens by running Xandeum-developed software, contributing storage to our decentralized network. As detailed on Xandeum.network/stoinc, operators earn XAND through storageCredits, calculated every epoch (~2 days) based on four key factors: the number of pNodes owned, total storage space provided (in GB), a network-measured performance score (0 to 1), and the amount of XAND staked. For example, owning more pNodes or providing more storage doubles income, while a high performance score and staked XAND boost earnings further—if any factor is zero, no income is earned for that epoch. Operators aren’t doing business with Xandeum Labs or the Xandeum Foundation; they are the Xandeum Network, earning directly from sedApps via smart contracts. This leverages Solana’s high-speed consensus and Xandeum’s erasure coding for secure, tamper-proof storage, enabling Web3 applications with blockchain-grade reliability.
+
+Storage Rewards: Benefits for All
+
+By participating in the Xandeum ecosystem, sedApp developers, pNode operators, and Xandeum Token (XAND) holders all benefit from storage income. Developers building sedApps on our storage layer access a scalable, secure infrastructure and earn XAND through smart contract interactions. pNode operators, as the Xandeum Network, collect STOINC income for contributing storage, directly supporting dApps. XAND holders gain as network usage grows, enhancing the value of our decentralized storage layer. Unlike incentive programs like XFRP or XFDP, STOINC income flows directly from sedApps to operators via smart contracts, empowering everyone in the ecosystem to profit from Web3 innovation.
+
+Why STOINC Matters
+
+STOINC is central to Xandeum’s mission to solve the blockchain storage trilemma: scalability, smart contract integration, and random access. pNodes, supervised by validator nodes (vNodes) running Xandeum-enabled software, will use configurable redundancy in future releases to store data efficiently across the network. This enables developers to build sedApps with seamless file operations, from social platforms to research hubs. STOINC empowers operators to earn income for their critical role in maintaining this infrastructure, strengthening Solana’s community-driven ecosystem.
+
+New Features in the Munich Release
+
+The Munich release, the first of our South Era, enhances STOINC with a full working pNode prototype and the new sedApp API, enabling developers to integrate storage directly into dApps. Operators can now host files on Xandeum’s network, a groundbreaking step for Web3 storage. The updated XandMiner GUI simplifies pNode management, while the Xandeum Pod software provides stats and analytics on performance and network health. Upgrading to Munich ensures you maximize STOINC income and stay ahead in our decentralized future.
+
+Join the STOINC Revolution
+
+Ready to earn XAND by powering Xandeum’s storage layer? Upgrade your pNode to the Munich release and start earning STOINC income today. Visit Xandeum.network/stoinc to learn how to set up your pNode and contribute storage. Join our Discord for support or follow us on X for updates. Be part of the Xandeum Network driving Solana’s next wave of innovation!
+
+Blog
+Sean
+
+Jul 18, 2025
+
+3 min read
+
+1
+
+71
+
+0
+
+Related Posts
+See All
+Discover Xandeum pNodes: Power Solana's Scalable Storage
+Xandeum’s Dutch Auction and Herrenberg Release: Advancing Solana’s Storage Revolution
+Master Xandeum pNode Economics: Unlock Storage Income and Earn Rewards
+Comments
+Write a comment
+Share Your Thoughts
+Be the first to write a comment.
+Privacy Policy
+Terms Of Service
+
+© 2025 Xandeum Foundation
+
+All rights reserved

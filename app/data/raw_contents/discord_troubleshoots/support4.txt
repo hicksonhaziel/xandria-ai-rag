@@ -1,0 +1,480 @@
+sources=xandeum discord support channel 
+
+mikev — 1/1/25, 12:44 PM
+How do I open a ticket? I can options like general and support-questions but there's no open-a-ticket option
+mrhcon
+
+ — 1/1/25, 12:51 PM
+Go to the top and make sure you have the right roles selected.  Once you have them, you will be able to open a ticket.
+mikev — 1/4/25, 1:14 AM
+Thank you, yes it seems to work better opening X first although I'v still had a few Tweets that I can't claim. Thanks for the tip though 🙂
+YAGPDB.xyz
+APP
+ — 1/4/25, 1:14 AM
+Gave +1 Rep to @NeoBubba (current: #5 - 23)
+mikev — 1/4/25, 1:15 AM
+Thanks I managed to find the Ticket channel by going to the top as you suggested 🙂
+YAGPDB.xyz
+APP
+ — 1/4/25, 1:15 AM
+Gave +1 Rep to @mrhcon (current: #4 - 36)
+NeoBubba
+
+Role icon, Chat Mod — 1/4/25, 1:24 AM
+Sometimes the first tweet that you try makes you go through the login process and then seems to "flake out" and do nothing, however when I go check it has gone through even though it didn't show it.  Sometimes, not all the time.  🙂
+mcpisik — 1/9/25, 6:27 PM
+Can't unstake xandsol with ledger.
+Tried in Phantom and Solflare.
+Just says to ensure blind signing is enable etc (Which it is)
+Help please.
+
+Also does it cost to 'instant unstake'?
+I tried and it says 'transaction reverted, your funds may be lost if you proceed'
+NeoBubba
+
+Role icon, Chat Mod — 1/9/25, 6:28 PM
+Bye bye scammers...
+mcpisik — 1/9/25, 6:34 PM
+I had a ticket opened for me maybe by MrKitjan
+Is it legit? Name is not marked as part of the team.
+NeoBubba
+
+Role icon, Chat Mod — 1/9/25, 6:34 PM
+NO!
+Send screenshot to ⁠⛔scam-lookout please 🙏
+mcpisik — 1/9/25, 6:35 PM
+It's under channel xandeum-solana-validators
+And is Support ticket #2294
+It's a channel in this discord
+mcpisik — 1/9/25, 6:38 PM
+Please check in that channel for me
+NeoBubba
+
+Role icon, Chat Mod — 1/9/25, 6:40 PM
+Checking things out...
+NeoBubba
+
+Role icon, Chat Mod — 1/9/25, 6:45 PM
+Definitely a scam.... Team has been informed, user has been banned.
+Good work and thank-you for keeping the community safe !!!
+mcpisik — 1/9/25, 6:46 PM
+Wow so discord is compromised?
+If they can create channels that's pretty terrifying
+Can the team assist with my ledger issue unstaking liquid xandsol please?
+NeoBubba
+
+Role icon, Chat Mod — 1/9/25, 6:48 PM
+You opened a ticket yourself correct?
+mcpisik — 1/9/25, 6:48 PM
+No I didn't
+NeoBubba
+
+Role icon, Chat Mod — 1/9/25, 6:49 PM
+Please open a ticket ⁠🎫open-a-ticket and the team will help you.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/9/25, 7:32 PM
+Somehow there was a permission allowing creation of threads by anyone in that particular channel... This Discord is not compromised just that channel. I'll review to make sure no other channels exist with orphan security settings.
+mcpisik — 1/9/25, 8:21 PM
+Thanks Brad.
+And for anyone with Ledger trouble and staking:
+My solution was to not use Chrome or Firefox.
+Installing brave and phantom was the combo that allowed Ledger to connect and transact. 
+YAGPDB.xyz
+APP
+ — 1/9/25, 8:21 PM
+Gave +1 Rep to @Brad|Xandeum-imposter DM'ing You (current: #1 - 107)
+mikev — 1/19/25, 11:04 AM
+Hi, I want to swop a small portion of my XandSol to Sol but getting 'no routes found' on both Jupiter and Raydium. Any suggestions?
+Substance 2.42Role icon, Chat Mod — 1/19/25, 1:01 PM
+Seems OK for me (Jupiter swap settings "auto", for amounts ~ 1000 SOL, not for 10000 SOL), but if you staked SOL to XandSOL, perhaps unstake is better route?
+mikev — 1/19/25, 9:15 PM
+When I try to unstake the XandSol it's asking me to connect my Ledger as the wallet connected is my Phantom Ledger account. I've connected my Ledger, selected Solana account and my Ledger device is now saying 'Application is Ready'. But I'm still getting the 'Please connect your Ledger device' message so can't complete the transaction. Any suggestions gratefully received thank you!
+YAGPDB.xyz
+APP
+ — 1/19/25, 9:15 PM
+Gave +1 Rep to @Substance 2.42 (current: #3 - 45)
+agregersen
+
+ — 1/20/25, 2:33 AM
+Check on your ledger device to make sure you okayed blind signing, it has bit my tail a few times. You'll have to look it up at the ledger site.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/22/25, 5:57 AM
+With my ledger, even though my wallets were showing in Solflare, I had to re-add them before my ledger would work again after the last ledger fimware update...
+Fox46 — 1/22/25, 3:18 PM
+looks like xandSOL went to 0 in my phantom wallet. Am I missing something?
+Substance 2.42Role icon, Chat Mod — 1/22/25, 3:25 PM
+Don't worry about that, Phantom just sometimes does not know the price, but in other places (Solflare, Jupiter...) it's displayed correctly. Sometimes we even do small manual xandSOL <-> SOL swap to make it (Phantom) update the price. :-) 
+MANTRA
+
+ — 1/22/25, 4:07 PM
+Good morning everyone, I am not seeing any youtube and X Xandeum points collection since several days, is it something to concern about?
+Zedok
+
+ — 1/22/25, 5:04 PM
+Please, no cross-posting. Tks.
+Fox46 — 1/22/25, 9:59 PM
+After I made this post, I was directed to open a support ticket where they wanted me to make a manula connection to my wallet. Was this a scam? Is there a support ticket process within this site for Xandeum?
+Substance 2.42Role icon, Chat Mod — 1/22/25, 10:03 PM
+Yes scam, ignore. For the xandSOL price in Phantom there is no need to write a ticket, but the only correct way is:
+⁠🎫open-a-ticket
+Update: I swapped 0.1 SOL to xandSOL on Jupiter and bum - xandSOL price is correct now in my Phatom. :-) 
+taojiang — 2/1/25, 6:22 AM
+How to claim vested tokens?
+NeoBubba
+
+Role icon, Chat Mod — 2/1/25, 5:28 PM
+I would suggest ⁠🎫open-a-ticket and discuss this problem directly with the Xandeum team.
+taojiang — 2/1/25, 5:38 PM
+Ok, thanks.
+Thought it was more straightforward than that.
+Such a while ago.
+NeoBubba
+
+Role icon, Chat Mod — 2/1/25, 6:22 PM
+There have been some glitches reported, so I just feel better pointing you right to the support team. 👍
+taojiang — 2/1/25, 6:23 PM
+Ok, understand
+Jim Chuz — 2/3/25, 2:03 AM
+What are the best exchanges apps for XAND?
+NeoBubba
+
+Role icon, Chat Mod — 2/3/25, 4:06 AM
+Mexc for exchanges... Jup.ag does swaps for sure.  I know there are others but forget their names.
+tonka9072 — 2/13/25, 6:55 PM
+Hi Brad, I have 6 platinum nodes & used to harvest points but when I go to do this now, it’s not working? Has something changed that I’m unaware of? 
+Cheers
+Yeh right, fell for that one before
+Zedok
+
+ — 2/13/25, 9:37 PM
+No cross posting please. Tks.
+Ymetro
+
+Role icon, Chat Mod — 3/17/25, 6:22 PM
+Hi. I'm running a pNode setup on Debian 12, but the GUI webpage says it can't find a drive, while I have a partition setup for this. Does xandminer detect partitions, as said in the guide, or only whole drives? And do they need to be formatted in ext3, 4 or btrfs and mounted?
+NeoBubba
+
+Role icon, Chat Mod — 3/17/25, 6:23 PM
+Ignore the possible DM that came in from the "Scambot" that popped up.
+Substance 2.42Role icon, Chat Mod — 3/17/25, 8:08 PM
+Hi, I am not from team, but based on index.tsx and helpers.js source files, the code seems to parse all disks in system... so I guess it should see them, no matter the filesystem. (but mounted of course)
+Ymetro
+
+Role icon, Chat Mod — 3/17/25, 9:47 PM
+Welp, I just mounted the partition to /media/pNodeStorage. Does this mean I also have to add that partition to fstab?
+Substance 2.42Role icon, Chat Mod — 3/17/25, 9:59 PM
+Yes, if you want it mounted automatically after reboot. So, does Xandminer see the extra space? I hope so. (perhaps try systemctl restart xandminer, xandminerd if not...) 
+Ymetro
+
+Role icon, Chat Mod — 3/17/25, 10:52 PM
+Maybe it has something to do with some trouble I saw when installing Xandminer withthe package liblzma5. Version  5.4.1-0.2 is installed, but would be upgraded to 5.6.3-1+b1, and then I get the error message that I'm holding broken packages. Maybe this has to do not being on Ubuntu, and/or going from Debian 12 Testing to the stable Bookworm release with only changing the apt source files. 
+While I do not have much experience with building apps, but it seems to build fine, further on. 
+But still no storage drives found. Even when I plugged in a high-speed USB3.1 drive. 
+Restarted xandminer and xandminerd with systemctl offcourse.
+I just wonder if it is the above or that I missed a step in installing Xandminer. The guide seems pretty well documented, and rather easy to do. So prob my sys is quirky.
+Substance 2.42Role icon, Chat Mod — 3/17/25, 10:59 PM
+I don't think liblzma causes this (broken packages can be fixed, but first things first), if the build finishes and services are running (systemctl status), but if you can't see any drive at all - make sure you open ssh ports 3000 and 4000 tunnel, as described in documentation. Sorry if repating what you know. :-)
+Ymetro
+
+Role icon, Chat Mod — 3/17/25, 11:05 PM
+Yeah, I use the command ssh -i %userprofile%\.ssh\id_ed25519 <user>@<ip> -L 4000:localhost:4000 -L 3000:localhost:3000 from a Windows pc, where my browser with Phantom Wallet is on, to be able to connect that wallet to it, but detecting the storage is something internal on that machine intself, right?
+When I open that tunnel with ssh, the localhost:3000-page loads immediately, stating that "No Drives Found" under the "Drive Information" headline. I can connect the Phantom wallet and generate a pNode Identity Pubkey.
+Substance 2.42Role icon, Chat Mod — 3/17/25, 11:10 PM
+Yes, but without the tunnel, page loads with "Daemon offline" and zero storage available. So, on the Debian, systemctl status xandminer* shows them both running without restarts?
+Update: OK, so you are using the tunnel, hmm. Top right corner, daemon online? 
+Ymetro
+
+Role icon, Chat Mod — 3/17/25, 11:14 PM
+Yes, the daemon says it is online. 
+I tested if I only tunnel the 3000 port, I get the situation you mentioned. Daemon offline and zero storage.
+So it seems that both 3000 and 4000 are not blocked at the node server.
+Substance 2.42Role icon, Chat Mod — 3/17/25, 11:17 PM
+OK, so going back to that library, Grok recommends:
+sudo apt-mark unhold liblzma5
+sudo apt update
+sudo apt upgrade
+sudo apt install liblzma5=5.6.3-1+b1
+sudo apt --fix-broken install
+Edit /etc/apt/sources.list, remove testing/extra repos, then:
+sudo apt update
+install xandminer.
+That's probably all I can think about now...
+Ymetro
+
+Role icon, Chat Mod — 3/17/25, 11:17 PM
+I'll give it a shot.
+Substance 2.42Role icon, Chat Mod — 3/17/25, 11:19 PM
+Just a note: I am also on Debian 12, but clean install from "minimal" ISO, and it works. So, in worst case... you know. :-)
+kryptobiten — 3/17/25, 11:22 PM
+I would like to know if it's possible to run a pnode on raspberry pi?
+Ymetro
+
+Role icon, Chat Mod — 3/17/25, 11:25 PM
+It seems to need liblzma5 version  5.4.1-0.2, but 5.6.3-1+b1 is installed. (I got it reversed stated somehow.) Can this newer package be removed so that the older version that seems to be needed can be installed?
+Or else I'm afraid I need to clean install Debian 12.
+Substance 2.42Role icon, Chat Mod — 3/17/25, 11:26 PM
+I guess you can apt remove liblzma, then apt install liblzma5=5.4.1.-0.2?
+Just checked which one I am using - 5.4.1-0.2. 
+Substance 2.42Role icon, Chat Mod — 3/17/25, 11:29 PM
+This was asked before but nobody tried it - try and let us know. :-)
+Ymetro
+
+Role icon, Chat Mod — 3/17/25, 11:29 PM
+Translated to English:
+"Some packages could not be installed. This may mean
+that you asked for an impossible situation, or, if you
+using the distribution 'unstable', that some required packages have yet to be created or were removed from 'Incoming'."
+So it seems I have to install Debian anew, I guess.
+And "Unfulfilled Requirements:
+ apt : Requirements: libapt-pkg7.0 (>= 2.9.30) but it will not be installed
+ dpkg : Pre-requisites: liblzma5 (>= 5.4.0) but it will not install
+ python3 : Prerequisites: python3.12 (>= 3.12.7-1~) but it will not be installed
+           Prerequisites: libpython3-stdlib (= 3.12.8-1) but it will not be installed
+Error: Error, pkgProblemResolver::Resolve yielded defects. This may be caused by stuck packages."
+Also translated
+Well, I guess I'll be backing up and reinstalling tomorrow.
+Thanks for helping me @Substance 2.42 !
+YAGPDB.xyz
+APP
+ — 3/17/25, 11:32 PM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 62)
+Ymetro
+
+Role icon, Chat Mod — 3/17/25, 11:32 PM
+Ah, you earned it!
+Substance 2.42Role icon, Chat Mod — 3/17/25, 11:32 PM
+Yeah, sounds like trouble... that test Debian was ahead in versions so it makes all the dependencies mixed up... I used "A small installation image". Sorry for not figuring this out. :-)
+Ymetro
+
+Role icon, Chat Mod — 3/17/25, 11:33 PM
+No worries. I was rather late in communicating this info.
+Thanks. Be seeing you later tomorrow. Keeping you updated. GN!
+Ymetro
+
+Role icon, Chat Mod — 3/18/25, 2:55 PM
+Ga. Did install Debian 12 Bookworm and the build went well, without liblzma5 error's, but it still can't find the partition or any free space for storage.
+@Substance 2.42 Could you check what file system you have on the pNode storage disks/partitions?
+Substance 2.42Role icon, Chat Mod — 3/18/25, 3:10 PM
+ext4
+Daemon online? You don't have another forgotten ssh 3000/4000 tunnel opened somewhere, stealing your connection, right? Both systemctl status xandminer* running? 
+Ymetro
+
+Role icon, Chat Mod — 3/18/25, 3:12 PM
+I don't think so as I am getting the same results as when I access it with the local browser. I am using btrfs at the moment. Could try ext4 by formatting it via Gparted.
+Also, are all your partitions ext4 and do you have multiple disks, or just 1 with a few partitions on it? 
+Substance 2.42Role icon, Chat Mod — 3/18/25, 3:16 PM
+Just one disk with ext4 mounted at /, plus few usual tmpfs and EFI partitions, but they're not relevant here.
+Ymetro
+
+Role icon, Chat Mod — 3/18/25, 3:36 PM
+And it sees the / mounted free space for use as pNode storage at the GUI?
+Substance 2.42Role icon, Chat Mod — 3/18/25, 3:36 PM
+Yes.
+Ymetro
+
+Role icon, Chat Mod — 3/18/25, 3:50 PM
+Cool! But I just changed my partition to ext4 and mounted it via fstab, restarted both services, and it still does not see any space or disks.
+So I am beginning to wonder if it has to do that the installed system runs on btrfs and not on ext4. But should that even matter? 
+Looking at the requirement specs: I got 16 GB of RAM. Should it matter the PC is is a 2 core 4 threads model instead of 4 cores? 
+Or does xandminer test internet speeds, or hard drive speeds? It has a SATA SSD... 
+Ymetro
+
+Role icon, Chat Mod — 3/18/25, 3:58 PM
+I'm gonna retry with ext4.
+Substance 2.42Role icon, Chat Mod — 3/18/25, 4:17 PM
+No I don't think Xandminer tests anything yet, so far it is just kinda empty envelope, the engine will come later. You sure installation went through OK? For example I had to install chromium for some reason and run install again.
+Ymetro
+
+Role icon, Chat Mod — 3/18/25, 4:28 PM
+I had Brave installed and I did not notice any errors during installation.
+Ymetro
+
+Role icon, Chat Mod — 3/18/25, 6:36 PM
+Just tried with a bigger ext4 formated root / partition and the old /home data copied to the ext4 formatted drive. Then it occured to me that maybe / is to small, so I set a swap partition of 16 GB, a 91 GB / and made the 102 GB partition my new /home. I installed Debian 12 Bookworm with KDE Plasma (my favorite DE). Didn't need to install Chromium. Still no drives are being found in the remote webGUI after running the services. 
+Even checked if ports 3000 and 4000 were in use on the network somewhere. 
+I wonder: are there any ports that need to be opened in the ISP router for it to get accessed from the internet (WAN) side? Or is that step only necessary if the disks are found and shared?
+At the moment, it feels my marbles are rolling all over the place. 🤪
+Substance 2.42Role icon, Chat Mod — 3/18/25, 7:07 PM
+Sorry if I repeat myself :-), but - does top right corner of web say "Daemon online"? SSH tunnel via root is active I guess. Both services are running. No firewall blocking 3000 and 4000 ports. At the moment, I think disk space is not allocated or used yet, and it's enough to get registered.
+Also, if you have "telnet" on remote machine, you can try "telnet (your miner IP) 3000" and same for 4000 - we don't want to actually telnet, just to see if something will respond... 
+Ymetro
+
+Role icon, Chat Mod — 3/18/25, 10:41 PM
+Oops, sorry for the long absence. Yes, it says "Daemon Online". And my wallet is connected, so I can generate an identity key-pair with that yellow button.  Below "Drive Information" it says "No Drives Found". 
+Substance 2.42Role icon, Chat Mod — 3/18/25, 10:43 PM
+What about to give the install log e.g. to Grok AI? :-)
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 3/18/25, 10:43 PM
+That part is concerning...it should read your drive...running from home or a data center?
+Ymetro
+
+Role icon, Chat Mod — 3/18/25, 10:47 PM
+From home. It all runs on a wiped MacBook Pro 9,2 running Debian 12. It's a 2 core 4 threads processor. 16 GB of RAM. 250 GB SSD.
+Substance 2.42Role icon, Chat Mod — 3/18/25, 10:53 PM
+Grok is thinking:
+"Top Bet: EFI misconfig or partition table issue—MacBook Pro 9,2’s age plus Debian 12’s modern kernel might not vibe without tweaks (e.g., nomodeset in GRUB or reformatting)."
+Ymetro
+
+Role icon, Chat Mod — 3/18/25, 11:00 PM
+Yeah, my touchpad wasn't working in X, but it does on Wayland, and I have to remember how to install the Wi-Fi firmware driver again. But I digress. I thought newer kernels would only support more, instead of ditching old and adding newer hardware support. To bad, I couldn't let it run - just to test it - on a Steam Deck (which runs Arch).
+My last attempt was pure root, instead of my previous attempt: running in a user account with sudo privileges. But it didn't seem to matter much.
+Substance 2.42Role icon, Chat Mod — 3/18/25, 11:07 PM
+I talked with Grok again (note: I am able to my own ideas, but not always haha), and there is one more idea:
+"Ubuntu 22.04 LTS “Jammy Jellyfish”
+Why: Long-term support (till 2027), polished EFI handling, broader hardware support than Debian.
+Fit: Kernel 5.15—tuned for Intel 7 Series SATA, Mac EFI quirks."
+Maybe worth a try?
+Ymetro
+
+Role icon, Chat Mod — 3/18/25, 11:10 PM
+Yeah, I can replace it with the recommend Linux distro. I will try this tomorrow. Gn, and I'll report back if this fixed it.
+kezla
+
+ — 3/19/25, 7:30 AM
+I've been absent with my 97 yo dad in hospital for a month....then away.  Timing is off to be catching the Xandeum explosion (woohoo team XANDEUM) but trying to catch up now. Forgive me for asking potentially redundant questions.  With 58 hour window left, I've got XANDC to convert to XAND and on the link it no longer shows a Phantom Wallet (only Solflare and Alpha) so what should I do please?  I don't have a Solflare or Alpha wallet).  Thanks in advance!
+Zedok
+
+ — 3/19/25, 8:37 AM
+Do you have the phantom extension installed on your browser?
+kezla
+
+ — 3/19/25, 9:41 AM
+Hi @Zedok - yes, Phantom app is pinned as an extension in Brave browser
+Zedok
+
+ — 3/19/25, 9:46 AM
+I can only suggest trying another browser, or raise a ⁠🎫open-a-ticket . Do not reply to any direct message (DM). SCAMMERS.
+kezla
+
+ — 3/19/25, 9:52 AM
+Thanks, I've opened a support ticket and waiting patiently. I'm in a different timezone to many here. Thanks to all the Xandeum community though....Bernie's right, we have the best team and community bar none!  Solid foundations and loyal community we can trust 💎
+Ymetro
+
+Role icon, Chat Mod — 3/19/25, 7:38 PM
+Installed Ubuntu 22.04.5 LTS today and still got the same result. Kernel is 6.8.0 though. ufw is disabled.
+Substance 2.42Role icon, Chat Mod — 3/19/25, 7:40 PM
+I have no more ideas... :-/
+Ymetro
+
+Role icon, Chat Mod — 3/19/25, 8:19 PM
+I wonder: I do not own a license for a node - do I have to have one registered before it is going to search for local drives?
+Ymetro
+
+Role icon, Chat Mod — 3/19/25, 8:42 PM
+Ah: I figured out my own answer: no, it does not need it first. 
+Got it running in WSL Debian on a Windows 11 machine. 
+And it detects 1 drive. Probably a virtual from Docker itself, because it is bigger then my actual free space. 
+Does the client only work on NVME drives and does not detect SATA SSDs, because of the throughput speed?
+NeoBubba
+
+Role icon, Chat Mod — 3/19/25, 9:20 PM
+Not that I am aware of, should work on both.
+kezla
+
+ — 3/20/25, 4:33 AM
+Hey, sorry to bug team, but I can't /close or /closerequest my OPEN resolved ticket.  And I have a new support query:  I have not received my VIP discount code to buy pNodes.  Looked through all emails and spam, so not received.  Please assist.  Thank you so much (time sensitive prior to 25 March) 🙏
+NeoBubba
+
+Role icon, Chat Mod — 3/20/25, 4:34 AM
+Hammer time...
+Zachary A. — 3/20/25, 6:30 AM
+Uh oh what did I log into
+NeoBubba
+
+Role icon, Chat Mod — 3/20/25, 6:45 AM
+What do you mean?
+Ymetro
+
+Role icon, Chat Mod — 3/23/25, 7:11 PM
+Resized my root partition to maximum possible and installed Ubuntu 22.04.5 LTS, but still no disks found. 
+Macbook Pro 9,2 (Mid 2011?) with 16 GB RAM and 250 GB SATA SSD. Tried btrfs and ext4, but I do not believe it's important. 
+Waiting for a backup of a 512 GB SSD in my PS4, so I can check if it is a size requirement that wasn't met with the 240 GB drive. 
+And if that does not work, I might setup something on a Unraid server. Ubuntu VM on the SSD cache pool probably.
+Ymetro
+
+Role icon, Chat Mod — 3/24/25, 2:13 AM
+So it seems a /home partition doesn't take, and the other partitions are available if the kernel is 6.1 (in Debian Bookworm), while 6.8 (in Ubuntu 22.04.5 LTS) does not see any drives. 🤷
+So now only I need to get the tunnel set right to the VM running on Unraid, connect the wallet and claim the node.
+Ymetro
+
+Role icon, Chat Mod — 3/24/25, 2:57 AM
+Or the true 4 core (which are 2 cores 4 threads appointed to the VM on Unraid) vs 2 cores, 4 threads detection? I'm a bit clueless.
+So in the end I managed to run a previous installed Debian Bookworm VM on my Unraid system, addressed some more harddrive space to the VM and added that to a new partition of about 80 GB and exposed its IP to the LAN via network bridging and go the tunnel working. Now I only need to claim a pNode sometime tomorrow... 😁
+Hey @Substance 2.42, would you share or DM me what kernel you run?
+Substance 2.42Role icon, Chat Mod — 3/24/25, 9:19 AM
+I update daily, but at the moment:
+6.1.0-32-arm64
+6.1.0-32-cloud-amd64
+Btw, I can see in helpers.js source that it lists disk using:
+lsblk -o NAME,SIZE,FSUSED,FSUSE%,RO,TYPE,MOUNTPOINTS --json
+Does it produce valid output for you? It looks for:
+device.type === 'disk' || device.type === 'part' 
+427529 — 3/24/25, 9:42 AM
+Update please
+Pardon
+Substance 2.42Role icon, Chat Mod — 3/24/25, 10:11 AM
+Also, it does check OS, what is output of this for you? (Linux or Darwin)
+node -e "console.log(require('os').platform())"
+(or uname -s) 
+Ymetro
+
+Role icon, Chat Mod — 3/25/25, 5:38 PM
+I'll check later tonight. Currently waiting on the pNode buy fix for non-VIPs.
+Ymetro
+
+Role icon, Chat Mod — 3/25/25, 5:47 PM
+currently it is running Linux kernel 6.1.0-32-amd64
+My best guess atm is, that 6.8.0 or anything upward from 6.1.0 ain't spotting the disks / partitions somehow.
+Ymetro
+
+Role icon, Chat Mod — 3/25/25, 6:29 PM
+It mentions "linux"
+Wait, do you mean the system (Unraid Debian VM) that works, or the, now, Ubuntu system that doesn't work?
+I'll check it as well.
+Ymetro
+
+Role icon, Chat Mod — 3/25/25, 6:42 PM
+Got valid responses on both systems. It reads under "Blockdevices", "type: disk", with its "mountpoints: null" and below that its children that read "type: part" and "mountpoints: /boot/efi" and a second one that states "swap" and the biggest one states "/" in the json readout on the Ubuntu system and on the Unraid system it mentions the about the same things, only using "vdaX" instead of "sdaX" for the disks and partitions.
+Both systems mention "Linux" btw.
+Ymetro
+
+Role icon, Chat Mod — 3/25/25, 7:52 PM
+🎵 "I wear my sunglasses at night, because my MacBook Pro start screen is too bright" 🎶
+You know that song, right? 😉
+NeoBubba
+
+Role icon, Chat Mod — 3/25/25, 7:57 PM
+If you don't know that song you're probably not running a server in devnet.... 🤣
+Ymetro
+
+Role icon, Chat Mod — 3/25/25, 10:10 PM
+So I got Debian Bookworm with kernel 6.1.0-32-amd64 installed on the same MacBook Pro I previously mentioned, and it detects the rest of the root partition for use for the pNode. So to have the disks and partitions detected, this kernel version is required. ✅
+Thanks @Substance 2.42 for your help!
+YAGPDB.xyz
+APP
+ — 3/25/25, 10:10 PM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 66)
+Dean C — 3/28/25, 12:19 AM
+Hi guys, I'm trying to install a pnode on my local Proxmox server Version 8.3.5. I have install a Ubuntu LXC container Version 22.04. I run the install.sh OK, but get lots of warnings about deprecated packages & unnecessary dependency, but I do get the "Setup completed successfully!". I can run "curl http://localhost:3000/" locally on the LXC successfully. But if is blocked if I run curl http://192.168.x.x:3000/ from another VM or my local network. The connection is refused... The Firewall status on the VE host is disabled/running. The Firewall on the LXC is not running, LXC ufw status is inactive. something is blocking the ports 3000 & 4000, but I can figure out what....Can anyone help? 
+Zedok
+
+ — 3/28/25, 7:29 AM
+Just a heads up to disable your DM. If no help is provided here, ⁠🎫open-a-ticket
+Elaine — 3/29/25, 12:02 AM
+Hi can someone help me to buy some xandsol and then help to buy and run a pnode.
+Zedok
+
+ — 3/29/25, 2:11 AM
+Head towards: https://xandsol.xandeum.network/ where you will stake your SOL and get xandsol in return. 
+You can buy a p-node here: 
+
+https://pnodestore.xandeum.network/
+as far as help to run a node, read the instructions here:,
+
+https://pnodes.xandeum.network/
+All these links are in the #official-links channel.
+Elaine — 3/29/25, 2:12 AM
+Thanks
+Zedok
+
+ — 3/29/25, 2:13 AM
+You can ask specific p-node install questions on this channel but I would recommend you do a bit of homework first. Cheers.
+Elaine — 3/29/25, 2:17 AM
+Cheers fir that I will go as far as I can

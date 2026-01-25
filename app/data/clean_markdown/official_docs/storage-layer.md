@@ -1,0 +1,37 @@
+---
+original_filename: www.xandeum.network_storage-layer_4fba8161.txt
+source: https://www.xandeum.network/storage-layer
+ingested_at: 2026-01-20
+---
+
+## Introduction to Xandeum's Storage Layer
+Xandeum's Scalable Storage Layer: Completing the World Computer
+
+Ever feel like the blockchain is missing a hard drive? That's why at Xandeum, we're building a scalable storage layer for Solana, aiming to complete the "world computer" by adding the much-needed "drive" to its CPU and RAM. We're sparking a Cambrian explosion of web3 apps, enabling everything from ported web2 applications to entirely new categories of decentralized services.
+
+## Xandeum Buckets
+Introducing Xandeum Buckets—a decentralized file system available to developers building on Solana. These buckets can scale up to exabytes of storage and are accessed via extended Solana primitives using special Xandeum-enabled RPC nodes. In simpler terms, we're giving smart contracts a place to store vast amounts of data without clogging up the blockchain.
+
+## New Primitives for Developers
+We've introduced new primitives to make interacting with this storage layer seamless:
+* Poke: Transfers (or copies) data from a Solana account into a specified bucket at a specified position.
+* Peek: Reads data from a bucket and stores it into a Solana account.
+* Prove: Ensures the data's integrity through cryptographic proofs.
+
+These operations are provided by Xandeum-enabled RPC nodes, allowing developers to store and retrieve data efficiently, all while keeping the network running smoothly.
+
+## How It Works: pNodes and vNodes
+Unlike Solana accounts, the contents of Xandeum Buckets aren't stored on every validator node. Instead, we offload storage to a separate network of provider nodes, or pNodes. These pNodes are cryptographically supervised by validator nodes (vNodes), ensuring data integrity without overburdening the network.
+
+Configurable redundancy is the key to our scaling. With Solana accounts, redundancy for all data is always "all the validators"—that's about 2,000 nodes storing every piece of data. In contrast, Xandeum allows for configurable redundancy levels, so data is stored on a selected number of pNodes rather than every single validator. Data is split into pages and stored redundantly across multiple pNodes using erasure codes, meaning your data is both secure and highly available without unnecessary duplication.
+
+## Seamless Integration with Solana
+We designed our system to work smoothly even if not all validators are Xandeum-aware. For example, when you perform a poke operation, it's wrapped in a Solana program call instruction. To regular Solana validators, it's a no-op (does nothing), but it triggers the necessary actions in Xandeum-enabled RPC nodes.
+
+For peek operations, we've implemented a "Peek - Poke - Prove" paradigm. pNodes generate Merkle proofs, and the Xandeum Program validates these proofs using Threshold Signature Schemes (TSS). This allows even standard Solana validators to validate storage transactions securely.
+
+## Fueling the SOL Economy
+Our storage fees are collected in SOL, promoting and strengthening the Solana economy. The Xandeum Program accrues these fees into a Fee Distribution Account per validator per epoch. Validators can claim these fees and potentially redistribute them to their stakers. A portion is also sent to pNodes as compensation for their work.
+
+## Introducing the XAND Token and Liquid Staking
+While we're building out the storage layer, we're also launching our liquid staking product. By staking with the Xandeum Network, you'll receive XAND tokens as rewards—doubling as governance tokens for the DAO that oversees the Xandeum Network. Our staking pool delegates only to validators participating in the Xandeum storage layer, meaning you get extra storage rewards on top of regular staking benefits.

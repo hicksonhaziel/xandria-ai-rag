@@ -1,0 +1,146 @@
+URL: https://www.xandeum.network/post/discover-xandeum-pnodes-solana-storage
+TITLE: Discover Xandeum pNodes: Power Solana's Scalable Storage
+================================================================================
+
+Learn
+💡 Docs
+Earn
+Blog
+Subscribe
+Blog
+Discover Xandeum pNodes: Power Solana's Scalable Storage
+Verena
+
+Oct 10, 2025
+
+2 min read
+
+3
+
+80
+
+0
+
+Hey there! Excited about Solana and decentralized storage? You're in the right place. Let’s talk Xandeum pNodes – the key to unlocking massive, secure storage for Solana’s ecosystem. (Note: We use “pNodes” officially, but some search for “p Nodes” – we’ve got that covered for SEO!) This post is simple, clear, and packed with info for developers, node operators, or Solana fans. Let’s dive in.
+
+
+
+What Are Xandeum pNodes?
+
+
+pNodes, or Provider Nodes, are the heart of Xandeum’s storage layer on Solana. Solana’s great for fast transactions, but validators can’t handle huge data loads. Xandeum pNodes fix that by acting as a decentralized “hard drive.” They store exabytes of data for dApps in Xandeum Buckets, our file system, keeping Solana speedy and secure.
+
+pNodes use erasure coding to split and spread data across nodes with redundancy. If a node goes down, your data stays safe. It’s reliable and simple.
+
+
+
+How Do pNodes Work with Solana?
+
+
+Running a pNode is easy and fits right into Solana. Here’s the deal:
+
+
+
+
+Data In: dApps send data to pNodes via “poke” commands, wrapped in Solana instructions.
+
+Storage: Data is sliced, encoded, and stored across pNodes with your chosen redundancy level.
+
+Data Out: Use “peek” to grab data or “prove” to verify it’s untampered.
+
+
+vNodes (validators with Xandeum software) oversee integrity. Updates like version 0.5 (Ingolstadt) boost speed, and 0.6 (Stuttgart) adds crash-proofing. Tools like XandMiner simplify setup, and Herrenberg shows real-time pNode stats. It’s permissionless on mainnet – anyone can join!
+
+
+
+Why Run a pNode? Top Perks
+
+
+Xandeum pNodes are a win for everyone. Here’s why:
+
+Earn Cash: Devnet offers ~10,000 XAND monthly (locked 12 months). Mainnet brings SOL storage fees.
+
+Easy Setup: Use a VPS, Ubuntu 24.04+, and our script. No fancy gear needed.
+
+Early Advantage: Only 300 devnet slots now – early pNode runners get Airdrop 2 points.
+
+Power Solana: pNodes enable big-data dApps (NFTs, DeFi, AI) by easing validator loads.
+
+Community: Join Discord for tips and use Herrenberg for staking insights.
+
+
+
+Start Your pNode Today
+
+
+Ready? It’s quick:
+
+
+
+
+Gear Up: Get Ubuntu 24.04+, 100GB+ storage, stable internet.
+
+Install: Use our one-click script and register via XandMiner.
+
+Monitor: Check Herrenberg for pNode stats and rewards.
+
+
+Visit xandeum.network/docs for details. Join our Dutch Auction to grab a spot!
+
+Blog
+p Nodes
+Decentralized storage
+Blockchain nodes
+Blockchain tech
+Crypto nodes
+pNode rewards
+Passive income
+Earn XAND
+XandMiner
+Solana scalability
+Decentralized data
+pNode benefits
+Decentralized network
+Web3 innovation
+Run pNode
+Xandeum pNodes
+Web3 storage
+Herrenberg
+Solana dApps
+Xandeum network
+pNode setup
+Solana ecosystem
+Solana validators
+Crypto rewards
+Solana tech
+Xandeum Buckets
+Erasure coding
+Solana storage
+pNode guide
+Verena
+
+Oct 10, 2025
+
+2 min read
+
+3
+
+80
+
+0
+
+Related Posts
+See All
+Xandeum’s Dutch Auction and Herrenberg Release: Advancing Solana’s Storage Revolution
+Master Xandeum pNode Economics: Unlock Storage Income and Earn Rewards
+Xandeum Shines at Rare Evo 2025: Munich Release Demo Steals the Show
+Comments
+Write a comment
+Share Your Thoughts
+Be the first to write a comment.
+Privacy Policy
+Terms Of Service
+
+© 2025 Xandeum Foundation
+
+All rights reserved

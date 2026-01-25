@@ -1,0 +1,26 @@
+URL: https://www.xandeum.network/blog/tags/crypto-rewards-1
+TITLE: Crypto rewards | Xandeum.network
+================================================================================
+
+Learn
+💡 Docs
+Earn
+Blog
+Subscribe
+All Posts
+News
+Blog
+Discover Xandeum pNodes: Power Solana's Scalable Storage
+Discover the power of Xandeum pNodes, the backbone of scalable Solana storage! These decentralized p Nodes use erasure coding to offload data from validators, enabling exabyte-scale dApps. Earn ~10,000 XAND monthly on devnet or SOL fees on mainnet with easy setup via XandMiner. Boost Solana’s ecosystem while reaping rewards. Learn how to run a pNode and join the future of Web3. Visit xandeum.network/docs to start! #pNodes #Solana #Xandeum
+Verena
+Oct 10, 2025
+2 min read
+ 
+ 
+ 
+Privacy Policy
+Terms Of Service
+
+© 2025 Xandeum Foundation
+
+All rights reserved

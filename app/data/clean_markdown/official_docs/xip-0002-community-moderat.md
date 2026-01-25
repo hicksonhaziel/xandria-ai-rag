@@ -1,0 +1,63 @@
+---
+original_filename: forum.xandeum.network_t_xip-0002-community-moderat_6da0243e.txt
+source: https://forum.xandeum.network/t/xip-0002-community-moderator-compensation-proposal/151
+ingested_at: 2026-01-20
+---
+
+## Introduction
+As the Xandeum project continues to grow and evolve, we recognize the invaluable contributions of our volunteer Discord community moderators in ensuring the smooth operation of our community and supporting our mission. From responding to user inquiries to enforcing community guidelines and maintaining the integrity of our discussions, these individuals have demonstrated exceptional dedication, expertise, and a commitment to upholding the principles of Xandeum.
+
+In this proposal, we aim to formally recognize and reward their efforts by introducing a compensation program for our top-performing community moderators. This initiative will not only acknowledge their hard work but also serve as an incentive to continue their involvement in shaping the future of Xandeum.
+
+## The Role of Community Moderators
+Community moderators play a crucial role in maintaining the health and stability of our Discord server. Their responsibilities include, but are not limited to:
+* Responding promptly to user inquiries and resolving issues
+* Enforcing community guidelines and moderation policies
+* Issuing kicks and bans as necessary to maintain a positive and respectful environment
+* Providing guidance and support to new users and members
+* Participating in discussions and contributing to the growth of our community
+
+These tasks require a high level of dedication, attention to detail, and emotional intelligence. Our community moderators have demonstrated exceptional skill in balancing the needs of various stakeholders while promoting a culture of inclusivity, respect, and open communication.
+
+## Current Compensation
+At present, our community moderators do not receive any formal compensation for their efforts. However, this proposal aims to introduce a new incentive structure that recognizes their contributions and provides a tangible reward for their hard work.
+
+The proposed compensation plan offers 40,000 XAND tokens per month to up to 5 well-performing community moderators, as determined by the DAO. This amount represents a significant bonus, considering the current price of XAND tokens, which would translate to approximately $300 per month for each moderator.
+
+## Rationale
+While some members of our community may feel that 40,000 XAND tokens is insufficient, we believe this amount reflects the value and importance of their contributions. We recognize that this compensation plan serves as a bonus, not a requirement, and that our moderators are motivated by the sense of purpose and fulfillment and future growth that comes from supporting the Xandeum project.
+
+## Token Distribution
+The proposed token distribution will be as follows:
+* 40,000 XAND tokens per month for each of the 5 community moderators (or more if determined by the DAO if the need is there)
+* Total monthly mod group compensation: 200,000 XAND tokens initially
+* Token amount locked in individual DAO vote accounts for 12 months to ensure long-term sustainability
+
+## Eligibility Criteria
+To be eligible for this compensation program, community moderators must meet the following criteria:
+* Be actively engaged with our Discord server and contribute to discussions
+* Demonstrate exceptional moderation skills, including prompt response times and effective issue resolution
+* Uphold the principles of Xandeum and adhere to community guidelines
+* Participate in community events and activities
+* Provide basic KYC info to the Foundation or its delegates.
+
+Initial Mods will be (as known in Discord as): Mikl, NeoBubba, Substance242, tupacalypse187, and Zedok
+
+## Adding / Removing a Mod
+A DAO vote will be proposed either by the Council on behalf of the foundation or by a community member or delegate pack, to either nominate a new Mod or remove a Mod. Any mod can stop being a mod by dropping the Mod role or by requesting to be removed. Xandeum DAO Security Council has the authority to request the removal of a moderator for any reason. Additionally, A moderator may be removed if deemed inactive over any two-week period by Xandeum Discord admins.
+
+## Implementation Plan
+To implement this proposal, we propose the following feedback required by the DAO:
+* Establish if there needs to be a criteria for evaluating community moderator performance or not
+* Determine if 5 community moderators met the needs of the DAO and Discord community each month, or if more or less are required
+* Lock 40,000 XAND tokens into the DAO per month for each selected moderator
+
+## Conclusion
+The compensation proposal outlined in this XIP-0002 aims to recognize and reward the dedication and expertise of our volunteer Discord community moderators. By providing a tangible incentive structure, we hope to motivate these individuals to continue contributing to the growth and success of the Xandeum project.
+
+We believe that this proposal strikes a balance between acknowledging their hard work and ensuring the long-term sustainability of our community. We look forward to discussing this proposal with the DAO and implementing it in a way that benefits both our moderators and the wider Xandeum community.
+
+## Next Steps
+We propose that this proposal be put to a vote in the DAO and that all members have the opportunity to provide feedback and input before a final decision is made.
+
+By working together, we can create a more inclusive and rewarding environment for our community moderators, while promoting the growth and success of the Xandeum project as a whole.

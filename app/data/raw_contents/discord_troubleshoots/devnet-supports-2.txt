@@ -1,0 +1,411 @@
+sources=xandeum discord devnet support channel
+
+Role icon, Chat Mod — 12/24/25, 9:50 PM
+Add an elaborate description, please.
+Ymetro
+
+Role icon, Chat Mod — 12/24/25, 9:50 PM
+I thinks so.
+gol.D.roger — 12/24/25, 9:51 PM
+Alright
+gol.D.roger — 12/24/25, 9:51 PM
+Oh
+DESH — 12/25/25, 6:08 AM
+Can anyone pls point me to the pRPC endpoints?
+Ymetro
+
+Role icon, Chat Mod — 12/25/25, 11:17 AM
+Sure: ⁠devnet-developer-support⁠
+BarriePotter — 12/25/25, 6:07 PM
+Is there any endpoint for the stacking score for a pnode?
+Or rpc method?
+Ymetro
+
+Role icon, Chat Mod — 12/25/25, 6:44 PM
+If you mean Storage Credit score then call the address at the bottom of ⁠devnet-developer-support⁠
+BarriePotter — 12/25/25, 6:48 PM
+Not that one I have already used it to get credit.
+
+I added a feature where we score pnodes based on stats and show staking potentials
+Ymetro
+
+Role icon, Chat Mod — 12/25/25, 8:41 PM
+Whatever you think is best suited. We got pRPC for listing pNodes, pNodes listing with stats and detailed statistics at public open pNodes and the storage credit external endpoint for the nodes. 
+I sometimes list a part of public node IPs list and advice to use them redundantly, for if a node goes down.
+Substance 2.42Role icon, Chat Mod — 12/28/25, 4:35 PM
+So, XanDash, XandeumCollector... will you continue trying to abuse my site, or was it enough already? :-)
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 12/28/25, 4:42 PM
+Abuse as in frequent API calls or something else?
+Substance 2.42Role icon, Chat Mod — 12/28/25, 4:44 PM
+Yes API calls, but "trying to" is important part of my message, it's just kinda annoying.
+Bhondu — 12/28/25, 4:56 PM
+Sorry ser 
+I'll remove the api 
+Rpc.pchednode
+Wasn't aware of the site is yours 
+I was not trying to abuse anything it was unintentional
+I was getting the historical data and it got restricted yesterday
+I was just trying to check what really happened
+Is there any way I can get the nodes historical data and response time
+Substance 2.42Role icon, Chat Mod — 12/28/25, 5:07 PM
+No problem, thank you for improving my security settings. :-) As for historical data, they are not available from Xandeum, have to store on your side.
+NeoBubba
+
+Role icon, Chat Mod — 12/28/25, 5:07 PM
+I believe Brad mentioned you need to create your own historical data?!? 
+Bhondu — 12/28/25, 5:08 PM
+Ah so we need to store the data in our db then call it
+
+What about the response time
+Btw Xandash is mine 
+If it causes any problems let me know I'll fix ASAP 
+
+Sorry for the inconvenience
+Bhondu — 12/28/25, 6:07 PM
+I have removed the pchednode api from XanDash
+
+It won't be making any api calls 
+Now it uses only public ips 
+tobytobias — 12/28/25, 8:10 PM
+@Brad|Xandeum-imposter DM'ing You 
+
+uptime in "get-stats" is milli-seconds, right?
+
+Querying node: "get-stats" ...
+{
+  "status": "success",
+  "data": {
+    "active_streams": 2,
+    "cpu_percent": 1.9900497198104858,
+    "current_index": 0,
+    "file_size": 104857600,
+    "last_updated": 0,
+    "packets_received": 10060552,
+    "packets_sent": 11658263,
+    "ram_total": 4115349504,
+    "ram_used": 1220251648,
+    "total_bytes": 0,
+    "total_pages": 0,
+    "uptime": 330117
+  }
+}
+ooh, it seconds... just saw it in the docs now
+Bhondu — 12/30/25, 5:16 PM
+I have updated the data storing method 
+It now stores nodes data and logs in mongo db and shows in the dashboard 
+
+All Thanks to you 🙂
+Ymetro
+
+Role icon, Chat Mod — 12/31/25, 1:12 PM
+In the meantime (while the devs are upgrading and testing) - here's a list of v0.8.0 nodes that are public: 
+173.212.207.32:9001
+45.151.122.77:9001
+144.126.137.111:9001
+45.84.138.15:9001
+84.21.171.111:9001
+173.249.54.191:9001
+173.249.59.66:9001
+173.249.3.118:9001
+161.97.185.116:9001
+154.38.169.212:9001
+152.53.236.91:9001
+192.190.136.37:9001
+192.190.136.38:9001
+45.151.122.71:9001
+45.151.122.60:9001
+152.53.155.15:9001
+84.21.171.129:9001
+216.234.134.5:9001
+173.212.203.145:9001
+203.184.40.164:7041
+152.53.142.52:9001
+89.123.115.79:9001
+192.190.136.36:9001
+173.212.220.65:9001
+62.171.135.107:9001
+207.244.224.39:9001
+157.180.116.138:9001
+62.171.138.27:9001
+209.126.5.34:9001
+144.126.159.237:9001
+66.94.119.137:9001
+136.115.243.45:9001
+159.69.221.189:9001
+89.123.115.81:9001
+157.173.101.57:9001
+66.94.117.109:9001
+66.94.98.124:9001
+160.202.38.95:58531
+207.244.255.1:9001
+161.156.85.177:9001
+38.242.207.242:9001
+77.53.105.1:31891
+34.27.59.48:9001
+3.94.159.224:9001
+Total public nodes (version 0.8.0): 44
+ 
+If you want to get a fresh list yourself use: 
+curl -s -X POST http://89.123.115.81:6000/rpc \
+    -H "Content-Type: application/json" \
+    -d '{"jsonrpc":"2.0","method":"get-pods-with-stats","id":1}' |
+# Turn the top‑level array into one compact line per pod
+jq -c '.result.pods[]' |
+# Keep only pods whose version is 0.8.0
+grep -i '"version":"0\.8\.0"' |
+# From those, keep only the ones that are public
+grep -i '"is_public": *true' |
+# Pull out just the address field
+grep -o '"address":"[^"]*"' |
+cut -d'"' -f4 |
+tee /dev/tty |
+wc -l | awk '{print "Total public nodes (version 0.8.0):", $1}'
+Change IP to a public one from the list above, if it does not respond.
+Skipp
+
+ — 1/1/26, 5:11 PM
+gm guys
+Happy New year 🎉
+Ymetro
+
+Role icon, Chat Mod — 1/1/26, 5:12 PM
+Happy New year!
+Skipp
+
+ — 1/1/26, 5:13 PM
+posted a screenshot of XDOrb in ⁠💡apps-developers 
+i essentially wanted to ask, were pod credits resetted twice today ?
+while I checked this morning  I saw some pods having >700 via the sort feature of credits column on XDOrb so I thought oh yeahh, it’s the first of the month and pNodes credits were resetted
+but looking now, the highest credit a pod owns is ~235
+Also confirmed via the podcredits api
+just wanted to be clear
+mrhcon
+
+ — 1/1/26, 5:32 PM
+Yes.  I experienced the same and the top earner does appear at the time of writing this to be 264
+Skipp
+
+ — 1/1/26, 6:27 PM
+Alright alright
+BarriePotter — 1/1/26, 8:00 PM
+Hello is there going to be different ip address for access pnodes for mainnet and devnet?
+
+I am presently using this IP for calling the rpc methods for the xandium analytics dashboard?
+Bhondu — 1/2/26, 3:18 PM
+Why credits aren't showing up for many nodes
+Is it because they updated the version to 1.2
+Ymetro
+
+Role icon, Chat Mod — 1/2/26, 3:19 PM
+Yep. That's seems to be the case for the ones on mainnet. 1.2.0's on devnet do get credits. 
+O, wait. Brad has an update about that: ⁠devnet-announcements⁠ 
+Bhondu — 1/2/26, 3:25 PM
+Ah ok I need to update the endpoint in dashboard
+Substance 2.42Role icon, Chat Mod — 1/2/26, 3:43 PM
+Done. :-) Both mainnet and devnet.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/2/26, 4:02 PM
+Will be an impromptu litmus test to see who is continuing to develop their project I guess...
+Bhondu — 1/2/26, 4:22 PM
+Added mainnet leaderboard on Xandash
+mrhcon
+
+ — 1/2/26, 4:38 PM
+A little notice would have been nice... Now that you have people building on your APIs, it's worth establishing a deprecation process - announce changes in advance, maintain backward compatibility for a transition period, then sunset the old endpoints. It helps everyone building on the ecosystem stay stable.
+Worth noting - services like ChillXand exist to help grow the ecosystem by making pNode operation more accessible. We're on the same team here. A little coordination on breaking changes helps us help you.
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/2/26, 4:44 PM
+Yea, probably. I didn't know it untili woke up and read the dev notes from overnight.. And immediately notified here. There's an argument for everything... We could be democratic and waste time or just do it fast, break things, build it back better and see who is following along. One of the hazards of having an international crew building something is that sometimes decisions get made without waiting for another timezone to wake up and answer...
+Appreciate you all though. Honestly. I understand and more or less thought the same thing reading through the notes. But here we are. 
+mrhcon
+
+ — 1/2/26, 4:45 PM
+Totally fair - I get the tradeoffs. Moving fast and breaking things has its place, especially at this stage. And yeah, timezone coordination is a real challenge with a distributed team. Not asking for democracy by committee, just a quick ping in announcements when something breaking is going out. Appreciate you jumping on it this morning though.
+Ymetro
+
+Role icon, Chat Mod — 1/2/26, 5:15 PM
+@Brad|Xandeum-imposter DM'ing You how can the devs get info on which net the pNode is running, devnet or mainnet? As get-pods-with-stats RPC results don't mention this.
+Substance 2.42Role icon, Chat Mod — 1/2/26, 5:25 PM
+On similar topic - how to bridge Xandeum devnet SOL to Solana mainnet-beta? :-) (joke, sorry)
+Skipp
+
+ — 1/2/26, 5:43 PM
+what’s the endpoint to fetch from now? to give us raw json like the now deprecated one did
+the one @Brad|Xandeum-imposter DM'ing You shared gives an empty js shell…a page
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/2/26, 5:46 PM
+⁠devnet-announcements⁠
+
+These are not both working for you?
+Oh, I see now... The API endpoint for json results... I'll see what I can see
+Skipp
+
+ — 1/2/26, 5:47 PM
+Yes Brad, this
+Alright
+Well this API change change was “woah”
+Is there a way any of us can run a node or service or something to also get pod credits from all nodes ?
+just asking…
+Bhondu — 1/2/26, 5:52 PM
+Check out the announcement ⁠devnet-announcements
+Just goto networks tab in chrome devtools and you'll findthe actual endpoint with response 
+riot'
+
+ — 1/2/26, 6:07 PM
+thanks @Brad|Xandeum-imposter DM'ing You
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/2/26, 6:08 PM
+⁠devnet-announcements⁠
+
+Posted the endpoints for json output
+Skipp
+
+ — 1/2/26, 6:23 PM
+i in fact did this, but it seems your doing the fetching on a server, not client side so I can’t see that 
+it’s fine now, official endpoints are released
+Skipp
+
+ — 1/2/26, 6:24 PM
+thank you 🔥
+Skipp
+
+ — 1/2/26, 6:28 PM
+devnet works perfectly now 
+John | WAGISDev
+
+ — 1/2/26, 7:19 PM
+Okay...I have held my tongue for a bit here, but I am going to say this. Coming from a background of moving fast and breaking things with big projects, I can appreciate a bit of that happening when you are NOT in production or begging devs to build things you need to grow the ecosystem. You are beyond that now, being in production even if you are in Alpha, and you have a community of folks who are trying to building applications and stable/useful ones to boot. You even have businesses like ChillXand building in parallel and for them time is money. What this means is --- your rapid shifting without communication is not professional, not to mention costs reputational points for transparency.
+
+So here is what I would like moving forward, and I am sure others are on the same page:
+
+-- 1 work week for any API changes to be made when you have this large of a group trying to develop along side of you filling in gaps
+-- Updated documentation ahead of the change or at least released at the same time as the change
+-- Documentation that mirrors the realities, by way of example -- All requests should be sent to the /prpc endpoint but on the very next line the example is!!! info "Base URL" http://<pnode-ip>:6000/rpc
+-- Updated documentation for the mainnet RPC API or in absence of that, code for the RPC published in GitHub.
+-- A list of public RPCs to be used for development
+-- Finally, if you are going to have an API available, make it all come from the same place. Having API calls all over the place is non-sense. 
+riot'
+
+ — 1/2/26, 9:18 PM
+I'll just go to bed and continue things tomorrow morning, maybe
+Bhondu — 1/3/26, 3:51 AM
+Again the endpoint is changed 😞
+Skipp
+
+ — 1/3/26, 4:56 AM
+they made an announcement on it
+Bhondu — 1/3/26, 4:57 AM
+yeah saw it 
+
+I was asleep , different timezones
+Skipp
+
+ — 1/3/26, 4:58 AM
+awesome
+Bhondu — 1/3/26, 2:08 PM
+Why the latest version is still 0.8 as many nodes have already updated to 1.2 on devnet 
+
+Shouldn't 1.2.0 be the latest one
+Api returns 0.8 as latest version
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/4/26, 2:18 AM
+What are you running to see that and what is the actual output?
+Bhondu — 1/4/26, 4:43 AM
+I'm using public endpoints to fetch data in my dashboard 
+
+For get-version method 
+
+It's showing this as response 
+
+{
+  "error": null,
+  "id": 1767498079441,
+  "jsonrpc": "2.0",
+  "result": {
+    "version": "0.8.0"
+  }
+}
+Hickson.dev — 1/4/26, 11:56 AM
+@Brad|Xandeum-imposter DM'ing You whats rpc method to get mainet nodes
+!                   yashpunmiya
+
+ — 1/4/26, 3:03 PM
+Pushed a lot of code and updates this days, will make a tweet on the updates in made on xandscan............
+Bhondu — 1/4/26, 3:17 PM
+Did you copy that endpoint diagnostic or testing page from XanDash lol
+
+Nvm you can Improve it tho
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/4/26, 3:17 PM
+That call polls only the machine you're polling
+Bhondu — 1/4/26, 3:18 PM
+So if am polling a machine which runs on 1.2 version 
+
+It'll return 1.2.0
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/4/26, 3:19 PM
+Correct, but likely more useful to run get-pods or get-pods-with-stats
+But using the one you used you can detect if that public endpoint is being neglected it's updates
+Bhondu — 1/4/26, 3:21 PM
+Ok
+So the public node(endpoint) I'm using is not updated i guess
+Brad|Xandeum-imposter DM'ing YouRole icon, XandeumTeam — 1/4/26, 3:21 PM
+Correct
+Bhondu — 1/4/26, 3:22 PM
+Alright, thanks for the clarification
+BarriePotter — 1/5/26, 11:45 AM
+For the ⁠devnet-announcements  on credits endpoint change? How would we know if a pnode is on mainnet or devnet to use the appropriate credits endpoint?
+Ymetro
+
+Role icon, Chat Mod — 1/5/26, 11:46 AM
+Both nets are separated and cannot see each other, so if you do a call and get results that are the results of either devnet or mainnet.
+BarriePotter — 1/5/26, 11:53 AM
+It would really have been great if there is a single rpc method on either mainnet or devnet host to get all active public pnodes.
+
+This will allow easy switch on the analytics platform.
+
+So the user could see only the pnodes that are in each one exclusively.
+
+Reason being with calling the IPs of public pnodes which if not provided here in Discord would lead to most dashboard using IPs that maybe outdated or not even available any longer.
+!                   yashpunmiya
+
+ — 1/5/26, 3:16 PM
+call on both maybe for each node either u get data or 0
+Hickson.dev — 1/6/26, 9:50 AM
+gm,
+thats how we get to know if the node is on mainet or devnet?
+NeoBubba
+
+Role icon, Chat Mod — 1/6/26, 9:52 AM
+They are 2 different networks, using 2 different API's.
+You will only get the nodes that are on that network.
+If you pull from Devnet API, you will get Devnet pnodes.
+If you pull from Mainnet API, you will get Mainnet pnodes.
+Hickson.dev — 1/6/26, 9:54 AM
+ok thanks
+Bhondu — 1/6/26, 10:07 AM
+U guys can literally read that api endpoint 
+
+And see differences which one returns mainnet or devnet data
+Skipp
+
+ — 1/9/26, 5:08 PM
+GM
+hey @Brad|Xandeum-imposter DM'ing You, is there a way the community can setup infra to get/capture credits being reported by nodes both on devnet and mainnet
+in other words, a secondary endpoint to the official one provided by team
+Chill Marketing guy
+
+ — 1/9/26, 7:36 PM
+Hey! Wishing you all a most Chill day! If you are looking for somewhere Chill to test your Solana/Xandeum apps and services give our RPC a try! At ChillXand we know what Xandeum developers need and we're offering it.
+Image
+NeoBubba
+
+Role icon, Chat Mod — 1/9/26, 7:40 PM
+https://chillxand.com/ 
+Hickson.dev — 1/12/26, 7:43 PM
+gm guys
+
+building  xandria an analytics platform for xandeum Pnodes and I'm stuck on one thing: Since the get-stats pRPC call doesn't return the Owner/Manager wallet address, is there an official on-chain registry or a specific RPC method to map a pNode Identity Pubkey to the Rewards Wallet?
+
+I need this to accurately show NFT multipliers in the dashboard. Any tips on how to fetch this mapping programmatically? Thanks!
+mrhcon
+
+ — 1/12/26, 8:26 PM
+Multipliers are not all NFT's yet and thus not attached to the wallets...  Some are (titan, cricket, etc) and some are not (deep south, etc). 
+Hickson.dev — 1/13/26, 9:35 AM
+Got it, that makes sense! Since those specific multipliers (Titan, etc.) are tied to wallets, is there a public way to see which Wallet Address is officially associated with a specific pNode Identity?
+
+Or is that mapping currently private to the Foundation's onboarding database? Just trying to figure out if I should build a 'Claim Node' feature where users manually link their wallet to their pNode ID in my dashboard. Thanks for the help!

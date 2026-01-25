@@ -1,0 +1,361 @@
+sources=xandeum discord devnet validators operators channel
+
+johnc — 9/1/25, 10:01 AM
+Running  vNode and I can't seem to get any response on my commands of "sb", "sg" or "sv".  I ran a tail and my validator is running and looks normal but it does not seem to be communicating with the RPC.  I tried stopping and restarting but that did not change things.  Any help would be appreciated.  Thanks. 
+Substance 2.42Role icon, Chat Mod — 9/1/25, 10:13 AM
+Nothing you can do, RPC seems to be down, but keep it running. I'll report here when my Watchtower reports everything is OK.
+johnc — 9/1/25, 10:45 PM
+Thanks for the response.
+YAGPDB.xyz
+APP
+ — 9/1/25, 10:45 PM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 94)
+Substance 2.42Role icon, Chat Mod — 9/3/25, 8:48 AM
+FYI, RPC is back online, so solana commands work.
+csoaita — 9/3/25, 9:09 AM
+Thank you. I see 6 delinquent servers - a little big to much?
+Substance 2.42Role icon, Chat Mod — 9/3/25, 9:34 AM
+There are 2 delinquent on current version, I expect them to come back (let's check later), and 3 that look like "abandoned" for a long time...
+david983 — 9/6/25, 6:47 PM
+..anyone running mon.sh .on their validator ?
+Image
+Substance 2.42Role icon, Chat Mod — 9/6/25, 6:54 PM
+Yep, running fine, including mon.sh, and your seems to be running OK too (I checked in sv).
+david983 — 9/6/25, 7:37 PM
+...many thanks for checking...not sure why "thread 'main' panicked at validator/src/dashboard.rs:146.821" returning 'Result::unwrap()' on an 'ERR'.  I'm sshing from new computer with diff OS (migrated from win to mac) ..wonder if that's causing main thread panic alert? I'll try logging in few more times to increase no. of successful connections. 
+YAGPDB.xyz
+APP
+ — 9/6/25, 7:37 PM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 97)
+Substance 2.42Role icon, Chat Mod — 9/6/25, 9:20 PM
+No I don't think it can be related to ssh, I would check CPU (top, htop) and free disk space (df / -h), but your validator is on correct version with current skip rate 1.78% so it means it is running.
+Why monitoring errors out... Grok says check with timedatectl if time is synced, or maybe ledger (the blockchain storage) is corrupted (longer topic to reset it), or maybe restart. :-)
+Substance 2.42Role icon, Chat Mod — 9/23/25, 4:03 PM
+This recently improved line from my /etc/fstab caused my start-upgrade.sh to fail on "could not execute process /tmp/cargo-install... (...) Permission denied":
+tmpfs /tmp tmpfs rw,noatime,nosuid,nodev,noexec,mode=1777,size=512m 0 0
+
+Who can see the reason? I know the answer, just curious if someone can spot it. :-)
+tupacalypse187
+
+Role icon, Chat Mod — 9/23/25, 4:27 PM
+Updated to x2.2.0-herrenberg from source
+⁠devnet-announcements⁠
+sol@xand1:~$ sg | grep 59s
+209.192.206.60  | 59sDZCatUpq7SCNbZsd6LTnbmL8sT4S2HQZ8eQpKDNu4 | 8000   | 8003  | 8009     | 209.192.206.60:8899   | 2.2.0-7c3f39e8| 3294202862
+mrhcon
+
+ — 9/23/25, 5:37 PM
+Can you share what you did to get there @tupacalypse187 ?
+csoaita — 9/23/25, 5:47 PM
+I tried to upgrade but did not succeed 😢
+Image
+Any ideea how to do the upgrade?
+NeoBubba
+
+Role icon, Chat Mod — 9/23/25, 5:52 PM
+Forwarded
+Run a Validator Guide: https://docs.xandeum.com/run-a-validator
+pNode Setup Guide: https://pnodes.xandeum.network/
+Validator docs: https://devnet.xandeum.network/
+#🚀official-links  •  8/22/25
+Check the validator docs here... 🫡
+csoaita — 9/23/25, 6:01 PM
+I checked but latest version I found is: file="v2.2.0-xandeum_b5a94688.tar.gz"
+csoaita — 9/23/25, 6:08 PM
+I changed it manually and got the result:
+sol@cry2-srv:~$ cd ~
+wget https://github.com/Xandeum/binaries/releases/download/$ver/$file
+--2025-09-23 20:07:14--  https://github.com/Xandeum/binaries/releases/download/v2.2.0-xandeum_7c3f39e8/v2.2.0-xandeum_7c3f39e8.tar.gz
+Resolving github.com (github.com)... 140.82.121.4
+Connecting to github.com (github.com)|140.82.121.4|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2025-09-23 20:07:15 ERROR 404: Not Found.
+NeoBubba
+
+Role icon, Chat Mod — 9/23/25, 6:18 PM
+Forwarded
+@DevNet Attention vNode operators 
+We would like to call for upgrade to Herrenberg version
+https://github.com/Xandeum/xandeum-agave/tree/x2.2.0-herrenberg
+
+We are discontinuing the pre-built binaries with this release. Please build from source.
+
+I have published a tool that you may use if you wish. The system tuning script is intended to setup a new server or migrate an existing one from the directory structure of the vNode install guide to a more straight-forward one. Read the read me files and ask questions in ⁠devnet-validator-operations.
+
+Some of the mods have used the tool and it has seemed effective.
+#devnet-announcements  •  9/23/25
+The link to the new version is located here I believe 🫡
+Substance 2.42Role icon, Chat Mod — 9/23/25, 6:39 PM
+There are no build links anymore used during update, just the branch name, this time "x2.2.0-herrenberg". Brad's announcement contains everything needed.
+csoaita — 9/23/25, 7:00 PM
+Sorry, I don't undersdtand what to do, I will stop my server because I am paying more than 100 usd a month. I spent a lot of time and money to help the project and have no support from them. Sorry for that!
+mrhcon
+
+ — 9/23/25, 7:20 PM
+Once I have a chance to take a look tonight @csoaita I'll help you out.
+tupacalypse187
+
+Role icon, Chat Mod — 9/23/25, 7:33 PM
+Steps I did to build from source. Follow steps 1 and 2 from https://github.com/Xandeum/xandeum-agave/blob/x2.2.0-herrenberg/README.md
+
+Don't include the $, in linux that just means run as non-root and in our case run as the sol user.
+$ curl https://sh.rustup.rs -sSf | sh
+$ source $HOME/.cargo/env
+$ rustup component add rustfmt
+$ rustup update
+
+$ sudo apt update
+$ sudo apt install libssl-dev libudev-dev pkg-config zlib1g-dev llvm clang cmake make libprotobuf-dev protobuf-compiler
+# source your path or exit and ssh back in
+
+
+Once pre-reqs are ready from prior steps, clone this repo https://github.com/T3chie-404/agave-maint-util
+$ git clone https://github.com/T3chie-404/agave-maint-util.git
+$ cd agave-maint-util
+$ chmod u+x start-upgrade.sh
+$ ./start-upgrade.sh x2.2.0-herrenberg
+ 
+tupacalypse187
+
+Role icon, Chat Mod — 9/23/25, 7:43 PM
+Can also try running this script instead of manually installing the pre-reqs. Mileage may vary.
+https://github.com/T3chie-404/agave-maint-util/blob/main/system_tuning/system_tuner.sh
+
+$ git clone https://github.com/T3chie-404/agave-maint-util.git
+$ cd agave-maint-util/system_tuning
+$ chmod u+x system_tuner.sh
+$ ./system_tuner.sh
+csoaita — 9/23/25, 8:34 PM
+Thank you @tupacalypse187 but where should I start? All the commands you recommend me returned "command not found". I tried with sol user and with root user and the result was the same
+YAGPDB.xyz
+APP
+ — 9/23/25, 8:34 PM
+Gave +1 Rep to @tupacalypse187 (current: #19 - 5)
+tupacalypse187
+
+Role icon, Chat Mod — 9/23/25, 9:04 PM
+Can you share a screenshot? Don’t include the $ in your commands. That just signifies non root user.
+csoaita — 9/23/25, 9:35 PM
+I am trying again without the $ sign, with the sol user
+Dean C — 9/23/25, 10:09 PM
+Hi I'm confused about Step 2. following README.md you end up in /agave. Is that step wrong & should we only follow step 1 & them get github.com/T3chie-404/agave-maint-util repo??
+Dean C — 9/24/25, 1:08 AM
+OK I deleted the /agave dir & Ran the T3chie  ./start-upgrade.sh x2.2.0-herrenberg successfully. But once it restarted it comes up with this error: 
+$ ./mon.sh
+Ledger location: /home/sol/ledger
+⠈ Unable to connect to validator: Connection refused (os error 111)
+ 
+mrhcon
+
+ — 9/24/25, 1:09 AM
+curl https://sh.rustup.rs -sSf | sh
+source $HOME/.cargo/env
+rustup component add rustfmt
+rustup update
+sudo apt-get update
+sudo apt-get install libssl-dev libudev-dev pkg-config zlib1g-dev llvm clang cmake make libprotobuf-dev protobuf-compiler
+git clone https://github.com/T3chie-404/agave-maint-util.git
+cd agave-maint-util
+chmod u+x start-upgrade.sh
+./start-upgrade.sh x2.2.0-herrenberg
+ 
+I think that's it..
+Dean C — 9/24/25, 1:13 AM
+Yip they are all the commands that I ran.
+Dean C — 9/24/25, 1:43 AM
+$ systemctl status validator.service
+● validator.service - Agave Validator
+     Loaded: loaded (/etc/systemd/system/validator.service; enabled; preset: enabled)
+     Active: activating (auto-restart) (Result: exit-code) since Wed 2025-09-24 00:42:57 UTC; 2s ago
+    Process: 5417 ExecStart=/home/sol/validator-start.sh (code=exited, status=1/FAILURE)
+   Main PID: 5417 (code=exited, status=1/FAILURE)
+        CPU: 11ms
+Dean C — 9/24/25, 2:09 AM
+Looking at logs, looks like it is trying to us IPV6: ```sudo systemctl restart validator.service &&
+tail -f ~/validator.log
+[2025-09-24T01:05:28.029393755Z WARN  solana_perf] CUDA is disabled
+[2025-09-24T01:05:28.029424906Z INFO  solana_perf] AVX detected
+[2025-09-24T01:05:28.029431095Z INFO  solana_perf] AVX2 detected
+[2025-09-24T01:05:28.031823411Z INFO  agave_validator] Snapshot configuration: full snapshot interval: 10000 slots, incremental snapshot interval: 500 slots
+Expand
+message.txt
+3 KB
+Disabled IPV6 & Now working....
+mrhcon
+
+ — 9/24/25, 4:59 PM
+So mine all ran ok and looked like it was running.  BUT when I look at 
+solana validators
+ it is still the old version.  I'm totally confused.  It's like the old validator is still running...
+csoaita — 9/24/25, 6:28 PM
+Mine as well. I  followed all the steps recommended by you few messages above (Thank you 🙏🏻 ), inclusive the last one that took a lot of time, got to the end and restarted the validator but in the validator list I still see the old version  2.2.0-b5a94688. I am also very  confused    😕
+tupacalypse187
+
+Role icon, Chat Mod — 9/24/25, 9:51 PM
+Can you run this first and then run the upgrade script?
+
+⁠devnet-validator-operations⁠
+mrhcon
+
+ — 9/25/25, 12:11 AM
+Trying
+Substance 2.42Role icon, Chat Mod — 9/25/25, 12:18 AM
+Yes, running system_tuner.sh once is important before switching from the "old" binary updates to new "build yourself" start-upgrade.sh system, please read carefully:
+https://github.com/T3chie-404/agave-maint-util/tree/main/system_tuning
+Without this, you may be still running previous version, even when upgrade went OK, because paths need to be changed. Both scripts need to be run as your sol user, and I think I answered "yes" or just enter to all prompts and I did not have to specify any of the "Configuration (Interactive and In-Script Defaults)" manually.
+
+After tuner, upgrade (note it was taking too long even when I specified 0 and 0 at the end, so I did ctrl+c and reboot, reboot is needed anyway after tuner) some things to check, taken from my validator:
+What is run by validator service?
+sol@myvalidator:~$ grep Environment /etc/systemd/system/validator.service
+Environment="PATH=/bin:/usr/bin:/home/sol/data/compiled/active_release"
+sol@myvalidator:~$ grep ExecStart /etc/systemd/system/validator.service
+ExecStart=/home/sol/validator-start.sh
+
+Version, where is it located:
+sol@myvalidator:~$ agave-validator --version
+agave-validator 2.2.0 (src:7c3f39e8; feat:3294202862, client:Xandeum)
+sol@myvalidator:~$ which agave-validator
+/home/sol/data/compiled/active_release/agave-validator
+
+Is x2.2.0-herrenberg compiled?
+sol@myvalidator:~$ ls ~/data/compiled/
+active_release  active_release_20250924010923_before_upgrade  x2.2.0-herrenberg
+
+Is x2.2.0-herrenberg cloned from GitHub?
+sol@myvalidator:~$ cd ~/data/xandeum-agave/
+sol@myvalidator:~/data/xandeum-agave$ git status
+On branch x2.2.0-herrenberg
+Your branch is up to date with 'origin/x2.2.0-herrenberg'.
+
+nothing to commit, working tree clean
+
+Is it set as active release?
+sol@myvalidator:~/data/xandeum-agave$ cd ~
+sol@myvalidator:~$ ls -l ~/data/compiled/active_release
+lrwxrwxrwx 1 sol sol 45 Sep 24 01:09 /home/sol/data/compiled/active_release -> /home/sol/data/compiled/x2.2.0-herrenberg/bin
+ 
+Dean C — 9/25/25, 4:39 AM
+Thanks running system_tuner.sh, post compliling fixed version issue, now on 7c3f39e8.
+YAGPDB.xyz
+APP
+ — 9/25/25, 4:39 AM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 102)
+csoaita — 9/25/25, 9:31 PM
+Thank you @Substance 2.42 , I followed the steps as you said and now everything seems ok :  2.2.0-7c3f39e8  🙏🏻 🙏🏻
+YAGPDB.xyz
+APP
+ — 9/25/25, 9:31 PM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 103)
+Substance 2.42Role icon, Chat Mod — 9/25/25, 9:50 PM
+Also mrhcon, Dean C, NeoBubba and tupacalypse187 helped, and I am (we are) happy to see 13 validators on current version 2.2.0-7c3f39e8, also known as x2.2.0-herrenberg between friends! :-)
+Fun fact: somehow I assumed most people already switched to this new way back in June with "Munich", but it was just optional and I was wrong. :-) But hey remaining validators, it's not that hard - join us!
+(and off-topic bonus, I discovered interesting command solana feature status) 
+Dean C — 9/26/25, 12:43 AM
+No, it was not hard, just steps needed to be a bit more clearer and allow a lot more time for the compiling to complete(~2hrs) compared to old way.
+johnc — 9/26/25, 2:27 AM
+I am completely lost with the instructions for this update. 
+david983 — 9/26/25, 10:04 AM
+...this how i upgraded but still no joy...please wave your magic wand over the lowly and sprinkle us with moments of eureka to enlightenment 🙏 ...https://1drv.ms/w/c/2b73a88e2b4a0f3b/EV5-dE2YlxJHnGTiXCY0LW8Bo0qHzB9xkRmoQk5yonf59g
+Substance 2.42Role icon, Chat Mod — 9/26/25, 10:25 AM
+Phew, that is pretty confusing "guide" (e.g. why would anyone clone anza-xyz?), I am unable to understand why would someone create nonsense like that when everything is clearly described on GitHub... anyway, no magic wand here so without seeing what you actually did, I can't help.
+csoaita — 9/26/25, 11:00 AM
+Thank you my dears. Your help was important - at one point I was determined to give up my server because I thought what's the point of paying over 100 usd per month if I can't help the project. Your involvement made me give up on this idea and, after many hours of trying, I'm glad we can all move forward. Once again, many thanks to everyone 🙏🏻
+YAGPDB.xyz
+APP
+ — 9/26/25, 11:00 AM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 104)
+david983 — 9/26/25, 11:01 AM
+its a step by step breakdown of how i performed the upgrade collated from disscussions here and guide on Github. I am obviously non-technical and very layman in my approach. However equally determined to bridge the gap... ive spent over 24 hours trying to upgrade and i need help. I meant no offence...just trying very hard to keep up! If anyone can provide any constructive feedback on the document so i can implement and get my validator back up i'd be so much obliged otherwise it's a solitary and painful but hopefully rewarding journey i'm sure i'll learn much from. Thanks for your prior contributions though. They helped clarify alot of the process i struggled to breakdown in my head and that's not just on Herrenberg. I struggled on previous installations but your contributions on the channel and video helped me immensely.... I think i'm making some head way now. Wish me luck 👍
+YAGPDB.xyz
+APP
+ — 9/26/25, 11:01 AM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 105)
+Substance 2.42Role icon, Chat Mod — 9/26/25, 11:09 AM
+Forget that "the best of" guide (still, why clone anza?? nonsense) and just follow T3chie-404 GitHub readme for system_tuner.sh and then start-upgrade.sh - leaving out parts like "Important Notes" for some "guide for dummies" could be dangerous. But actually, if you already have both scripts ready, it should be enough to run system_tuner.sh and answer yes or enter to all prompts, and then start-upgrade.sh x2.2.0-herrenberg, and reboot.
+I would need the log of what you are doing to analyze what exactly is wrong, impossible to tell without that. (going away for 2 hours now)
+david983 — 9/26/25, 11:14 AM
+..much obliged .. i too need a break ..will try again on Sunday..must earn not just learn with hopefully better results then 👍
+Substance 2.42Role icon, Chat Mod — 9/26/25, 1:03 PM
+I'm back, today the weather isn't good enough to sit around in "my" forest, just a nice walk. Anyway, I really recommend reading the T3chie-404 GitHub readmes (repository "agave-maint-util"), but in short we just need to get these two scripts (either by cloning or just wget) and run them, as your sol user. First, this one downloads everything needed and sets up all new paths and parameters:
+cd ~
+wget https://raw.githubusercontent.com/T3chie-404/agave-maint-util/refs/heads/main/system_tuning/system_tuner.sh
+chmod a+x system_tuner.sh
+./system_tuner.sh
+
+And then, we need to download and compile the required release - takes more than one hour, depending on how fast the server is:
+wget https://raw.githubusercontent.com/T3chie-404/agave-maint-util/refs/heads/main/start-upgrade.sh
+chmod a+x start-upgrade.sh
+./start-upgrade.sh x2.2.0-herrenberg
+
+At the end, it tries to gracefully switch from current validator to the new one, so it waits for the right moment, it's not "nice" but you can ctrl+c because everything is set up already at that time, reboot and watch ./catchup.sh which you probably have since before.
+I guess AI helped you with that guide, but it did not have all information needed, so it is a bit misleading. 
+johnc — 9/26/25, 8:57 PM
+So, we copy the above into our server that is running the vNode.  Is that what you are saying???
+apreston100 — 9/26/25, 9:18 PM
+Thats what I did about 4 hours ago and at end did a reboot.  Just got back home and nothing seems to be  happening. vNode shows a yellow triangle at left on SV list. I did  sudo systemctl start validator.service    and then    sudo systemctl status validator.service   which shows
+● validator.service - Agave Validator
+     Loaded: loaded (/etc/systemd/system/validator.service; enabled; vendor preset: enabled)
+     Active: activating (auto-restart) (Result: exit-code) since Fri 2025-09-26 20:13:10 UTC; 4s ago
+    Process: 7725 ExecStart=/home/sol/validator-start.sh (code=exited, status=127)
+   Main PID: 7725 (code=exited, status=127)
+        CPU: 3ms                  do I just wait and check in the morning or is there something else to do ?
+Substance 2.42Role icon, Chat Mod — 9/26/25, 9:58 PM
+Your validator is NOT running, can not say why, validator log could tell us more, can you find it? You can also compare your outputs with this post:
+⁠devnet-validator-operations⁠
+It would also help to see terminal log of what you did, from very fast time 3 ms I'd say agave-validator does not exist, or is not in path.
+mrhcon
+
+ — 9/26/25, 10:01 PM
+This is what I did:
+git clone https://github.com/T3chie-404/agave-maint-util.git
+cd agave-maint-util/system_tuning
+chmod u+x system_tuner.sh
+./system_tuner.sh
+<Answer yes to all questions which ask yes/no;  Enter to all other questions>
+
+<Reboot>
+
+cd agave-maint-util
+chmod u+x start-upgrade.sh
+./start-upgrade.sh x2.2.0-herrenberg
+<Answer yes to all questions which ask yes/no;  Enter to all other questions>
+
+<Reboot>
+ 
+Then it was working.
+apreston100 — 9/27/25, 8:39 AM
+Just done all that and now seems be be upgraded and working. Thanks you @Substance 2.42 and @mrhcon
+YAGPDB.xyz
+APP
+ — 9/27/25, 8:39 AM
+Gave +1 Rep to @mrhcon (current: #4 - 64)
+Gave +1 Rep to @Substance 2.42 (current: #2 - 106)
+david983 — 9/27/25, 8:55 AM
+Im still  not set up?:Build successful for x2.2.0-herrenberg.
+Creating directory for compiled version: /home/sol/data/compiled/x2.2.0-herrenberg/bin
+Syncing compiled binaries...
+Build complete. Check artifacts in /home/sol/data/compiled/x2.2.0-herrenberg/bin. Press Enter to update active_release symlink...
+Proceeding with symlink update...
+ERROR: /home/sol/data/compiled/active_release exists but is not a symlink. Manual intervention required.
+Substance 2.42Role icon, Chat Mod — 9/27/25, 9:06 AM
+There is some garbage on your disk, try this:
+rm /home/sol/data/compiled/active_release
+ln -s /home/sol/data/compiled/x2.2.0-herrenberg/bin /home/sol/data/compiled/active_release
+systemctl restart validator.service
+./catchup.sh
+david983 — 9/27/25, 9:13 AM
+no solana commands seem to work ..tried above retuned: "./catchup.sh: line 1: solana: command not found"...ill try as xand user see if that helps
+Substance 2.42Role icon, Chat Mod — 9/27/25, 9:15 AM
+Good. I'm adding you to my ignored list.
+david983 — 9/27/25, 9:17 AM
+ok my friend thanks for all your help. God bless 🙏
+YAGPDB.xyz
+APP
+ — 9/27/25, 9:17 AM
+Gave +1 Rep to @Substance 2.42 (current: #2 - 107)
+NeoBubba
+
+Role icon, Chat Mod — 9/27/25, 1:59 PM
+Are you logged in as the SOL user and in the SOL directory?  "cd ~" before trying solana command.
+david983 — 9/27/25, 3:22 PM
+Yes i was but the real issue was the recommended script effectively tried to "flip" active_release to the new herrenberg  build via dir not symlink. I created symlink to the release root not bin but could'nt run any solana commands because shell could'nt find agave-validator on my path i assume . I confirmed binaries as executable, bypassed PATH to run directly from bash. Then used "system-wide" symlink to keep PATH clean. Backup and running now ..,,,,. See you on the right of the cluster soon 🙏
