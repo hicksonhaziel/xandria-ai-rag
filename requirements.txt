@@ -1,0 +1,5 @@
+
+asyncpg
+httpx
+python-dotenv
+pydantic

@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+asyncpg
+httpx
+python-dotenv
+pydantic
+cohere
+pinecone
+google-genai
+tiktoken
