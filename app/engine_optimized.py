@@ -84,7 +84,7 @@ async def generate_query_embedding_async(query: str):
     result = await loop.run_in_executor(
         None,
         lambda: google_client.models.embed_content(
-            model="text-embedding-001",
+            model="models/text-embedding-001",
             contents=query
         )
     )
