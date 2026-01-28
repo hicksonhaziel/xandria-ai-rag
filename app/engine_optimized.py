@@ -85,7 +85,8 @@ async def generate_query_embedding_async(query: str):
         None,
         lambda: google_client.models.embed_content(
             model="gemini-embedding-001",
-            contents=query
+            contents=query,
+            config=types.EmbedContentConfig(output_dimensionality=768)
         )
     )
     return result.embeddings[0].values
