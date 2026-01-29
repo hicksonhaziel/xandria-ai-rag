@@ -27,13 +27,13 @@ async def shutdown():
 
 class ChatRequest(BaseModel):
     session_id: str
-    wallet_address: str
+    wallet_address: Optional[str] None
     message: str
     parent_id: Optional[int] = None
 
 class RegenerateRequest(BaseModel):
     session_id: str
-    wallet_address: str
+    wallet_address: Optional[str] None
     parent_id: int
 
 class RateRequest(BaseModel):
