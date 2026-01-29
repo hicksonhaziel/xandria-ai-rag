@@ -182,7 +182,7 @@ async def light_search(query: str, top_k: int = 5) -> Dict:
                 "source": meta.get('source', 'Unknown'),
                 "category": meta.get('category', 'Unknown'),
                 "content": meta.get('full_text', '')
-            })
+            }) 
     
     return {
         "sources": sources,
