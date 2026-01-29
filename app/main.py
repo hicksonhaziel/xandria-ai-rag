@@ -27,13 +27,13 @@ async def shutdown():
 
 class ChatRequest(BaseModel):
     session_id: str
-    wallet_address: Optional[str] None
+    wallet_address: Optional[str] = None  # ✅ Made optional
     message: str
     parent_id: Optional[int] = None
 
 class RegenerateRequest(BaseModel):
     session_id: str
-    wallet_address: Optional[str] None
+    wallet_address: Optional[str] = None  # ✅ Made optional
     parent_id: int
 
 class RateRequest(BaseModel):
@@ -55,7 +55,7 @@ async def chat(request: ChatRequest):
         # Save user message (fast)
         user_msg_id = await db.save_message(
             session_id=request.session_id,
-            wallet_address=request.wallet_address,
+            wallet_address=request.wallet_address,  # Can be None now
             role="user",
             content=request.message,
             parent_id=request.parent_id
@@ -85,7 +85,7 @@ async def chat(request: ChatRequest):
         # Save model response
         model_msg_id = await db.save_message(
             session_id=request.session_id,
-            wallet_address=request.wallet_address,
+            wallet_address=request.wallet_address,  # Can be None now
             role="model",
             content=result['answer'],
             model=result['model'],
@@ -118,8 +118,10 @@ async def regenerate(request: RegenerateRequest):
         if not parent_msg:
             raise HTTPException(status_code=404, detail="Parent message not found")
         
-        if parent_msg['wallet_address'] != request.wallet_address:
-            raise HTTPException(status_code=403, detail="Unauthorized")
+        # Only check wallet match if wallet was provided in both request and parent
+        if request.wallet_address and parent_msg.get('wallet_address'):
+            if parent_msg['wallet_address'] != request.wallet_address:
+                raise HTTPException(status_code=403, detail="Unauthorized")
         
         # Deactivate old responses
         await db.deactivate_old_responses(request.parent_id)
@@ -146,7 +148,7 @@ async def regenerate(request: RegenerateRequest):
         
         model_msg_id = await db.save_message(
             session_id=request.session_id,
-            wallet_address=request.wallet_address,
+            wallet_address=request.wallet_address,  # Can be None now
             role="model",
             content=result['answer'],
             model=result['model'],

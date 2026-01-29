@@ -22,9 +22,9 @@ class Database:
     async def save_message(
         self,
         session_id: str,
-        wallet_address: Optional[str] None,
         role: str,
         content: str,
+        wallet_address: Optional[str] = None,
         model: Optional[str] = None,
         parent_id: Optional[int] = None,
         message_version: int = 1
